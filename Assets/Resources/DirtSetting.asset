@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abd044cb5b1fd8ed40b757c06f06689, type: 3}
+  m_Name: DirtSetting
+  m_EditorClassIdentifier:
+  dirtRate: 1
+  dirtMaskFillRate: 1
+  visualUpdateInterval: 0.5
+  multiplaerVisualUpdateInterval: 1
+  roadDirtinessStrength:
+  - material: {fileID: 13400000, guid: 6176e6e556ef0944f8a5c911126f2053, type: 2}
+    wetStrength: 0.1
+    dryStrength: 0.02
+  - material: {fileID: 13400000, guid: f5e51ab21f7ad1b47960e10d211715c2, type: 2}
+    wetStrength: 0.333333
+    dryStrength: 0.166667
+  filteredMeshLayer:
+    serializedVersion: 2
+    m_Bits: 524803
+  excludedAccessoriesType:
+  - DAS
+  - HAN
+  - CUR
+  dirtTexture: {fileID: 2800000, guid: 15d6faec9a13c604a8e9a92b800883bb, type: 3}
+  dirtMask: {fileID: 2800000, guid: 73b80e79c4cb7964fb7285acc2f7baf8, type: 3}
+  temporaryLayerForWash: 10
+  excludedShaderFromWashProgress:
+  - {fileID: 4800000, guid: 3e4a0b3a873537749b9b942115a4005f, type: 3}
+  - {fileID: 4800000, guid: 08befd6ce66d2fd41adc2660a58913c8, type: 3}
+  - {fileID: 4800000, guid: 78f373b1863fe0248bb9a7a343dc0013, type: 3}
+  - {fileID: 4800000, guid: 3603a7ca97849034a8e003f24baac82b, type: 3}
+  useNameComparison: 0

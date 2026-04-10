@@ -1,0 +1,3 @@
+public class BUSSIDVehicleStandardInputProxy : BUSSIDVehicleStandardInput
+{
+}

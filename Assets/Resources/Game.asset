@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62759d16f95548b2e55cac14de2daff, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier:
+  initScene: _Scenes/BUSSID/_init
+  startScene: _Scenes/Game/Start
+  gameplayScene: _Scenes/Game/Gameplay
+  gameplayThisProjectScene:
+  garageScene: _Scenes/Game/Garage
+  garageEnvironmentScene: _Scenes/BUSSID/GarageEnvironment
+  worldMapScene: _Scenes/Game/WorldMap
+  modTemplateScene: _Scenes/Game/ModTemplate
+  gameTitle: 2
+  garageMenuPrefabs:
+  - {fileID: 1011876167961430, guid: 7b0559de5fe4a6d4cba4b62d7a1eca30, type: 2}
+  - {fileID: 1671693120528193, guid: 65f8086e50c2b0a4cb2e54d445765191, type: 2}
+  gameModesSelectionPrefab: {fileID: 1425604100191835, guid: d195d2ebbc156da42b74ba01ff8b0522, type: 2}
+  managerPrefabs:
+  - {fileID: 1474301775507025, guid: c70664fbe35553242a7eedc237ddb60f, type: 2}
+  commonSceneObjects: {fileID: 11400000, guid: af5fca42a5871574eb941cd33230d18f, type: 2}
+  perGameModeSceneObjects:
+  - {fileID: 11400000, guid: d73a1a5f7fa96c84faba8efe981e7035, type: 2}
+  - {fileID: 11400000, guid: 18a81c82f23925d4a80baff85b0c9df9, type: 2}
+  - {fileID: 11400000, guid: ab70a72e4bf0e5c439bb9c100d1e06f4, type: 2}
+  - {fileID: 11400000, guid: bd78c43221ece4040b79cfd4b0859295, type: 2}
+  - {fileID: 11400000, guid: 927930446ed70a74ea40ce4cb03f4069, type: 2}
+  builtinVehicles:
+  - {fileID: 11400000, guid: d50c4e079686eaf4f8ed963945df9b4a, type: 2}
+  - {fileID: 11400000, guid: 8ba4dcd1a7ffb5946b6dbebfde0898d1, type: 2}
+  drivers: {fileID: 11400000, guid: 7e65ee2a999bc2f4dbc39b0f544db571, type: 2}
+  vehicleAccesories: {fileID: 11400000, guid: d8477f1a21db57d4db9dcc643adebf7b, type: 2}
+  routeLengthData: {fileID: 11400000, guid: f01a659439ac743428846c8563f64745, type: 2}
+  mainCameraFOV: 70
+  thirdPersonCameraDistance: 2.5
+  thirdPersonCameraTargetHeight: 1.5
+  steeringWheelSprite: {fileID: 21300000, guid: f2a024828e210ef47b707e019aabbe11, type: 2}

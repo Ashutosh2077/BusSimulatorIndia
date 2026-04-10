@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1637150001, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name: NetworkProjectConfig
+  m_EditorClassIdentifier:
+  Config:
+    Version: 1
+    TypeId: NetworkProjectConfig
+    PeerMode: 0
+    PhysicsEngine: 2
+    ServerPhysicsMode: 1
+    UseLagCompensation: 0
+    LagCompensation:
+      HitboxBufferSize: 12
+      HitboxCapacity: 512
+      ExpansionFactor: 0.2
+      Optimize: 0
+      DebugBroadphase: 0
+      DebugHistory: 0
+      DebugColor: {r: 0, g: 1, b: 0, a: 0.5}
+      ClientDebugColor: {r: 0, g: 0, b: 1, a: 0.5}
+      HistoryDebugColor: {r: 0, g: 0, b: 1, a: 0.5}
+    SceneLoadSpawnMode: 0
+    DeltaCompressor: 0
+    InvokeRenderInBatchMode: 0
+    MaxNetworkedObjectCount: 8192
+    NetworkIdIsObjectName: 0
+    HideNetworkObjectInactivityGuard: 0
+    EnableHostMigration: 0
+    HostMigrationSnapshotInterval: 60
+    Simulation:
+      InputDataWordCount: 0
+      TickRate: 10
+      MaxPrediction: 10
+      DefaultPlayers: 10
+      ReplicationMode: 1
+      ObjectInterest: 1
+      ServerPacketInterval: 1
+      ClientPacketInterval: 1
+    Interpolation:
+      DeltaAdjustment: 1
+      AllowedJitter: 25
+      SnapLimit: 200
+      MultiplierMin: 1.25
+      MultiplierMax: 3
+    Network:
+      SocketSendBufferSize: 256
+      SocketRecvBufferSize: 256
+      ConnectAttempts: 10
+      ConnectInterval: 0.5
+      ConnectionDefaultRtt: 0.1
+      ConnectionTimeout: 300
+      ConnectionPingInterval: 1
+      ConnectionShutdownTime: 1
+      MtuDefault: 1136
+      ReliableDataTransferModes: 3
+    NetworkConditions:
+      Enabled: 0
+      DelayShape: 1
+      DelayMin: 0.01
+      DelayMax: 0.1
+      DelayPeriod: 3
+      DelayThreshold: 0.5
+      AdditionalJitter: 0.01
+      LossChanceShape: 1
+      LossChanceMin: 0
+      LossChanceMax: 0.02
+      LossChanceThreshold: 0.9
+      LossChancePeriod: 3
+      AdditionalLoss: 0.005
+    Heap:
+      PageShift: 14
+      PageCount: 128
+      GlobalsSize: 0
+    AccuracyDefaults:
+      coreKeys:
+      - Uncompressed
+      - Default
+      - Position
+      - Rotation
+      - NormalizedTime
+      coreDefs:
+      - _value: 0
+        _inverse: Infinity
+        _hash: -1382104104
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -814817977
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -194233199
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -258202764
+      - _value: 0.0001
+        _inverse: 10000
+        _hash: 1061325578
+      coreVals:
+      - _value: 0
+        _inverse: Infinity
+        _hash: -1382104104
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -814817977
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -194233199
+      - _value: 0.001
+        _inverse: 999.99994
+        _hash: -258202764
+      - _value: 0.0001
+        _inverse: 10000
+        _hash: 1061325578
+      tags: []
+      values: []
+    AssembliesToWeave:
+    - Assembly-CSharp
+    - Assembly-CSharp-firstpass
+    - Maleo.CarSimulator
+    - Maleo.Game
+    UseSerializableDictionary: 1
+    NullChecksForNetworkedProperties: 1
+    CheckRpcAttributeUsage: 0
+    CheckNetworkedPropertiesBeingEmpty: 0
+  AssembliesToWeave:
+  - Assembly-CSharp
+  - Assembly-CSharp-firstpass
+  PrefabAssetsContainerPath:
+  Prefabs:
+  - {fileID: 11400000, guid: bf414a59e8bb23f4a967813acae45761, type: 2}
+  - {fileID: 11400000, guid: a50efdb74e4f53f41a2449b18d73b246, type: 2}
+  - {fileID: 11400000, guid: 9e8b41317b8328748920d2859c56f740, type: 2}
+  - {fileID: 11400000, guid: 6d3d4e13e7e4ff04e91a43bf6cd995a4, type: 2}
+  _dummy: 0

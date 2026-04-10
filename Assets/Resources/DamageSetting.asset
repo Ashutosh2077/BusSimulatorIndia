@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0126b1563bedaf0e86d44eb9f52dfb, type: 3}
+  m_Name: DamageSetting
+  m_EditorClassIdentifier:
+  filteredMeshLayer:
+    serializedVersion: 2
+    m_Bits: 524801
+  maxMeshDistanceFromPivot: 1
+  maxVerticesDistFromPivot: 1
+  excludedCollisionObject:
+    serializedVersion: 2
+    m_Bits: 3755474482
+  damageMultiplier: 0.5
+  minForceReceived: 3
+  maxForceReceived: 20
+  maxVehicleSpeedAffected: 0.1
+  groundHitAngleTolerance: 45
+  maxGroundHitHeight: 0.5
+  damageTexture: {fileID: 2800000, guid: 79c3f055e9452d642bd603e311267f50, type: 3}
+  damageTextureBlend: 0.7
+  damageTextureGlass: {fileID: 2800000, guid: b1ee1e928a5a4a446ba1b662bcca3a49, type: 3}
+  glassShader: {fileID: 4800000, guid: 08befd6ce66d2fd41adc2660a58913c8, type: 3}
+  noiseIntensity: 0.1
+  maxDistTextureBlend: 2.5
+  minPercentageHeavyDamagedWarning: 80
+  minHealthToRepair: 90

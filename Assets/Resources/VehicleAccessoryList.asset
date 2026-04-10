@@ -1,0 +1,3137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57e0a84724d2c3a8d972668c479516b, type: 3}
+  m_Name: VehicleAccessoryList
+  m_EditorClassIdentifier:
+  accessoryTypeList:
+  - BAR
+  - BCNL
+  - BCNS
+  - BPRF
+  - BPRR
+  - CAG
+  - CUR
+  - DAS
+  - EXH
+  - HAN
+  - HRN
+  - LGTB
+  - LGTS
+  - MFPR
+  - MFPWF
+  - MFPWR
+  - RAK
+  - RIMS
+  - RIMW
+  - SPL
+  - STFCA
+  - STFCB
+  - STFLRA
+  - STFLRB
+  - STFM
+  - STLRCA
+  - STLRCB
+  - STLRT
+  - STRCA
+  - STRCB
+  - STRLRA
+  - STRLRB
+  - STRM
+  - TIRD
+  - TIRS
+  - TRN
+  - WIN
+  typeIDList:
+  - type: 0
+    id: BAR
+  - type: 1
+    id: BCNL
+  - type: 2
+    id: BCNS
+  - type: 3
+    id: BPRF
+  - type: 4
+    id: BPRR
+  - type: 5
+    id: CAG
+  - type: 6
+    id: CUR
+  - type: 7
+    id: DAS
+  - type: 34
+    id: EXH
+  - type: 8
+    id: HAN
+  - type: 9
+    id: HRN
+  - type: 10
+    id: LGTB
+  - type: 11
+    id: LGTS
+  - type: 12
+    id: MFPR
+  - type: 13
+    id: MFPWF
+  - type: 14
+    id: MFPWR
+  - type: 15
+    id: RAK
+  - type: 16
+    id: RIMS
+  - type: 17
+    id: RIMW
+  - type: 18
+    id: SPL
+  - type: 19
+    id: STFCA
+  - type: 20
+    id: STFCB
+  - type: 21
+    id: STFLRA
+  - type: 22
+    id: STFLRB
+  - type: 23
+    id: STFM
+  - type: 24
+    id: STLRCA
+  - type: 25
+    id: STLRCB
+  - type: 26
+    id: STLRT
+  - type: 27
+    id: STRCA
+  - type: 28
+    id: STRCB
+  - type: 29
+    id: STRLRA
+  - type: 30
+    id: STRLRB
+  - type: 31
+    id: STRM
+  - type: 33
+    id: TIRD
+  - type: 32
+    id: TIRS
+  - type: 36
+    id: TRN
+  - type: 35
+    id: WIN
+  accessoryPrice:
+    refundRate: 0.45
+    priceList:
+    - id: P-BARc
+      value: 30000
+    - id: P-BARe
+      value: 50000
+    - id: P-BARm
+      value: 40000
+    - id: P-BCNc
+      value: 20000
+    - id: P-BCNe
+      value: 75000
+    - id: P-BCNm
+      value: 35000
+    - id: P-BPRc
+      value: 50000
+    - id: P-BPRe
+      value: 85000
+    - id: P-BPRm
+      value: 65000
+    - id: P-CAGc
+      value: 40000
+    - id: P-CAGe
+      value: 75000
+    - id: P-CAGm
+      value: 55000
+    - id: P-CURc
+      value: 25000
+    - id: P-CURe
+      value: 50000
+    - id: P-CURm
+      value: 35000
+    - id: P-DASc
+      value: 20000
+    - id: P-DASe
+      value: 60000
+    - id: P-DASm
+      value: 40000
+    - id: P-EXHc
+      value: 60000
+    - id: P-EXHe
+      value: 120000
+    - id: P-EXHm
+      value: 90000
+    - id: P-HANc
+      value: 20000
+    - id: P-HANe
+      value: 35000
+    - id: P-HANm
+      value: 25000
+    - id: P-HRNc
+      value: 20000
+    - id: P-HRNe
+      value: 40000
+    - id: P-HRNm
+      value: 25000
+    - id: P-LGTc
+      value: 15000
+    - id: P-LGTe
+      value: 35000
+    - id: P-LGTm
+      value: 25000
+    - id: P-MFPc
+      value: 15000
+    - id: P-MFPe
+      value: 30000
+    - id: P-MFPm
+      value: 25000
+    - id: P-RAKc
+      value: 40000
+    - id: P-RAKe
+      value: 75000
+    - id: P-RAKm
+      value: 55000
+    - id: P-RIMc
+      value: 45000
+    - id: P-RIMe
+      value: 65000
+    - id: P-RIMm
+      value: 55000
+    - id: P-SPLc
+      value: 40000
+    - id: P-SPLe
+      value: 75000
+    - id: P-SPLm
+      value: 55000
+    - id: P-STEc
+      value: 25000
+    - id: P-STEe
+      value: 50000
+    - id: P-STEm
+      value: 35000
+    - id: P-STMc
+      value: 40000
+    - id: P-STMe
+      value: 75000
+    - id: P-STMm
+      value: 55000
+    - id: P-TIRc
+      value: 20000
+    - id: P-TIRe
+      value: 40000
+    - id: P-TIRm
+      value: 30000
+    - id: P-TRNc
+      value: 60000
+    - id: P-TRNe
+      value: 120000
+    - id: P-TRNm
+      value: 90000
+    - id: P-WINc
+      value: 55000
+    - id: P-WINe
+      value: 95000
+    - id: P-WINm
+      value: 75000
+  accessoryList:
+  - id: BAR0
+    type: 0
+    name: Bar 1
+    priceID: P-BARc
+    prefabPath: BusAccessories/Bars/AccBar01
+    icon: {fileID: 21300000, guid: f7d76f3638883cc43a08d30462aa237d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BAR1
+    type: 0
+    name: Bar 2
+    priceID: P-BARm
+    prefabPath: BusAccessories/Bars/AccBar02
+    icon: {fileID: 21300000, guid: dd0d8ed5192a8334cb179097882c526d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BAR2
+    type: 0
+    name: Bar 3
+    priceID: P-BARe
+    prefabPath: BusAccessories/Bars/AccBar03
+    icon: {fileID: 21300000, guid: bfb9ec22435a37e419affe929986818e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BAR3
+    type: 0
+    name: Bar 4
+    priceID: P-BARe
+    prefabPath: BusAccessories/Bars/AccBar04
+    icon: {fileID: 21300000, guid: b3802fd7cf787fa41abffee2fe39bb21, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BCNL0
+    type: 1
+    name: Long Beacon 1
+    priceID: P-BCNe
+    prefabPath: BusAccessories/Beacons/Long Beacons/AccBeacon01
+    icon: {fileID: 21300000, guid: 823847c8571a0164cb47718b90c17bbd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BCNL1
+    type: 1
+    name: Long Beacon 2
+    priceID: P-BCNe
+    prefabPath: BusAccessories/Beacons/Long Beacons/AccBeacon02
+    icon: {fileID: 21300000, guid: 4cf765f78d44379499df06746b82e4dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BCNS0
+    type: 2
+    name: Small Beacon 1
+    priceID: P-BCNm
+    prefabPath: BusAccessories/Beacons/Small Beacons/AccBeacon03
+    icon: {fileID: 21300000, guid: 5b5f7e7909695474f9a5ed25a0b0da7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BCNS1
+    type: 2
+    name: Small Beacon 2
+    priceID: P-BCNm
+    prefabPath: BusAccessories/Beacons/Small Beacons/AccBeacon04
+    icon: {fileID: 21300000, guid: 3d8dd21bd56d31446b931f182a954c5b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRF0
+    type: 3
+    name: Front Bumper 1
+    priceID: P-BPRc
+    prefabPath: BusAccessories/Bumpers/Front/AccBumperFront01
+    icon: {fileID: 21300000, guid: 1a3cc41d8671591438234a9999c43b63, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRF1
+    type: 3
+    name: Front Bumper 2
+    priceID: P-BPRm
+    prefabPath: BusAccessories/Bumpers/Front/AccBumperFront02
+    icon: {fileID: 21300000, guid: e9cb5f2b2549c0546a07eebc5e745b64, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRF2
+    type: 3
+    name: Front Bumper 3
+    priceID: P-BPRe
+    prefabPath: BusAccessories/Bumpers/Front/AccBumperFront03
+    icon: {fileID: 21300000, guid: 4352e8bc8e61a624e800e6b6b7bd18f4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRF3
+    type: 3
+    name: Front Bumper 4
+    priceID: P-BPRe
+    prefabPath: BusAccessories/Bumpers/Front/AccBumperFront04
+    icon: {fileID: 21300000, guid: def4c3897437b2c4e9d48235b6883dc4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRR0
+    type: 4
+    name: Rear Bumper 1
+    priceID: P-BPRm
+    prefabPath: BusAccessories/Bumpers/Rear/AccBumperRear01
+    icon: {fileID: 21300000, guid: c1ac7caf340cdd64f9f83e3a0eeb3ed6, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRR1
+    type: 4
+    name: Rear Bumper 2
+    priceID: P-BPRc
+    prefabPath: BusAccessories/Bumpers/Rear/AccBumperRear02
+    icon: {fileID: 21300000, guid: 4890c73cfa95fde438bc8b862bb87520, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRR2
+    type: 4
+    name: Rear Bumper 3
+    priceID: P-BPRe
+    prefabPath: BusAccessories/Bumpers/Rear/AccBumperRear03
+    icon: {fileID: 21300000, guid: 5d9138c46fcaa8941b86058f50fba399, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: BPRR3
+    type: 4
+    name: Rear Bumper 4
+    priceID: P-BPRm
+    prefabPath: BusAccessories/Bumpers/Rear/AccBumperRear04
+    icon: {fileID: 21300000, guid: 67c677a936a78b6418a8cfda764a24d6, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG0a
+    type: 5
+    name: Cage 1
+    priceID: P-CAGc
+    prefabPath: BusAccessories/Cages/HD_01/AccCage01_HD01
+    icon: {fileID: 21300000, guid: 549f7245665dbf048b4379e31f9324cd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG1a
+    type: 5
+    name: Cage 2
+    priceID: P-CAGc
+    prefabPath: BusAccessories/Cages/HD_01/AccCage02_HD01
+    icon: {fileID: 21300000, guid: 0b350141ed0dc504aa5a8dd9a1ccd19e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG2a
+    type: 5
+    name: Cage 3
+    priceID: P-CAGm
+    prefabPath: BusAccessories/Cages/HD_01/AccCage03_HD01
+    icon: {fileID: 21300000, guid: 0589e65be6385ba4ea60ad723cd414ea, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG3a
+    type: 5
+    name: Cage 4
+    priceID: P-CAGe
+    prefabPath: BusAccessories/Cages/HD_01/AccCage04_HD01
+    icon: {fileID: 21300000, guid: 12e69f4bf212a9942ad7ac1551d64cee, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG0b
+    type: 5
+    name: Cage 1
+    priceID: P-CAGc
+    prefabPath: BusAccessories/Cages/SHD_01/AccCage01_SHD_01
+    icon: {fileID: 21300000, guid: 549f7245665dbf048b4379e31f9324cd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG1b
+    type: 5
+    name: Cage 2
+    priceID: P-CAGc
+    prefabPath: BusAccessories/Cages/SHD_01/AccCage02_SHD_01
+    icon: {fileID: 21300000, guid: 0b350141ed0dc504aa5a8dd9a1ccd19e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG2b
+    type: 5
+    name: Cage 3
+    priceID: P-CAGm
+    prefabPath: BusAccessories/Cages/SHD_01/AccCage03_SHD_01
+    icon: {fileID: 21300000, guid: 0589e65be6385ba4ea60ad723cd414ea, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CAG3b
+    type: 5
+    name: Cage 4
+    priceID: P-CAGe
+    prefabPath: BusAccessories/Cages/SHD_01/AccCage04_SHD_01
+    icon: {fileID: 21300000, guid: 12e69f4bf212a9942ad7ac1551d64cee, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CUR0a
+    type: 6
+    name: Curtain 1
+    priceID: P-CURc
+    prefabPath: BusAccessories/Curtains/HD_01/AccIntCurtain01_HD01
+    icon: {fileID: 21300000, guid: 6ddcdf7f11890d14b9f01627b21b01ea, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: CUR0b
+    type: 6
+    name: Curtain 1
+    priceID: P-CURc
+    prefabPath: BusAccessories/Curtains/SHD_01/AccIntCurtain01_SHD_01
+    icon: {fileID: 21300000, guid: 6ddcdf7f11890d14b9f01627b21b01ea, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: DAS0
+    type: 7
+    name: Dashboard 1
+    priceID: P-DASe
+    prefabPath: BusAccessories/Dashboards/AccIntDashboard01
+    icon: {fileID: 21300000, guid: b63c1417748cdd2489c251551846b1c0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: DAS1
+    type: 7
+    name: Dashboard 2
+    priceID: P-DASm
+    prefabPath: BusAccessories/Dashboards/AccIntDashboard02
+    icon: {fileID: 21300000, guid: df13f684c19c60245a27873e62133590, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: DAS2
+    type: 7
+    name: Dashboard 3
+    priceID: P-DASc
+    prefabPath: BusAccessories/Dashboards/AccIntDashboard03
+    icon: {fileID: 21300000, guid: 8624b27763dbcc34d943528ad7ac9534, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: DAS3
+    type: 7
+    name: Dashboard 4
+    priceID: P-DASc
+    prefabPath: BusAccessories/Dashboards/AccIntDashboard04
+    icon: {fileID: 21300000, guid: 61f4be4b1945c9d4981c1db5477979c9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH0a
+    type: 34
+    name: Exhaust 0
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust00_JB001
+    icon: {fileID: 0}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH1a
+    type: 34
+    name: Exhaust 1
+    priceID: P-EXHm
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust01_JB001
+    icon: {fileID: 21300000, guid: d6afbe79fb1af9b408fff3be317e0706, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH2a
+    type: 34
+    name: Exhaust 2
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust02_JB001
+    icon: {fileID: 21300000, guid: 249020eac55a6604f9b76b988f158a31, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH3a
+    type: 34
+    name: Exhaust 3
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust03_JB001
+    icon: {fileID: 21300000, guid: bcbde662813a40d40a60d9b0de1d5e70, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH4a
+    type: 34
+    name: Exhaust 4
+    priceID: P-EXHm
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust04_JB001
+    icon: {fileID: 21300000, guid: 853cba580e278da468dbc3fe3c48efa6, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH5a
+    type: 34
+    name: Exhaust 5
+    priceID: P-EXHe
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust05_JB001
+    icon: {fileID: 21300000, guid: f22d4b2526e7c4c40906b2850f8f5b3e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH6a
+    type: 34
+    name: Exhaust 6
+    priceID: P-EXHe
+    prefabPath: BusAccessories/Exhausts/HD_01/AccExhaust06_JB001
+    icon: {fileID: 21300000, guid: ae5b5b2db9b19c144931bd09dd369523, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH0b
+    type: 34
+    name: Exhaust 0
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust00_SHD_01
+    icon: {fileID: 0}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH1b
+    type: 34
+    name: Exhaust 1
+    priceID: P-EXHm
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust01_SHD_01
+    icon: {fileID: 21300000, guid: d6afbe79fb1af9b408fff3be317e0706, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH2b
+    type: 34
+    name: Exhaust 2
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust02_SHD_01
+    icon: {fileID: 21300000, guid: 249020eac55a6604f9b76b988f158a31, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH3b
+    type: 34
+    name: Exhaust 3
+    priceID: P-EXHc
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust03_SHD_01
+    icon: {fileID: 21300000, guid: bcbde662813a40d40a60d9b0de1d5e70, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH4b
+    type: 34
+    name: Exhaust 4
+    priceID: P-EXHm
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust04_SHD_01
+    icon: {fileID: 21300000, guid: 853cba580e278da468dbc3fe3c48efa6, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH5b
+    type: 34
+    name: Exhaust 5
+    priceID: P-EXHe
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust05_SHD_01
+    icon: {fileID: 21300000, guid: f22d4b2526e7c4c40906b2850f8f5b3e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: EXH6b
+    type: 34
+    name: Exhaust 6
+    priceID: P-EXHe
+    prefabPath: BusAccessories/Exhausts/SHD_01/AccExhaust06_SHD_01
+    icon: {fileID: 21300000, guid: ae5b5b2db9b19c144931bd09dd369523, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HAN0
+    type: 8
+    name: Hanging 1
+    priceID: P-HANc
+    prefabPath: BusAccessories/Hangings/AccIntHang01
+    icon: {fileID: 21300000, guid: 7d29f947e69b47f4bb1cc0e3f92ca9f9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HAN1
+    type: 8
+    name: Hanging 2
+    priceID: P-HANc
+    prefabPath: BusAccessories/Hangings/AccIntHang02
+    icon: {fileID: 21300000, guid: ec1d95aae6e170c47a735d4c214d11db, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HAN2
+    type: 8
+    name: Hanging 3
+    priceID: P-HANc
+    prefabPath: BusAccessories/Hangings/AccIntHang03
+    icon: {fileID: 21300000, guid: 7d78acc02a9c5c74d987c3c2ec9e2414, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HAN3
+    type: 8
+    name: Hanging 4
+    priceID: P-HANc
+    prefabPath: BusAccessories/Hangings/AccIntHang04
+    icon: {fileID: 21300000, guid: c963835b26b1b83458626f1eebafa72a, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HRN0
+    type: 9
+    name: Horn 1
+    priceID: P-HRNc
+    prefabPath: BusAccessories/Horns/AccHorn01
+    icon: {fileID: 21300000, guid: 6067e51ccec1fe34f85ee9d439a366ff, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HRN1
+    type: 9
+    name: Horn 2
+    priceID: P-HRNm
+    prefabPath: BusAccessories/Horns/AccHorn02
+    icon: {fileID: 21300000, guid: 735ad78f935bb8d469e6e6d26fad47b8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HRN2
+    type: 9
+    name: Horn 3
+    priceID: P-HRNm
+    prefabPath: BusAccessories/Horns/AccHorn03
+    icon: {fileID: 21300000, guid: 4af4b12bf5d42b24db50009d50af17be, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: HRN3
+    type: 9
+    name: Horn 4
+    priceID: P-HRNe
+    prefabPath: BusAccessories/Horns/AccHorn04
+    icon: {fileID: 21300000, guid: 5277dbf8bcab9e846be38aa7f3930e4e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTB0
+    type: 10
+    name: Big Light 1
+    priceID: P-LGTm
+    prefabPath: BusAccessories/Lights/Big Lights/AccLight01
+    icon: {fileID: 21300000, guid: 4877878370e1a7d4ab0e171d7d51c870, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTB1
+    type: 10
+    name: Big Light 2
+    priceID: P-LGTm
+    prefabPath: BusAccessories/Lights/Big Lights/AccLight02
+    icon: {fileID: 21300000, guid: 687d376d02049bb4fa225c6aa54780e8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTS0
+    type: 11
+    name: Small Light 1
+    priceID: P-LGTc
+    prefabPath: BusAccessories/Lights/Small Lights/AccLight03
+    icon: {fileID: 21300000, guid: 9eeb74bc1ac7c664fbb9a15832a31741, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTS1
+    type: 11
+    name: Small Light 2
+    priceID: P-LGTc
+    prefabPath: BusAccessories/Lights/Small Lights/AccLight04
+    icon: {fileID: 21300000, guid: f99f4e40fbcde7d40b9cb9e70ac3cc9a, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTS2
+    type: 11
+    name: Small Light 3
+    priceID: P-LGTc
+    prefabPath: BusAccessories/Lights/Small Lights/AccLight05
+    icon: {fileID: 21300000, guid: de74aacb48f766c4c9c827781d577ef5, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: LGTS3
+    type: 11
+    name: Small Light 4
+    priceID: P-LGTc
+    prefabPath: BusAccessories/Lights/Small Lights/AccLight06
+    icon: {fileID: 21300000, guid: 81669f133128fc6458c8aa1cadf14334, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPR0
+    type: 12
+    name: Rear Mudflap 1
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Rear/AccMudflapRear01
+    icon: {fileID: 21300000, guid: 9da15a47855942347ba711370ac04dc8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 1
+    defaultText: HELLO WORLD
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPR1
+    type: 12
+    name: Rear Mudflap 2
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Rear/AccMudflapRear02
+    icon: {fileID: 21300000, guid: 9b8dd334080302e4e97e8cbf91a5ec7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 1
+    defaultText: HELLO WORLD
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPR2
+    type: 12
+    name: Rear Mudflap 3
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Rear/AccMudflapRear03
+    icon: {fileID: 21300000, guid: 1104dacbe69749249a8516bb160f5c56, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 1
+    defaultText: HELLO WORLD
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPR3
+    type: 12
+    name: Rear Mudflap 4
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Rear/AccMudflapRear04
+    icon: {fileID: 21300000, guid: ce2c6a8ae6cd67040a1c651a70bb07c6, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 1
+    defaultText: HELLO WORLD
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWF0
+    type: 13
+    name: Wheel Mudflap 1
+    priceID: P-MFPc
+    prefabPath: BusAccessories/Mudflaps/Wheel/Front/AccMudflapWheel01_Front
+    icon: {fileID: 21300000, guid: 15e0f0f98f7e0904e948a66cde372932, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWF1
+    type: 13
+    name: Wheel Mudflap 2
+    priceID: P-MFPm
+    prefabPath: BusAccessories/Mudflaps/Wheel/Front/AccMudflapWheel02_Front
+    icon: {fileID: 21300000, guid: 90578ecdf7ca96e40abd8f746fd418b8, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWF3
+    type: 13
+    name: Wheel Mudflap 3
+    priceID: P-MFPm
+    prefabPath: BusAccessories/Mudflaps/Wheel/Front/AccMudflapWheel03_Front
+    icon: {fileID: 21300000, guid: 2eff5296344b4a74d89da6258ef86bfd, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWF2
+    type: 13
+    name: Wheel Mudflap 4
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Wheel/Front/AccMudflapWheel04_Front
+    icon: {fileID: 21300000, guid: eb98b8937531e6540b8c1bb5a4bbfd46, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWR0
+    type: 14
+    name: Wheel Mudflap 1
+    priceID: P-MFPc
+    prefabPath: BusAccessories/Mudflaps/Wheel/Rear/AccMudflapWheel01_Rear
+    icon: {fileID: 21300000, guid: 15e0f0f98f7e0904e948a66cde372932, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWR1
+    type: 14
+    name: Wheel Mudflap 2
+    priceID: P-MFPm
+    prefabPath: BusAccessories/Mudflaps/Wheel/Rear/AccMudflapWheel02_Rear
+    icon: {fileID: 21300000, guid: 90578ecdf7ca96e40abd8f746fd418b8, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWR2
+    type: 14
+    name: Wheel Mudflap 3
+    priceID: P-MFPm
+    prefabPath: BusAccessories/Mudflaps/Wheel/Rear/AccMudflapWheel03_Rear
+    icon: {fileID: 21300000, guid: 2eff5296344b4a74d89da6258ef86bfd, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: MFPWR3
+    type: 14
+    name: Wheel Mudflap 4
+    priceID: P-MFPe
+    prefabPath: BusAccessories/Mudflaps/Wheel/Rear/AccMudflapWheel04_Rear
+    icon: {fileID: 21300000, guid: eb98b8937531e6540b8c1bb5a4bbfd46, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RAK0
+    type: 15
+    name: Rack 1
+    priceID: P-RAKc
+    prefabPath: BusAccessories/Racks/AccRack01
+    icon: {fileID: 21300000, guid: 3342dd29fb006434ab128fa2edf30f0f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RAK1
+    type: 15
+    name: Rack 2
+    priceID: P-RAKm
+    prefabPath: BusAccessories/Racks/AccRack02
+    icon: {fileID: 21300000, guid: 8c1e5f4c76abdc243a83a4dd1059f2b9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RAK2
+    type: 15
+    name: Rack 3
+    priceID: P-RAKe
+    prefabPath: BusAccessories/Racks/AccRack03
+    icon: {fileID: 21300000, guid: 588dafd4808912c4a8d302db1fa74939, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RAK3
+    type: 15
+    name: Rack 4
+    priceID: P-RAKe
+    prefabPath: BusAccessories/Racks/AccRack04
+    icon: {fileID: 21300000, guid: a35ef7838442343409ef64efddb44551, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS0a
+    type: 16
+    name: Standard Rim 0
+    priceID: P-RIMc
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg00_JB001
+    icon: {fileID: 21300000, guid: 07323a27bad8c25498f9ef3b42002c9f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS1a
+    type: 16
+    name: Standard Rim 1
+    priceID: P-RIMm
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg01_JB001
+    icon: {fileID: 21300000, guid: 3bfddca7bcb5f8a4a89ae1416e19a711, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS2a
+    type: 16
+    name: Standard Rim 2
+    priceID: P-RIMm
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg02_JB001
+    icon: {fileID: 21300000, guid: 4e54a624faae76e41a17d5f79b04e403, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS3a
+    type: 16
+    name: Standard Rim 3
+    priceID: P-RIMc
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg05_JB001
+    icon: {fileID: 21300000, guid: 60bf9b416e9b5f144b57c827fbd1cab7, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS4a
+    type: 16
+    name: Standard Rim 4
+    priceID: P-RIMc
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg06_JB001
+    icon: {fileID: 21300000, guid: c7a5cafd5dd86914d8a25e3d927347db, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMS5a
+    type: 16
+    name: Standard Rim 5
+    priceID: P-RIMm
+    prefabPath: BusAccessories/Rims/Standard Rims/AccVelg07_JB001
+    icon: {fileID: 21300000, guid: 97168b117f454d746abb97e0836142cc, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMW0a
+    type: 17
+    name: Wide Rim 1
+    priceID: P-RIMe
+    prefabPath: BusAccessories/Rims/Wide Rims/AccVelg03_JB001
+    icon: {fileID: 21300000, guid: 9fe9c6e80e1713f41b1962f46bd31834, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: RIMW1a
+    type: 17
+    name: Wide Rim 2
+    priceID: P-RIMe
+    prefabPath: BusAccessories/Rims/Wide Rims/AccVelg04_JB001
+    icon: {fileID: 21300000, guid: d84c90f1df2d7804ca70d49f5a95248a, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: SPL0
+    type: 18
+    name: Spoiler 1
+    priceID: P-SPLc
+    prefabPath: BusAccessories/Spoilers/AccSpoiler01
+    icon: {fileID: 21300000, guid: 07495573c26c9a04793df7e4d471dbe2, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: SPL1
+    type: 18
+    name: Spoiler 2
+    priceID: P-SPLm
+    prefabPath: BusAccessories/Spoilers/AccSpoiler02
+    icon: {fileID: 21300000, guid: da60f5cdef9dcbc42a3381d98ca66e71, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: SPL2
+    type: 18
+    name: Spoiler 3
+    priceID: P-SPLe
+    prefabPath: BusAccessories/Spoilers/AccSpoiler03
+    icon: {fileID: 21300000, guid: 67765273ce4ed3745a578fd527686d17, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: SPL3
+    type: 18
+    name: Spoiler 4
+    priceID: P-SPLm
+    prefabPath: BusAccessories/Spoilers/AccSpoiler04
+    icon: {fileID: 21300000, guid: ab530cf7b634a8447b9a889b8555654c, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA0a
+    type: 19
+    name: Strobe FCA 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-interval-fast
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA1a
+    type: 19
+    name: Strobe FCA 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-interval-middle
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA2a
+    type: 19
+    name: Strobe FCA 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-interval-slow
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA3a
+    type: 19
+    name: Strobe FCA 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-laser
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA4a
+    type: 19
+    name: Strobe FCA 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-nova-fast
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA5a
+    type: 19
+    name: Strobe FCA 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-nova-middle
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA6a
+    type: 19
+    name: Strobe FCA 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-nova-slow
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA7a
+    type: 19
+    name: Strobe FCA 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-wave-fast
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA8a
+    type: 19
+    name: Strobe FCA 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-wave-middle
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA9a
+    type: 19
+    name: Strobe FCA 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-wave-slow
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCA10a
+    type: 19
+    name: Strobe FCA 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center A/JB-001-FrontCenter1-01-wave-very-fast
+    icon: {fileID: 21300000, guid: 850cc308aa69ff9489840b7b2f23b808, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB0a
+    type: 20
+    name: Strobe FCB 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-interval-fast
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB1a
+    type: 20
+    name: Strobe FCB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-interval-middle
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB2a
+    type: 20
+    name: Strobe FCB 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-interval-slow
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB3a
+    type: 20
+    name: Strobe FCB 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-laser
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB4a
+    type: 20
+    name: Strobe FCB 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-nova-fast
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB5a
+    type: 20
+    name: Strobe FCB 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-nova-middle
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB6a
+    type: 20
+    name: Strobe FCB 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-nova-slow
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB7a
+    type: 20
+    name: Strobe FCB 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-wave-fast
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB8a
+    type: 20
+    name: Strobe FCB 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-wave-middle
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB9a
+    type: 20
+    name: Strobe FCB 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-wave-slow
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFCB10a
+    type: 20
+    name: Strobe FCB 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Center B/JB-001-FrontCenter2-01-wave-very-fast
+    icon: {fileID: 21300000, guid: d570c9192ecb4c74a8bf03717498b8dd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA0a
+    type: 21
+    name: Strobe FLRA 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-interval-fast
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA1a
+    type: 21
+    name: Strobe FLRA 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-interval-middle
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA2a
+    type: 21
+    name: Strobe FLRA 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-interval-slow
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA3a
+    type: 21
+    name: Strobe FLRA 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-laser
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA4a
+    type: 21
+    name: Strobe FLRA 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-nova-fast
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA5a
+    type: 21
+    name: Strobe FLRA 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-nova-middle
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA6a
+    type: 21
+    name: Strobe FLRA 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-nova-slow
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA7a
+    type: 21
+    name: Strobe FLRA 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-wave-fast
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA8a
+    type: 21
+    name: Strobe FLRA 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-wave-middle
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA9a
+    type: 21
+    name: Strobe FLRA 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-wave-slow
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRA10a
+    type: 21
+    name: Strobe FLRA 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right A/JB-001-FrontLeftRight1-01-wave-very-fast
+    icon: {fileID: 21300000, guid: 3daf50e32bd531c43a461ce0c043199f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB0a
+    type: 22
+    name: Strobe FLRB 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-interval-fast
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB1a
+    type: 22
+    name: Strobe FLRB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-interval-middle
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB2a
+    type: 22
+    name: Strobe FLRB 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-interval-slow
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB3a
+    type: 22
+    name: Strobe FLRB 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-laser
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB4a
+    type: 22
+    name: Strobe FLRB 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-nova-fast
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB5a
+    type: 22
+    name: Strobe FLRB 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-nova-middle
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB6a
+    type: 22
+    name: Strobe FLRB 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-nova-slow
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB7a
+    type: 22
+    name: Strobe FLRB 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-wave-fast
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB8a
+    type: 22
+    name: Strobe FLRB 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-wave-middle
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB9a
+    type: 22
+    name: Strobe FLRB 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-wave-slow
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFLRB10a
+    type: 22
+    name: Strobe FLRB 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Left Right B/JB-001-FrontLeftRight2-01-wave-very-fast
+    icon: {fileID: 21300000, guid: a8f4880585925a74eab195c8c0c3e17e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM13a
+    type: 23
+    name: Strobe Eye 1
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-AnimEyeStrobe-01
+    icon: {fileID: 21300000, guid: de44e9670d11ecd42bd40cc1886ca496, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM14a
+    type: 23
+    name: Strobe Eye 2
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-AnimEyeStrobe-02
+    icon: {fileID: 21300000, guid: cfc93b35204e9da4ea5746a19b4124b8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM15a
+    type: 23
+    name: Strobe Eye 3
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-AnimEyeStrobe-03
+    icon: {fileID: 21300000, guid: 3d19783ebe2791f4096f01c6f5244bd5, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM0a
+    type: 23
+    name: Strobe FM 1
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-fill-unfill-left-and-right
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM1a
+    type: 23
+    name: Strobe FM 2
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-fill-unfill-left-to-right
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM2a
+    type: 23
+    name: Strobe FM 3
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-fill-unfill-sides-to-center
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM3a
+    type: 23
+    name: Strobe FM 4
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-four-blank-speed
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM4a
+    type: 23
+    name: Strobe FM 5
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-jump-half-left-right
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM5a
+    type: 23
+    name: Strobe FM 6
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-nova
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM6a
+    type: 23
+    name: Strobe FM 7
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-ping-pong
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM7a
+    type: 23
+    name: Strobe FM 8
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-ping-pong-slow
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM8a
+    type: 23
+    name: Strobe FM 9
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-rain-drops
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM9a
+    type: 23
+    name: Strobe FM 10
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-trail-accelerated
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM10a
+    type: 23
+    name: Strobe FM 11
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-trail-fast
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM11a
+    type: 23
+    name: Strobe FM 12
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-trail-middle
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STFM12a
+    type: 23
+    name: Strobe FM 13
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Front Main/JB-001-FrontMain-01-trail-slow
+    icon: {fileID: 21300000, guid: dbdfd8f955b440847a00eadd9dfd265d, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA0a
+    type: 24
+    name: Strobe LRCA 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-interval-fast
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA1a
+    type: 24
+    name: Strobe LRCA 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-interval-middle
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA2a
+    type: 24
+    name: Strobe LRCA 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-interval-slow
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA3a
+    type: 24
+    name: Strobe LRCA 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-laser
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA4a
+    type: 24
+    name: Strobe LRCA 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-nova-fast
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA5a
+    type: 24
+    name: Strobe LRCA 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-nova-middle
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA6a
+    type: 24
+    name: Strobe LRCA 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-nova-slow
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA7a
+    type: 24
+    name: Strobe LRCA 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-wave-fast
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA8a
+    type: 24
+    name: Strobe LRCA 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-wave-middle
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA9a
+    type: 24
+    name: Strobe LRCA 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-wave-slow
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCA10a
+    type: 24
+    name: Strobe LRCA 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center A/JB-001-LeftRightCenter1-01-1-wave-very-fast
+    icon: {fileID: 21300000, guid: 9b190f3a3ecdb9a4f8e2516927d602d0, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB0a
+    type: 25
+    name: Strobe LRCB 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-interval-fast
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB1a
+    type: 25
+    name: Strobe LRCB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-interval-middle
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB2a
+    type: 25
+    name: Strobe LRCB 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-interval-slow
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB3a
+    type: 25
+    name: Strobe LRCB 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-laser
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB4a
+    type: 25
+    name: Strobe LRCB 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-nova-fast
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB5a
+    type: 25
+    name: Strobe LRCB 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-nova-middle
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB6a
+    type: 25
+    name: Strobe LRCB 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-nova-slow
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB7a
+    type: 25
+    name: Strobe LRCB 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-wave-fast
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB8a
+    type: 25
+    name: Strobe LRCB 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-wave-middle
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB9a
+    type: 25
+    name: Strobe LRCB 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-wave-slow
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRCB10a
+    type: 25
+    name: Strobe LRCB 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Center B/JB-001-LeftRightCenter2-01-1-wave-very-fast
+    icon: {fileID: 21300000, guid: 6ebbf319b51ef5945ab78f2291dcb9a4, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT0a
+    type: 26
+    name: Strobe LRT 1
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-laser-4px
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT1a
+    type: 26
+    name: Strobe LRT 2
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-nova-fast
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT2a
+    type: 26
+    name: Strobe LRT 3
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-pulse-strobe-chess
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT3a
+    type: 26
+    name: Strobe LRT 4
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-run-slow
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT4a
+    type: 26
+    name: Strobe LRT 5
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-run-slow-reverse
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STLRT5a
+    type: 26
+    name: Strobe LRT 6
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Left Right Trail/JB-001-LeftRightTrail-01-4-wave-middle
+    icon: {fileID: 21300000, guid: 646de65f3ca52994a836542a61be1784, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA0a
+    type: 27
+    name: Strobe RCA 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-interval-fast
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA1a
+    type: 27
+    name: Strobe RCA 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-interval-middle
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA2a
+    type: 27
+    name: Strobe RCA 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-interval-slow
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA3a
+    type: 27
+    name: Strobe RCA 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-laser
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA4a
+    type: 27
+    name: Strobe RCA 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-nova-fast
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA5a
+    type: 27
+    name: Strobe RCA 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-nova-middle
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA6a
+    type: 27
+    name: Strobe RCA 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-nova-slow
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA7a
+    type: 27
+    name: Strobe RCA 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-wave-fast
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA8a
+    type: 27
+    name: Strobe RCA 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-wave-middle
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA9a
+    type: 27
+    name: Strobe RCA 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-wave-slow
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCA10a
+    type: 27
+    name: Strobe RCA 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center A/JB-001-RearCenter1-01-wave-very-fast
+    icon: {fileID: 21300000, guid: fc3cef9718854a741bd7bdaed2204e55, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB0a
+    type: 28
+    name: Strobe RCB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-interval-fast
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB1a
+    type: 28
+    name: Strobe RCB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-interval-middle
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB2a
+    type: 28
+    name: Strobe RCB 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-interval-slow
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB3a
+    type: 28
+    name: Strobe RCB 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-laser
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB4a
+    type: 28
+    name: Strobe RCB 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-nova-fast
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB5a
+    type: 28
+    name: Strobe RCB 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-nova-middle
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB6a
+    type: 28
+    name: Strobe RCB 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-nova-slow
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB7a
+    type: 28
+    name: Strobe RCB 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-wave-fast
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB8a
+    type: 28
+    name: Strobe RCB 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-wave-middle
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB9a
+    type: 28
+    name: Strobe RCB 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-wave-slow
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRCB10a
+    type: 28
+    name: Strobe RCB 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Center B/JB-001-RearCenter2-01-wave-very-fast
+    icon: {fileID: 21300000, guid: 36c5420d7eb23bf4c9f684aef92c3e6b, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA0a
+    type: 29
+    name: Strobe RLRA 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-interval-fast
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA1a
+    type: 29
+    name: Strobe RLRA 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-interval-middle
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA2a
+    type: 29
+    name: Strobe RLRA 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-interval-slow
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA3a
+    type: 29
+    name: Strobe RLRA 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-laser
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA4a
+    type: 29
+    name: Strobe RLRA 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-nova-fast
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA5a
+    type: 29
+    name: Strobe RLRA 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-nova-middle
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA6a
+    type: 29
+    name: Strobe RLRA 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-nova-slow
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA7a
+    type: 29
+    name: Strobe RLRA 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-wave-fast
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA8a
+    type: 29
+    name: Strobe RLRA 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-wave-middle
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA9a
+    type: 29
+    name: Strobe RLRA 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-wave-slow
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRA10a
+    type: 29
+    name: Strobe RLRA 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right A/JB-001-RearLeftRight1-01-wave-very-fast
+    icon: {fileID: 21300000, guid: f802dc5ed2377be4c8f97318b6ecd7d9, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB0a
+    type: 30
+    name: Strobe RLRB 1
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-interval-fast
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB1a
+    type: 30
+    name: Strobe RLRB 2
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-interval-middle
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB2a
+    type: 30
+    name: Strobe RLRB 3
+    priceID: P-STEm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-interval-slow
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB3a
+    type: 30
+    name: Strobe RLRB 4
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-laser
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB4a
+    type: 30
+    name: Strobe RLRB 5
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-nova-fast
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB5a
+    type: 30
+    name: Strobe RLRB 6
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-nova-middle
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB6a
+    type: 30
+    name: Strobe RLRB 7
+    priceID: P-STEc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-nova-slow
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB7a
+    type: 30
+    name: Strobe RLRB 8
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-wave-fast
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB8a
+    type: 30
+    name: Strobe RLRB 9
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-wave-middle
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB9a
+    type: 30
+    name: Strobe RLRB 10
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-wave-slow
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRLRB10a
+    type: 30
+    name: Strobe RLRB 11
+    priceID: P-STEe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Left Right B/JB-001-RearLeftRight2-01-wave-very-fast
+    icon: {fileID: 21300000, guid: 9136e785d9ac6bc40a155b41621cc15e, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM0a
+    type: 31
+    name: Strobe RM 1
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-from-center
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM1a
+    type: 31
+    name: Strobe RM 2
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-nova
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM2a
+    type: 31
+    name: Strobe RM 3
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-rain-drops
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM3a
+    type: 31
+    name: Strobe RM 4
+    priceID: P-STMm
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-saturn
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM4a
+    type: 31
+    name: Strobe RM 5
+    priceID: P-STMe
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-sides-middle-sides
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: STRM5a
+    type: 31
+    name: Strobe RM 6
+    priceID: P-STMc
+    prefabPath: BusAccessories/Strobes/HD_01/Rear Main/JB-001-RearMain-01-24-trail
+    icon: {fileID: 21300000, guid: 4538e595be111cb438f03eacbfc73d7f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRD0a
+    type: 33
+    name: Tire 0
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Double/AccTire00_Double_JB001
+    icon: {fileID: 21300000, guid: e8be88402f0f21a4b98b5e602b2881b7, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRD1a
+    type: 33
+    name: Tire 1
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Double/AccTire01_Double_JB001
+    icon: {fileID: 21300000, guid: 178f58e43e274374b8443892ee5510fd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRD2a
+    type: 33
+    name: Tire 2
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Double/AccTire02_Double_JB001
+    icon: {fileID: 21300000, guid: c3ac7cea7a86a464e8e7d4f6440da8d8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRD3a
+    type: 33
+    name: Tire 3
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Double/AccTire03_Double_JB001
+    icon: {fileID: 21300000, guid: 30cfdd57b6da9ba4696e83ba61aeed3c, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRD4a
+    type: 33
+    name: Tire 4
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Double/AccTire04_Double_JB001
+    icon: {fileID: 21300000, guid: 501024ce4d4d9e24c95eec933a31bb77, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRS0a
+    type: 32
+    name: Tire 0
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Single/AccTire00_Single_JB001
+    icon: {fileID: 21300000, guid: e8be88402f0f21a4b98b5e602b2881b7, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRS1a
+    type: 32
+    name: Tire 1
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Single/AccTire01_Single_JB001
+    icon: {fileID: 21300000, guid: 178f58e43e274374b8443892ee5510fd, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRS2a
+    type: 32
+    name: Tire 2
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Single/AccTire02_Single_JB001
+    icon: {fileID: 21300000, guid: c3ac7cea7a86a464e8e7d4f6440da8d8, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRS3a
+    type: 32
+    name: Tire 3
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Single/AccTire03_Single_JB001
+    icon: {fileID: 21300000, guid: 30cfdd57b6da9ba4696e83ba61aeed3c, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TIRS4a
+    type: 32
+    name: Tire 4
+    priceID: P-TIRm
+    prefabPath: BusAccessories/Tires/Single/AccTire04_Single_JB001
+    icon: {fileID: 21300000, guid: 501024ce4d4d9e24c95eec933a31bb77, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TRN0a
+    type: 36
+    name: Turn Signal 0
+    priceID: P-TRNc
+    prefabPath: BusAccessories/Turns/HD_01/AccTurn00_HD01
+    icon: {fileID: 0}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TRN0a
+    type: 36
+    name: Turn Signal 0
+    priceID: P-TRNc
+    prefabPath: BusAccessories/Turns/SHD_01/AccTurn00_SHD_01
+    icon: {fileID: 0}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: TRN1a
+    type: 36
+    name: Turn Signal 1
+    priceID: P-TRNc
+    prefabPath: BusAccessories/Turns/SHD_01/AccTurn01_SHD_01
+    icon: {fileID: 21300000, guid: 77e9e67ed66846d459e76f7e11e4b31f, type: 2}
+    customizableColor: 0
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: WIN0a
+    type: 35
+    name: Winglet 1
+    priceID: P-WINm
+    prefabPath: BusAccessories/Winglet/AccWinglet01_HD01
+    icon: {fileID: 21300000, guid: 49fb3e900ad2c524dbe0c0731827afa8, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: WIN1a
+    type: 35
+    name: Winglet 2
+    priceID: P-WINc
+    prefabPath: BusAccessories/Winglet/AccWinglet02_HD01
+    icon: {fileID: 21300000, guid: 1c0989e80d34feb43895bcbda0d03999, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: WIN2a
+    type: 35
+    name: Winglet 3
+    priceID: P-WINc
+    prefabPath: BusAccessories/Winglet/AccWinglet03_HD01
+    icon: {fileID: 21300000, guid: 957734e055cf8f24d8319160c730345e, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1
+  - id: WIN3a
+    type: 35
+    name: Winglet 4
+    priceID: P-WINe
+    prefabPath: BusAccessories/Winglet/AccWinglet04_HD01
+    icon: {fileID: 21300000, guid: 61abb29291c13ae498b8ae3cdf325731, type: 2}
+    customizableColor: 1
+    defaultColor: {r: 1, g: 1, b: 1, a: 1}
+    customizableText: 0
+    defaultText:
+    defaultTextColor: {r: 1, g: 1, b: 1, a: 1}
+    activated: 1

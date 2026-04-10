@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdba62fc17e39653c6124b748b9c72ab, type: 3}
+  m_Name: VehicleSettings
+  m_EditorClassIdentifier:
+  vehiclePrefab: {fileID: 0}
+  collidersLayer: 9
+  carBodyPhysicsMaterial: {fileID: 13400000, guid: b5a170a0776e48345b29f2dcf483710d, type: 2}
+  bodiesSolverIterations: 12
+  bodiesSolverVelocityIterations: 4
+  diffuseShader: {fileID: 4800000, guid: f1ce65309e492574b92dbac331a9cc8c, type: 3}
+  glassShader: {fileID: 4800000, guid: 3e4a0b3a873537749b9b942115a4005f, type: 3}
+  lampsShader: {fileID: 4800000, guid: e48d58579c1d21b4ba2030c8716e6472, type: 3}
+  runningLightsShader: {fileID: 4800000, guid: 824810c8c6436964fb1f30c50bb334fc, type: 3}
+  defaultGlowTexture: {fileID: 2800000, guid: 62542592b45cc494ca49ee22bddde3a3, type: 3}
+  gpsTexture: {fileID: 8400000, guid: 5cea33c68b8b783479c333ebe20ff9ae, type: 2}
+  rainDropsBuffer: {fileID: 8400000, guid: 3980004279a34794d885cee318646af4, type: 2}
+  glassMaterial: {fileID: 2100000, guid: 53dfe0dc2b6400f4ebb8f6ad1b6fa78e, type: 2}
+  rainDropMaterial: {fileID: 2100000, guid: a533e5a1714908b489cf4912ea6ac9d9, type: 2}
+  leftCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 0
+      inSlope: 0
+      outSlope: 2.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 2.5
+      outSlope: -2.5000002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9
+      value: 0
+      inSlope: -2.5000002
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  rightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 2.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4
+      value: 1
+      inSlope: 2.5
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6
+      value: 1
+      inSlope: 0
+      outSlope: -2.5000002
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.5000002
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  rainDropsDensityTextures:
+  - {fileID: 2800000, guid: 53ab3a1b1f5cc58479aacd5440aae136, type: 3}
+  - {fileID: 2800000, guid: d2a5dbf4ddaed0e44bb367b867f3036d, type: 3}
+  - {fileID: 2800000, guid: ff557894e44c1854f82d741b6e0734ab, type: 3}
+  - {fileID: 2800000, guid: 027654a997b13554aba9833a83a1b166, type: 3}
+  fullAnimationTime: 2
+  rainClearMaterial: {fileID: 2100000, guid: dc28c193e8879fd4ea082370140baa22, type: 2}
+  cameraCullingMask:
+    serializedVersion: 2
+    m_Bits: 3868930839
+  cameraFOV: 70
+  cameraNear: 0.1
+  cameraFar: 100
+  mirrorMaterial: {fileID: 2100000, guid: dc1879c1f7399b5418451113c2ab43bd, type: 2}
+  bufferSize: 200
+  defaultEngineSoundName: Truck11
+  engineSoundNames:
+  - Truck1
+  - Truck2
+  - Truck3
+  - Truck4
+  - Truck5
+  - Truck6
+  - Truck7
+  - Truck8
+  - Truck9
+  - Truck10
+  - Truck11
+  - Truck12
+  - Truck13
+  - Truck14
+  - Truck15
+  - Moto1
+  - Moto2
+  - Moto3
+  - Moto4
+  - RacingCar1
+  - RacingCar2
+  - RacingCar3
+  - RacingCar4
+  - RacingCar5
+  starterSound: {fileID: 1123688407877498, guid: 7ca187d105801814e8c720cf883e5a00, type: 2}
+  starterRunningTime: 0.6
+  turnRelayBlinkingInterval: 0.3
+  runningLightsFillSpeed: 0.1

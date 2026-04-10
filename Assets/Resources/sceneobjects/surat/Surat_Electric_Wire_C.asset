@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb42eeb3c2094ba72c0e8e86d9ada8d6, type: 3}
+  m_Name: Surat_Electric_Wire_C
+  m_EditorClassIdentifier:
+  spawnCars: {fileID: 11400000, guid: 89630b3959edb1548bb0e526ce6190df, type: 2}
+  spawnSettings: {fileID: 11400000, guid: 6470f74649a7fc8409cf7b52dca7f234, type: 2}
+  splines:
+  - id: 0
+    points:
+    - {x: -243.94324, y: 0.009718644, z: -239.36473}
+    - {x: -283.16284, y: 0.010380467, z: -233.65555}
+    - {x: -327.3073, y: -0.52845424, z: -272.03177}
+    - {x: -358.67242, y: -1.2020148, z: -310.2213}
+    - {x: -401.30112, y: -1.2020147, z: -363.5332}
+    - {x: -399.28723, y: -1.2020147, z: -392.39307}
+    - {x: -389.26874, y: -1.1114488, z: -408.77435}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 1
+    points:
+    - {x: -358.45645, y: -1.2012715, z: -310.04028}
+    - {x: -321.98883, y: -0.42998013, z: -322.27408}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 2
+    points:
+    - {x: -690.65076, y: -0.07658902, z: -1116.985}
+    - {x: -746.7586, y: -1.37072, z: -1094.0481}
+    - {x: -823.89276, y: -1.6486183, z: -1079.4025}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 3
+    points:
+    - {x: -1212.9222, y: 0.3998382, z: -1734.3906}
+    - {x: -1275.1443, y: 0.3998382, z: -1756.2745}
+    - {x: -1367.4011, y: 0.39990872, z: -1778.4265}
+    - {x: -1459.6646, y: 0.09523316, z: -1800.2847}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0

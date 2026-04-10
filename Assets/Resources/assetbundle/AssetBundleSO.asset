@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461022214, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name: AssetBundleSO
+  m_EditorClassIdentifier:
+  scenesMapping:
+    areas:
+    - label: Jawa Barat
+      bundleName: default
+      deliveryMode: 1
+      bundleSize: 148398976
+      scenes:
+      - BDG
+      - CBN
+      - JKT_v2
+      - Lingkar_Nagreg_v2
+      - Majenang
+      - MRK
+      - Palimanan_v2
+      - Pasuruan
+      - Purwakarta
+      - Serang
+      - Sumedang_v2
+      - Tasikmalaya
+      - Tol_Cikampek
+      - Tol_Merak
+      - Tol_Jawa_02
+      - Beach_02
+      - Desa_03
+      - Desa_04
+      - Hutan_03
+      - Hutan_04
+      - Racing_Extreme_01
+      - Racing_Mandala
+      - KebunRayaBogor
+      - Tangkuban_Parahu
+      dependencies:
+      - d_bali
+      - d_jateng
+      - d_jatim
+      - d_kalimantan
+      - d_sulawesi
+      - d_sumatera
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Jawa Tengah
+      bundleName: jateng
+      deliveryMode: 3
+      bundleSize: 159264932
+      scenes:
+      - Boyolali
+      - Cilacap
+      - Kebumen
+      - Kendal
+      - Klaten
+      - Kudus
+      - Magelang
+      - Margasari
+      - Muntilan
+      - Pekalongan
+      - Purworejo
+      - PWK
+      - Rembang
+      - Salatiga
+      - Sluke
+      - SMG
+      - SOC
+      - Sragen
+      - Sukoharjo
+      - Tegal
+      - Temanggung
+      - WNG
+      - Wonosobo
+      - YGY
+      - Borobudur
+      - Dieng
+      - TebingBreksi
+      dependencies:
+      - d_jateng
+      - jateng_jatim
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Jawa Timur
+      bundleName: jatim
+      deliveryMode: 3
+      bundleSize: 139854387
+      scenes:
+      - BKL
+      - Blitar
+      - Bukit_Jaddih
+      - BWI
+      - Gresik
+      - Jember
+      - Lumajang
+      - Madiun
+      - MLG
+      - Mojokerto
+      - Pacitan
+      - Pasuruan
+      - Ponorogo
+      - Probolinggo
+      - SBY
+      - Situbondo
+      - SuramaduBridge_v2
+      - Tol_Malang
+      - Trenggalek
+      - Tuban
+      - Tulungagung
+      - Bromo
+      - WisataBatu
+      dependencies:
+      - d_jateng
+      - d_jatim
+      - jateng_jatim
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Sumatera
+      bundleName: sumatera
+      deliveryMode: 3
+      bundleSize: 129054599
+      scenes:
+      - ACH
+      - BKH
+      - BKT
+      - Japura_v2
+      - JMB
+      - kota_SMT_01
+      - kota_SMT_02
+      - kota_SMT_03
+      - lake_01
+      - Lake_02
+      - Langsa
+      - Lhokseumawe
+      - LPG
+      - MDN
+      - Pematangsiantar
+      - PBR
+      - PDG
+      - PLB
+      - Rengat
+      - Sibolga
+      - sitinjaulauik_v2
+      - Tol_SMT_01
+      - village_smt_01
+      - village_smt_02
+      - kelok9
+      - DanauToba
+      - IstanoBasa
+      dependencies:
+      - d_jateng
+      - d_jatim
+      - d_sumatera
+      - jateng_jatim
+      - jateng_jatim_sumatera
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Bali
+      bundleName: bali
+      deliveryMode: 3
+      bundleSize: 55230222
+      scenes:
+      - Beach_BALI_01
+      - DPS
+      - GMK
+      - Kota_BALI_01
+      - GarudaWisnuKencana
+      - Jatiluwih
+      - Pantai_Kuta
+      - Pantai_Pandawa
+      - PuraUlunDanuBeratan
+      - Tanahlot
+      - Uluwatu
+      dependencies:
+      - d_bali
+      - d_jateng
+      - d_jatim
+      - d_sumatera
+      - jateng_jatim
+      - jateng_jatim_sumatera
+      - jateng_jatim_sumatera_bali
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Kalimantan
+      bundleName: kalimantan
+      deliveryMode: 3
+      bundleSize: 29001667
+      scenes:
+      - BJM
+      - BLP
+      - Forest_KLT_01
+      - Pakotkuara
+      dependencies:
+      - d_bali
+      - d_jateng
+      - d_jatim
+      - d_kalimantan
+      - d_sumatera
+      - jateng_jatim
+      - jateng_jatim_sumatera
+      - jateng_jatim_sumatera_bali
+      - jateng_jatim_sumatera_bali_kalimantan
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0
+    - label: Sulawesi
+      bundleName: sulawesi
+      deliveryMode: 3
+      bundleSize: 90705123
+      scenes:
+      - Barru
+      - Silopo
+      - Hill_SLW_01
+      - Rantepao
+      - MKS
+      - MMJ
+      - Pinrang
+      - PLP
+      - PLU
+      - PRP
+      - PosoLake
+      - Poso
+      - Tol_IrSutami
+      dependencies:
+      - d_bali
+      - d_jateng
+      - d_jatim
+      - d_kalimantan
+      - d_sulawesi
+      - d_sumatera
+      - jateng_jatim
+      - jateng_jatim_sumatera
+      - jateng_jatim_sumatera_bali
+      - jateng_jatim_sumatera_bali_kalimantan
+      isDownloaded: 0
+      bundlePrice: 0
+      isPurchased: 0

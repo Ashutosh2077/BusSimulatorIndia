@@ -1,0 +1,1662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb42eeb3c2094ba72c0e8e86d9ada8d6, type: 3}
+  m_Name: GPS_Solapur
+  m_EditorClassIdentifier:
+  spawnCars: {fileID: 11400000, guid: 89630b3959edb1548bb0e526ce6190df, type: 2}
+  spawnSettings: {fileID: 11400000, guid: 6470f74649a7fc8409cf7b52dca7f234, type: 2}
+  splines:
+  - id: 0
+    points:
+    - {x: -512.39166, y: 1.1920929E-07, z: 397.00595}
+    - {x: -499.05725, y: 2.5295486E-07, z: 389.71976}
+    - {x: -476.67474, y: -3.4653785E-05, z: 396.79852}
+    - {x: -456.4496, y: -4.6405585E-05, z: 380.07928}
+    - {x: -461.08066, y: -7.2037954E-05, z: 356.32077}
+    - {x: -447.19287, y: 2.7244823E-07, z: 338.62796}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 1
+    points:
+    - {x: -344.89276, y: 4.2341654E-08, z: 182.44989}
+    - {x: -341.62027, y: -4.0474685E-08, z: 161.41014}
+    - {x: -332.1408, y: -1.2810588E-07, z: 155.17078}
+    - {x: -316.56244, y: -2.0258096E-07, z: 157.8391}
+    - {x: -308.2741, y: 1.5846922E-07, z: 153.94765}
+    - {x: -310.78986, y: 1.1422423E-07, z: 141.98608}
+    - {x: -331.53738, y: 5.865314E-08, z: 141.16522}
+    - {x: -338.9735, y: 1.3214989E-08, z: 127.2968}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 2
+    points:
+    - {x: -338.9735, y: 1.3214989E-08, z: 127.2968}
+    - {x: -329.93436, y: -8.450121E-09, z: 126.860016}
+    - {x: -325.07007, y: -6.0541275E-08, z: 117.82256}
+    - {x: -319.45294, y: -2.0200125E-07, z: 103.70475}
+    - {x: -311.89075, y: -2.868266E-07, z: 83.768524}
+    - {x: -299.9016, y: 9.035354E-08, z: 61.744057}
+    - {x: -288.54218, y: 1.3161713E-07, z: 47.701927}
+    - {x: -279.2612, y: -1.5667615E-07, z: 41.743744}
+    - {x: -263.4685, y: -7.1616775E-08, z: 37.913177}
+    - {x: -236.65454, y: 1.2652808E-07, z: 36.367504}
+    - {x: -190.62059, y: 1.6942799E-07, z: 36.367496}
+    - {x: -168.02678, y: -2.4815574E-07, z: 35.747017}
+    - {x: -147.0611, y: 5.662983E-08, z: 32.619816}
+    - {x: -133.17653, y: -2.4952996E-08, z: 25.663345}
+    - {x: -119.70495, y: -1.703248E-07, z: 11.688673}
+    - {x: -109.81088, y: 1.8704148E-08, z: -2.285999}
+    - {x: -95.72445, y: 1.5714468E-07, z: -31.129723}
+    - {x: -86.3741, y: -1.3230803E-07, z: -54.42707}
+    - {x: -77.46073, y: 2.8666685E-07, z: -75.82899}
+    - {x: -65.29298, y: 1.1833259E-06, z: -84.4351}
+    - {x: -47.944393, y: 4.14803E-07, z: -86.210686}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 1
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 3
+    points:
+    - {x: 680.0239, y: 5.141828E-08, z: 139.21097}
+    - {x: 682.2798, y: 7.0312666E-08, z: 174.87036}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 4
+    points:
+    - {x: 339.86295, y: -2.2490816E-07, z: 35.67538}
+    - {x: 360.06528, y: -2.7079798E-07, z: 34.34348}
+    - {x: 396.3109, y: -1.7277621E-07, z: 30.475143}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 5
+    points:
+    - {x: -512.39166, y: 1.1920929E-07, z: 397.00595}
+    - {x: -447.19287, y: 2.7244823E-07, z: 338.62796}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 6
+    points:
+    - {x: -338.9735, y: 1.3214989E-08, z: 127.2968}
+    - {x: -338.37448, y: 2.697119E-09, z: 103.852905}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 7
+    points:
+    - {x: 420.56644, y: -1.3429904E-07, z: 27.868086}
+    - {x: 449.8984, y: -4.6393723E-07, z: 29.820063}
+    - {x: 461.3456, y: -0.0013770497, z: 34.272987}
+    - {x: 465.39206, y: -0.1005595, z: 44.781734}
+    - {x: 484.12207, y: -0.0689131, z: 46.952694}
+    - {x: 488.9269, y: -5.756559E-08, z: 32.90426}
+    - {x: 472.77475, y: -3.8991453E-07, z: 31.888605}
+    - {x: 477.40387, y: -3.270574E-07, z: 20.725204}
+    - {x: 490.26108, y: -2.226566E-07, z: 18.5309}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 8
+    points:
+    - {x: 686.0438, y: 3.3285153E-07, z: 94.53267}
+    - {x: 684.9538, y: -3.109459E-07, z: 78.82482}
+    - {x: 694.4114, y: -3.3005495E-07, z: 75.00363}
+    - {x: 704.2752, y: 2.2495355E-07, z: 70.07153}
+    - {x: 702.84186, y: -5.1688806E-07, z: 52.994926}
+    - {x: 686.3709, y: -6.100482E-07, z: 50.027378}
+    - {x: 679.29645, y: -2.0902016E-07, z: 36.03915}
+    - {x: 677.74445, y: -2.3523387E-07, z: 28.390738}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 9
+    points:
+    - {x: 686.0438, y: 3.3285153E-07, z: 94.53267}
+    - {x: 682.6622, y: 4.8808815E-08, z: 61.604923}
+    - {x: 679.992, y: -1.1096519E-07, z: 42.939846}
+    - {x: 677.74445, y: -2.3523387E-07, z: 28.390738}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 10
+    points:
+    - {x: 691.5959, y: 3.2334933E-07, z: 265.65488}
+    - {x: 692.4581, y: 3.728105E-07, z: 250.16682}
+    - {x: 706.6883, y: 2.42159E-06, z: 244.23131}
+    - {x: 728.0164, y: 1.0664443E-05, z: 245.07463}
+    - {x: 746.0429, y: 2.419324E-05, z: 251.11317}
+    - {x: 749.39233, y: 2.982458E-05, z: 233.33533}
+    - {x: 729.5982, y: 5.269464E-06, z: 231.67848}
+    - {x: 706.2384, y: 1.2084262E-06, z: 231.36423}
+    - {x: 694.66113, y: 4.5807656E-07, z: 224.99925}
+    - {x: 690.76483, y: 5.512486E-07, z: 205.59932}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 11
+    points:
+    - {x: 691.5959, y: 3.2334933E-07, z: 265.65488}
+    - {x: 690.8343, y: 4.3959585E-07, z: 242.94714}
+    - {x: 690.76483, y: 5.512486E-07, z: 205.59932}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 12
+    points:
+    - {x: 396.3109, y: -1.7277621E-07, z: 30.475143}
+    - {x: 420.56644, y: -1.3429904E-07, z: 27.868086}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 13
+    points:
+    - {x: 420.56644, y: -1.3429904E-07, z: 27.868086}
+    - {x: 448.01562, y: -1.977164E-07, z: 24.1369}
+    - {x: 468.9051, y: -2.1174526E-07, z: 21.230648}
+    - {x: 490.26108, y: -2.226566E-07, z: 18.5309}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 14
+    points:
+    - {x: 245.3914, y: -1.5217232E-07, z: 38.949028}
+    - {x: 217.48106, y: -3.0234162E-07, z: 38.81853}
+    - {x: 199.1675, y: -1.6410158E-07, z: 17.20287}
+    - {x: 146.26323, y: -1.6734592E-07, z: 15.695946}
+    - {x: 111.82437, y: -6.980301E-08, z: 14.484354}
+    - {x: 96.00291, y: -1.5187508E-08, z: -3.9993908}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 15
+    points:
+    - {x: 245.3914, y: -1.5217232E-07, z: 38.949028}
+    - {x: 207.86534, y: -2.7673894E-07, z: 41.81548}
+    - {x: 154.1391, y: -4.4597866E-07, z: 44.759396}
+    - {x: 134.13591, y: 0, z: 41.06195}
+    - {x: 119.93871, y: -3.1358631E-09, z: 29.841768}
+    - {x: 108.36829, y: -7.6548744E-08, z: 13.977842}
+    - {x: 96.00291, y: -1.5187508E-08, z: -3.9993908}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 16
+    points:
+    - {x: -269.84943, y: -1.3724346E-07, z: -65.19179}
+    - {x: -249.7961, y: 1.9687429E-08, z: -70.0178}
+    - {x: -238.85411, y: -1.3399475E-06, z: -67.64921}
+    - {x: -235.21025, y: -3.6829057E-05, z: -47.650578}
+    - {x: -228.47174, y: -3.4916622E-05, z: -49.608852}
+    - {x: -230.3088, y: -2.6105118E-10, z: -72.28461}
+    - {x: -205.0713, y: 3.2258677E-07, z: -78.72784}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 17
+    points:
+    - {x: -205.0713, y: 3.2258677E-07, z: -78.72784}
+    - {x: -171.59833, y: 9.012496E-09, z: -82.98457}
+    - {x: -134.15396, y: -2.1296995E-07, z: -86.68774}
+    - {x: -109.59138, y: 3.579938E-07, z: -88.31791}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 18
+    points:
+    - {x: -109.59138, y: 3.579938E-07, z: -88.31791}
+    - {x: -82.7316, y: 5.1976457E-07, z: -89.365295}
+    - {x: -47.944393, y: 4.14803E-07, z: -86.210686}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 19
+    points:
+    - {x: -342.65536, y: -2.0178147E-08, z: 19.892582}
+    - {x: -345.92694, y: -1.9289216E-08, z: 38.5876}
+    - {x: -356.39996, y: -5.765083E-08, z: 44.698616}
+    - {x: -384.90213, y: -5.9604645E-08, z: 44.47116}
+    - {x: -403.80545, y: -5.9604645E-08, z: 44.424637}
+    - {x: -407.3564, y: -5.9604645E-08, z: 33.037476}
+    - {x: -419.02194, y: -5.9604645E-08, z: 36.09618}
+    - {x: -418.26953, y: -5.9604645E-08, z: 59.610424}
+    - {x: -407.605, y: -5.9604645E-08, z: 60.890858}
+    - {x: -397.81503, y: -5.9604645E-08, z: 51.869682}
+    - {x: -365.6545, y: -5.9604645E-08, z: 50.865696}
+    - {x: -349.6414, y: -4.690184E-08, z: 55.839653}
+    - {x: -347.20276, y: -1.2961504E-09, z: 74.45355}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 20
+    points:
+    - {x: -342.65536, y: -2.0178147E-08, z: 19.892582}
+    - {x: -346.40005, y: -7.517497E-09, z: 48.48569}
+    - {x: -347.20276, y: -1.2961504E-09, z: 74.45355}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 21
+    points:
+    - {x: -344.89276, y: 4.2341654E-08, z: 182.44989}
+    - {x: -342.22253, y: 2.0331862E-08, z: 155.5554}
+    - {x: -338.9735, y: 1.3214989E-08, z: 127.2968}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 22
+    points:
+    - {x: -433.40668, y: 1.9662032E-07, z: 325.16937}
+    - {x: -417.32837, y: -7.838652E-05, z: 322.65967}
+    - {x: -389.41394, y: -7.413462E-05, z: 340.9767}
+    - {x: -344.63116, y: -7.26361E-05, z: 300.80496}
+    - {x: -352.675, y: -8.131867E-05, z: 267.56763}
+    - {x: -352.35376, y: -1.0102127E-07, z: 244.4029}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 23
+    points:
+    - {x: -447.19287, y: 2.7244823E-07, z: 338.62796}
+    - {x: -433.40668, y: 1.9662032E-07, z: 325.16937}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 24
+    points:
+    - {x: -433.40668, y: 1.9662032E-07, z: 325.16937}
+    - {x: -413.39206, y: 1.1954445E-07, z: 308.4707}
+    - {x: -371.4122, y: -3.947279E-08, z: 271.02426}
+    - {x: -352.35376, y: -1.0102127E-07, z: 244.4029}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 25
+    points:
+    - {x: -84.460266, y: -1.0855807E-08, z: -59.156025}
+    - {x: -78.13083, y: 1.3723295E-06, z: -81.54522}
+    - {x: -88.80585, y: 5.633053E-07, z: -94.29856}
+    - {x: -114.762245, y: -1.0581804E-06, z: -97.543335}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 26
+    points:
+    - {x: -48.430134, y: -8.563384E-08, z: -96.09018}
+    - {x: -76.52484, y: 4.0278627E-07, z: -92.031296}
+    - {x: -87.74113, y: 7.791037E-08, z: -66.3363}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 27
+    points:
+    - {x: -48.430134, y: -8.563384E-08, z: -96.09018}
+    - {x: -114.762245, y: -1.0581804E-06, z: -97.543335}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 28
+    points:
+    - {x: -114.762245, y: -1.0581804E-06, z: -97.543335}
+    - {x: -162.02388, y: 1.4556355E-07, z: -94.19789}
+    - {x: -232.29085, y: -2.610512E-10, z: -84.90884}
+    - {x: -260.38065, y: -1.852953E-07, z: -79.65142}
+    - {x: -276.86316, y: 3.6241377E-07, z: -74.27141}
+    - {x: -298.42715, y: -2.892744E-07, z: -63.632473}
+    - {x: -318.5018, y: -8.628178E-08, z: -45.04992}
+    - {x: -328.94257, y: -4.3059583E-08, z: -27.25601}
+    - {x: -338.31424, y: -1.5252166E-07, z: -1.8591453}
+    - {x: -342.65536, y: -2.0178147E-08, z: 19.892582}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 29
+    points:
+    - {x: -109.59138, y: 3.579938E-07, z: -88.31791}
+    - {x: -96.21601, y: 7.8063204E-07, z: -85.7666}
+    - {x: -89.17133, y: 1.0782303E-06, z: -77.17285}
+    - {x: -87.74113, y: 7.791037E-08, z: -66.3363}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 30
+    points:
+    - {x: -348.3787, y: -2.1457149E-08, z: 97.54209}
+    - {x: -348.64804, y: -1.742077E-08, z: 117.835915}
+    - {x: -338.9735, y: 1.3214989E-08, z: 127.2968}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 31
+    points:
+    - {x: -347.20276, y: -1.2961504E-09, z: 74.45355}
+    - {x: -348.3787, y: -2.1457149E-08, z: 97.54209}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 32
+    points:
+    - {x: -321.6333, y: -4.904773E-08, z: 94.91485}
+    - {x: -334.99518, y: -3.3631938E-08, z: 120.12472}
+    - {x: -346.4906, y: 1.7991772E-08, z: 135.17323}
+    - {x: -351.6102, y: -2.0317636E-08, z: 153.97275}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 33
+    points:
+    - {x: -348.3787, y: -2.1457149E-08, z: 97.54209}
+    - {x: -351.6102, y: -2.0317636E-08, z: 153.97275}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 34
+    points:
+    - {x: -87.74113, y: 7.791037E-08, z: -66.3363}
+    - {x: -94.46137, y: 1.6888627E-08, z: -46.551815}
+    - {x: -102.96267, y: -3.522147E-08, z: -26.22919}
+    - {x: -110.95164, y: -5.8822856E-08, z: -10.251246}
+    - {x: -118.88022, y: 1.265521E-07, z: 2.6109748}
+    - {x: -129.46178, y: 1.945834E-07, z: 15.496238}
+    - {x: -143.20604, y: 0, z: 25.960634}
+    - {x: -160.85501, y: 2.653709E-07, z: 29.98239}
+    - {x: -178.42577, y: -1.4319177E-07, z: 31.192825}
+    - {x: -213.1769, y: -1.5773655E-07, z: 30.91953}
+    - {x: -236.67139, y: -6.07498E-08, z: 32.166386}
+    - {x: -256.9619, y: 4.7393815E-08, z: 32.40515}
+    - {x: -273.60257, y: 1.7043585E-07, z: 34.81363}
+    - {x: -284.963, y: 6.529596E-08, z: 38.768536}
+    - {x: -295.79852, y: -1.30654E-07, z: 47.08474}
+    - {x: -310.0801, y: -6.691793E-08, z: 69.29747}
+    - {x: -321.6333, y: -4.904773E-08, z: 94.91485}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 1
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 35
+    points:
+    - {x: -321.6333, y: -4.904773E-08, z: 94.91485}
+    - {x: -327.47476, y: 1.1888624E-08, z: 107.83822}
+    - {x: -335.4491, y: 1.8265617E-08, z: 111.11199}
+    - {x: -338.37448, y: 2.697119E-09, z: 103.852905}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 36
+    points:
+    - {x: -640.50146, y: -3.2407337E-05, z: 530.6848}
+    - {x: -625.44385, y: 4.1452942E-08, z: 534.39624}
+    - {x: -612.1627, y: -7.7384136E-08, z: 526.6834}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 37
+    points:
+    - {x: -615.1885, y: -0.0012655274, z: 505.67786}
+    - {x: -626.9905, y: -0.024696782, z: 498.20465}
+    - {x: -639.4131, y: 0.0007752176, z: 502.20514}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 38
+    points:
+    - {x: -639.4131, y: 0.0007752176, z: 502.20514}
+    - {x: -642.5123, y: 0.00038764125, z: 510.6848}
+    - {x: -643.134, y: 2.4154573E-08, z: 521.9006}
+    - {x: -640.50146, y: -3.2407337E-05, z: 530.6848}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 39
+    points:
+    - {x: -612.1627, y: -7.7384136E-08, z: 526.6834}
+    - {x: -610.1072, y: -0.0006328241, z: 514.2633}
+    - {x: -615.1885, y: -0.0012655274, z: 505.67786}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 40
+    points:
+    - {x: -965.73596, y: 1.1369422E-08, z: 794.2115}
+    - {x: -960.901, y: -1.3139699E-10, z: 784.61273}
+    - {x: -965.9186, y: 1.0259029E-10, z: 779.99664}
+    - {x: -975.40967, y: -1.7904817E-07, z: 781.185}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 41
+    points:
+    - {x: -1010.2679, y: 2.514709E-05, z: 808.9746}
+    - {x: -1017.60785, y: -4.477057E-09, z: 816.89197}
+    - {x: -1011.8199, y: -9.031166E-09, z: 825.4292}
+    - {x: -1002.91046, y: 1.3317555E-06, z: 823.1569}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 42
+    points:
+    - {x: -1010.2679, y: 2.514709E-05, z: 808.9746}
+    - {x: -1050.7596, y: -3.13479E-07, z: 838.11725}
+    - {x: -1097.9607, y: -0.00060876907, z: 875.13336}
+    - {x: -1137.1708, y: -0.00053252437, z: 902.93933}
+    - {x: -1187.3944, y: 0.00036117138, z: 933.9044}
+    - {x: -1233.31, y: 0.00068914774, z: 948.94684}
+    - {x: -1284.8835, y: -6.162633E-09, z: 959.5449}
+    - {x: -1339.139, y: -4.78346E-09, z: 957.861}
+    - {x: -1413.6154, y: -1.328531E-08, z: 928.6036}
+    - {x: -1526.5972, y: -7.1509554E-09, z: 851.9369}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 43
+    points:
+    - {x: -1533.4578, y: -1.1059943E-08, z: 860.6812}
+    - {x: -1438.0779, y: -2.3137023E-09, z: 927.4392}
+    - {x: -1379.8812, y: -8.169787E-09, z: 958.1759}
+    - {x: -1312.7238, y: -2.437277E-10, z: 971.53925}
+    - {x: -1252.047, y: 0.00068221195, z: 967.4522}
+    - {x: -1203.3861, y: 0.00056555204, z: 955.2998}
+    - {x: -1152.3357, y: -0.00026470606, z: 934.3091}
+    - {x: -1098.7134, y: -0.00069181784, z: 898.8245}
+    - {x: -1066.4584, y: -3.1126223E-05, z: 874.55145}
+    - {x: -1021.62195, y: 7.793156E-08, z: 840.2951}
+    - {x: -1002.91046, y: 1.3317555E-06, z: 823.1569}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 44
+    points:
+    - {x: -975.40967, y: -1.7904817E-07, z: 781.185}
+    - {x: -1010.2679, y: 2.514709E-05, z: 808.9746}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 45
+    points:
+    - {x: -1002.91046, y: 1.3317555E-06, z: 823.1569}
+    - {x: -965.73596, y: 1.1369422E-08, z: 794.2115}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 46
+    points:
+    - {x: -351.6102, y: -2.0317636E-08, z: 153.97275}
+    - {x: -353.05988, y: -1.4594863E-08, z: 168.07597}
+    - {x: -354.1885, y: 1.6286307E-08, z: 180.75964}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 47
+    points:
+    - {x: -355.47122, y: 1.9856875E-08, z: 199.93561}
+    - {x: -350.22955, y: 2.3361901E-09, z: 202.91428}
+    - {x: -345.6804, y: -1.7554878E-08, z: 199.83353}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 48
+    points:
+    - {x: -344.89276, y: 4.2341654E-08, z: 182.44989}
+    - {x: -348.21957, y: 9.441797E-08, z: 178.42578}
+    - {x: -354.1885, y: 1.6286307E-08, z: 180.75964}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 49
+    points:
+    - {x: -352.35376, y: -1.0102127E-07, z: 244.4029}
+    - {x: -348.29327, y: -6.7989355E-08, z: 225.76117}
+    - {x: -345.6804, y: -1.7554878E-08, z: 199.83353}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 50
+    points:
+    - {x: -345.6804, y: -1.7554878E-08, z: 199.83353}
+    - {x: -344.89276, y: 4.2341654E-08, z: 182.44989}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 51
+    points:
+    - {x: -354.1885, y: 1.6286307E-08, z: 180.75964}
+    - {x: -355.47122, y: 1.9856875E-08, z: 199.93561}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 52
+    points:
+    - {x: -47.944393, y: 4.14803E-07, z: -86.210686}
+    - {x: -20.329979, y: 5.4452494E-07, z: -80.52664}
+    - {x: 4.531145, y: 4.788093E-07, z: -70.437}
+    - {x: 34.421986, y: 3.63523E-07, z: -55.01907}
+    - {x: 63.852394, y: -1.6102522E-08, z: -33.666237}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 53
+    points:
+    - {x: 63.852394, y: -1.6102522E-08, z: -33.666237}
+    - {x: 91.140526, y: -1.8333418E-08, z: -2.3463106}
+    - {x: 107.79697, y: 6.582226E-08, z: 21.701881}
+    - {x: 121.11237, y: -0.020002415, z: 37.943882}
+    - {x: 134.64055, y: -1.2826752E-07, z: 46.818806}
+    - {x: 154.50032, y: 5.9233764E-07, z: 49.779175}
+    - {x: 185.37115, y: 3.1653357E-07, z: 48.25412}
+    - {x: 242.36743, y: 3.1114746E-07, z: 44.48809}
+    - {x: 278.71072, y: 8.474445E-08, z: 41.16135}
+    - {x: 313.72235, y: -1.5540893E-07, z: 37.865158}
+    - {x: 339.86295, y: -2.2490816E-07, z: 35.67538}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 54
+    points:
+    - {x: 96.00291, y: -1.5187508E-08, z: -3.9993908}
+    - {x: 71.51752, y: 1.7465991E-08, z: -38.583664}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 55
+    points:
+    - {x: 71.51752, y: 1.7465991E-08, z: -38.583664}
+    - {x: 39.855984, y: -4.897475E-07, z: -64.16618}
+    - {x: -9.03109, y: -1.1770098E-08, z: -88.04979}
+    - {x: -48.430134, y: -8.563384E-08, z: -96.09018}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 56
+    points:
+    - {x: 63.852394, y: -1.6102522E-08, z: -33.666237}
+    - {x: 69.596176, y: -4.0689624E-08, z: -27.148716}
+    - {x: 76.487114, y: 4.3834426E-08, z: -29.992596}
+    - {x: 71.51752, y: 1.7465991E-08, z: -38.583664}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 57
+    points:
+    - {x: 71.51752, y: 1.7465991E-08, z: -38.583664}
+    - {x: 65.22098, y: -3.6720252E-07, z: -43.5557}
+    - {x: 59.42385, y: -1.7830295E-08, z: -37.977325}
+    - {x: 63.852394, y: -1.6102522E-08, z: -33.666237}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 58
+    points:
+    - {x: 508.5354, y: 3.2090472E-07, z: 148.20602}
+    - {x: 515.33466, y: 3.2373276E-07, z: 152.34114}
+    - {x: 518.7004, y: -3.4283465E-07, z: 147.29256}
+    - {x: 510.15314, y: -2.599058E-07, z: 143.53026}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 59
+    points:
+    - {x: 510.15314, y: -2.599058E-07, z: 143.53026}
+    - {x: 504.11563, y: -1.3362563E-07, z: 139.81323}
+    - {x: 500.93695, y: 8.768525E-08, z: 144.39432}
+    - {x: 508.5354, y: 3.2090472E-07, z: 148.20602}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 60
+    points:
+    - {x: 682.2798, y: 7.0312666E-08, z: 174.87036}
+    - {x: 681.8417, y: -3.169202E-07, z: 229.19594}
+    - {x: 683.2066, y: -5.2304436E-08, z: 313.15094}
+    - {x: 684.21136, y: 2.8782637E-07, z: 369.49908}
+    - {x: 690.0708, y: 2.9852004E-07, z: 397.89484}
+    - {x: 702.9918, y: 2.592971E-07, z: 422.53455}
+    - {x: 721.9223, y: -4.3011056E-08, z: 442.06598}
+    - {x: 756.478, y: -4.199062E-08, z: 466.25488}
+    - {x: 782.0192, y: 3.4074665E-07, z: 480.2274}
+    - {x: 828.444, y: -2.38981E-07, z: 500.66016}
+    - {x: 895.6413, y: 0, z: 524.83905}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 61
+    points:
+    - {x: 895.6413, y: 0, z: 524.83905}
+    - {x: 1003.92664, y: 7.874469E-08, z: 555.3485}
+    - {x: 1193.4211, y: -2.6293807E-07, z: 600.54614}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 62
+    points:
+    - {x: 1196.0598, y: 3.162068E-07, z: 590.2901}
+    - {x: 1132.5298, y: 1.0720382E-08, z: 577.42126}
+    - {x: 1069.2347, y: -2.2668304E-07, z: 562.1585}
+    - {x: 983.1952, y: 0, z: 540.312}
+    - {x: 895.98816, y: 0, z: 514.0648}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 63
+    points:
+    - {x: 895.98816, y: 0, z: 514.0648}
+    - {x: 832.0918, y: 2.4699335E-07, z: 491.83508}
+    - {x: 770.9607, y: 3.95746E-09, z: 463.23816}
+    - {x: 730.2625, y: -1.0613979E-08, z: 436.7901}
+    - {x: 707.78204, y: -2.5391503E-07, z: 414.75687}
+    - {x: 694.32983, y: -2.9401306E-07, z: 379.9942}
+    - {x: 692.70276, y: -1.3783963E-07, z: 352.40994}
+    - {x: 692.5984, y: 7.724064E-08, z: 316.99518}
+    - {x: 691.5959, y: 3.2334933E-07, z: 265.65488}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 64
+    points:
+    - {x: 895.6413, y: 0, z: 524.83905}
+    - {x: 909.18774, y: 0, z: 528.59186}
+    - {x: 912.4575, y: 0, z: 518.04144}
+    - {x: 895.98816, y: 0, z: 514.0648}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 65
+    points:
+    - {x: 895.98816, y: 0, z: 514.0648}
+    - {x: 885.8928, y: 0, z: 510.9739}
+    - {x: 881.55945, y: -1.6569484E-08, z: 520.52716}
+    - {x: 895.6413, y: 0, z: 524.83905}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 66
+    points:
+    - {x: 339.86295, y: -2.2490816E-07, z: 35.67538}
+    - {x: 360.92212, y: -2.948667E-07, z: 37.37729}
+    - {x: 376.89474, y: -1.9028694E-07, z: 45.66979}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 67
+    points:
+    - {x: 376.89474, y: -1.9028694E-07, z: 45.66979}
+    - {x: 387.02472, y: 4.5343356E-08, z: 52.337288}
+    - {x: 397.96634, y: 1.9767214E-07, z: 61.000122}
+    - {x: 422.78043, y: -5.61984E-08, z: 81.554565}
+    - {x: 451.17795, y: 9.117514E-08, z: 104.94878}
+    - {x: 479.30524, y: 1.996534E-07, z: 128.20778}
+    - {x: 508.5354, y: 3.2090472E-07, z: 148.20602}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 1
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 68
+    points:
+    - {x: 402.26215, y: 6.517566E-08, z: 24.103918}
+    - {x: 366.07883, y: 1.5007714E-07, z: 29.263962}
+    - {x: 362.80344, y: -4.6032375E-07, z: 38.166233}
+    - {x: 376.89474, y: -1.9028694E-07, z: 45.66979}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 69
+    points:
+    - {x: 402.26215, y: 6.517566E-08, z: 24.103918}
+    - {x: 349.90295, y: 8.644994E-08, z: 29.77664}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 70
+    points:
+    - {x: 349.90295, y: 8.644994E-08, z: 29.77664}
+    - {x: 323.9073, y: 1.6020041E-07, z: 32.134506}
+    - {x: 292.49393, y: 1.5772898E-07, z: 34.678635}
+    - {x: 245.3914, y: -1.5217232E-07, z: 38.949028}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 71
+    points:
+    - {x: 510.15314, y: -2.599058E-07, z: 143.53026}
+    - {x: 489.99948, y: -1.3868521E-07, z: 129.55174}
+    - {x: 470.96564, y: -3.6449208E-08, z: 114.861946}
+    - {x: 453.80896, y: -2.1079528E-07, z: 101.17313}
+    - {x: 427.51428, y: -1.5620454E-08, z: 79.14598}
+    - {x: 403.23923, y: -1.5351353E-07, z: 58.71375}
+    - {x: 395.10034, y: -1.7048667E-07, z: 52.65033}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 1
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 72
+    points:
+    - {x: 395.10034, y: -1.7048667E-07, z: 52.65033}
+    - {x: 382.07788, y: -2.4953778E-07, z: 42.6659}
+    - {x: 379.18542, y: -2.5577344E-07, z: 34.54626}
+    - {x: 388.167, y: -2.097355E-07, z: 31.206411}
+    - {x: 396.3109, y: -1.7277621E-07, z: 30.475143}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 73
+    points:
+    - {x: 395.10034, y: -1.7048667E-07, z: 52.65033}
+    - {x: 387.74658, y: -3.052181E-07, z: 47.320446}
+    - {x: 371.03384, y: -3.0561168E-07, z: 35.478752}
+    - {x: 349.90295, y: 8.644994E-08, z: 29.77664}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 74
+    points:
+    - {x: 689.35284, y: -1.7341856E-08, z: 140.30305}
+    - {x: 688.3434, y: 2.071206E-07, z: 112.848175}
+    - {x: 686.0438, y: 3.3285153E-07, z: 94.53267}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 75
+    points:
+    - {x: 690.76483, y: 5.512486E-07, z: 205.59932}
+    - {x: 689.57025, y: 1.9168276E-07, z: 174.33124}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 76
+    points:
+    - {x: 689.57025, y: 1.9168276E-07, z: 174.33124}
+    - {x: 689.35284, y: -1.7341856E-08, z: 140.30305}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 77
+    points:
+    - {x: 650.7895, y: 0, z: 162.56215}
+    - {x: 672.31256, y: -1.8079528E-07, z: 161.78033}
+    - {x: 687.45776, y: 1.9694254E-07, z: 154.58632}
+    - {x: 689.35284, y: -1.7341856E-08, z: 140.30305}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 78
+    points:
+    - {x: 508.5354, y: 3.2090472E-07, z: 148.20602}
+    - {x: 531.2324, y: 9.286133E-08, z: 158.0252}
+    - {x: 570.0425, y: 2.5753913E-08, z: 163.9751}
+    - {x: 601.3362, y: -1.1952272E-07, z: 164.8086}
+    - {x: 627.78015, y: -5.826931E-08, z: 164.2672}
+    - {x: 650.7895, y: 0, z: 162.56215}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 79
+    points:
+    - {x: 650.7895, y: 0, z: 162.56215}
+    - {x: 673.31085, y: -1.6914962E-07, z: 163.86525}
+    - {x: 682.2798, y: 7.0312666E-08, z: 174.87036}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 80
+    points:
+    - {x: 689.57025, y: 1.9168276E-07, z: 174.33124}
+    - {x: 681.9046, y: 1.853405E-08, z: 158.24644}
+    - {x: 657.2548, y: -7.211576E-08, z: 157.22331}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 81
+    points:
+    - {x: 680.0239, y: 5.141828E-08, z: 139.21097}
+    - {x: 674.6878, y: -3.4107657E-07, z: 153.45633}
+    - {x: 657.2548, y: -7.211576E-08, z: 157.22331}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 82
+    points:
+    - {x: 657.2548, y: -7.211576E-08, z: 157.22331}
+    - {x: 633.46625, y: -3.9871633E-08, z: 159.13106}
+    - {x: 607.714, y: 1.1403107E-07, z: 160.2988}
+    - {x: 576.71326, y: -3.9107462E-08, z: 160.2601}
+    - {x: 555.0421, y: 5.987614E-09, z: 157.59398}
+    - {x: 538.821, y: -7.411339E-08, z: 154.74216}
+    - {x: 523.78674, y: -2.518732E-07, z: 150.34381}
+    - {x: 510.15314, y: -2.599058E-07, z: 143.53026}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 83
+    points:
+    - {x: 1193.4211, y: -2.6293807E-07, z: 600.54614}
+    - {x: 1203.8271, y: -4.727035E-07, z: 602.8639}
+    - {x: 1206.4591, y: 4.777917E-07, z: 591.77203}
+    - {x: 1196.0598, y: 3.162068E-07, z: 590.2901}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 84
+    points:
+    - {x: -1526.5972, y: -7.1509554E-09, z: 851.9369}
+    - {x: -1535.1598, y: 2.3286023E-10, z: 846.0876}
+    - {x: -1541.6414, y: 1.2309594E-10, z: 854.2747}
+    - {x: -1533.4578, y: -1.1059943E-08, z: 860.6812}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 85
+    points:
+    - {x: -640.50146, y: -3.2407337E-05, z: 530.6848}
+    - {x: -641.46643, y: -3.0178447E-07, z: 544.3343}
+    - {x: -673.2445, y: -3.6990673E-09, z: 562.8451}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 86
+    points:
+    - {x: -673.2445, y: -3.6990673E-09, z: 562.8451}
+    - {x: -704.1802, y: 0, z: 576.8667}
+    - {x: -734.047, y: -9.1352526E-09, z: 594.7238}
+    - {x: -765.4227, y: -2.1299416E-08, z: 613.8388}
+    - {x: -779.6958, y: -3.0883363E-08, z: 623.3333}
+    - {x: -787.0525, y: -3.2070009E-09, z: 635.1543}
+    - {x: -797.07587, y: 1.6556225E-08, z: 652.00305}
+    - {x: -822.3085, y: 1.4901161E-08, z: 669.3777}
+    - {x: -872.65967, y: 1.8626451E-08, z: 704.6349}
+    - {x: -904.54553, y: 1.3114123E-09, z: 731.254}
+    - {x: -931.5382, y: -1.3196131E-07, z: 751.7765}
+    - {x: -975.40967, y: -1.7904817E-07, z: 781.185}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 87
+    points:
+    - {x: -615.1885, y: -0.0012655274, z: 505.67786}
+    - {x: -620.9287, y: 0.03595964, z: 492.41953}
+    - {x: -606.8209, y: 1.1920929E-07, z: 472.09113}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 88
+    points:
+    - {x: -606.8209, y: 1.1920929E-07, z: 472.09113}
+    - {x: -563.3667, y: 1.1920929E-07, z: 439.7294}
+    - {x: -512.39166, y: 1.1920929E-07, z: 397.00595}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 89
+    points:
+    - {x: -355.47122, y: 1.9856875E-08, z: 199.93561}
+    - {x: -357.5265, y: 5.5642676E-08, z: 220.64731}
+    - {x: -364.12033, y: 7.931708E-08, z: 243.27367}
+    - {x: -381.49524, y: 4.2507054E-08, z: 266.5515}
+    - {x: -411.90118, y: -5.978855E-08, z: 293.72748}
+    - {x: -453.98346, y: -2.0477216E-07, z: 330.9144}
+    - {x: -497.32208, y: -1.7804335E-07, z: 369.5663}
+    - {x: -536.9427, y: 1.12233344E-07, z: 405.4962}
+    - {x: -580.7737, y: 1.1920929E-07, z: 439.9231}
+    - {x: -613.5472, y: 1.1920929E-07, z: 466.5172}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 90
+    points:
+    - {x: -613.5472, y: 1.1920929E-07, z: 466.5172}
+    - {x: -629.69104, y: 0.04602617, z: 485.9791}
+    - {x: -639.4131, y: 0.0007752176, z: 502.20514}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 91
+    points:
+    - {x: 683.4406, y: 8.66191E-08, z: -9.091538}
+    - {x: 683.77545, y: 5.032966E-09, z: -16.470142}
+    - {x: 680.7176, y: -6.753849E-08, z: -23.962214}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 92
+    points:
+    - {x: 680.7176, y: -6.753849E-08, z: -23.962214}
+    - {x: 676.8422, y: -9.879077E-08, z: -28.992947}
+    - {x: 669.2547, y: -1.0561814E-07, z: -36.231625}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 93
+    points:
+    - {x: 669.2547, y: -1.0561814E-07, z: -36.231625}
+    - {x: 662.9458, y: 1.617045E-08, z: -35.84906}
+    - {x: 656.14, y: 1.91495E-08, z: -34.212715}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 94
+    points:
+    - {x: 656.14, y: 1.91495E-08, z: -34.212715}
+    - {x: 650.06, y: 5.6813256E-09, z: -26.63959}
+    - {x: 646.11816, y: 2.156961E-08, z: -17.720272}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 95
+    points:
+    - {x: 646.11816, y: 2.156961E-08, z: -17.720272}
+    - {x: 646.1581, y: -5.6257536E-09, z: -12.20626}
+    - {x: 647.71106, y: -2.6610493E-08, z: -5.477171}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 96
+    points:
+    - {x: 674.1637, y: 9.1610675E-09, z: 0.7724229}
+    - {x: 679.715, y: 7.045257E-08, z: -3.951381}
+    - {x: 683.4406, y: 8.66191E-08, z: -9.091538}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 97
+    points:
+    - {x: 647.71106, y: -2.6610493E-08, z: -5.477171}
+    - {x: 654.8097, y: 2.141821E-08, z: -0.32513452}
+    - {x: 661.976, y: 7.743844E-08, z: 2.8649087}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 98
+    points:
+    - {x: 661.976, y: 7.743844E-08, z: 2.8649087}
+    - {x: 668.2024, y: 6.659904E-08, z: 2.9552248}
+    - {x: 674.1637, y: 9.1610675E-09, z: 0.7724229}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 99
+    points:
+    - {x: 646.11816, y: 2.156961E-08, z: -17.720272}
+    - {x: 623.99927, y: 4.5284406E-08, z: -13.815259}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 100
+    points:
+    - {x: 623.99927, y: 4.5284406E-08, z: -13.815259}
+    - {x: 594.3913, y: 7.6740626E-08, z: -8.593987}
+    - {x: 534.47906, y: 1.3867202E-07, z: 1.9360825}
+    - {x: 498.93045, y: 1.810062E-07, z: 8.096164}
+    - {x: 468.99512, y: 1.9275514E-07, z: 13.16639}
+    - {x: 402.26215, y: 6.517566E-08, z: 24.103918}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 101
+    points:
+    - {x: 490.26108, y: -2.226566E-07, z: 18.5309}
+    - {x: 504.88403, y: -1.5949722E-07, z: 15.692635}
+    - {x: 540.1324, y: -1.1875136E-07, z: 10.208292}
+    - {x: 594.8009, y: -7.013431E-08, z: 1.762873}
+    - {x: 624.6727, y: -4.5333834E-08, z: -2.3849876}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 102
+    points:
+    - {x: 624.6727, y: -4.5333834E-08, z: -2.3849876}
+    - {x: 647.71106, y: -2.6610493E-08, z: -5.477171}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 103
+    points:
+    - {x: 683.4406, y: 8.66191E-08, z: -9.091538}
+    - {x: 717.9308, y: 1.3362559E-07, z: -14.269224}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 104
+    points:
+    - {x: 717.9308, y: 1.3362559E-07, z: -14.269224}
+    - {x: 762.8921, y: 1.9475415E-07, z: -20.938807}
+    - {x: 807.39966, y: 2.5545282E-07, z: -27.595892}
+    - {x: 849.2761, y: 3.0954126E-07, z: -32.973614}
+    - {x: 905.0203, y: 3.645685E-07, z: -35.01064}
+    - {x: 914.0235, y: 5.921939E-07, z: 5.153237}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 105
+    points:
+    - {x: 901.7344, y: -5.950562E-07, z: -97.440125}
+    - {x: 905.86334, y: -5.9453436E-07, z: -68.0438}
+    - {x: 890.3227, y: -4.1120612E-07, z: -48.295055}
+    - {x: 848.2974, y: -3.653536E-07, z: -42.199093}
+    - {x: 804.61304, y: -3.1150205E-07, z: -39.265415}
+    - {x: 781.7796, y: -2.5031994E-07, z: -36.756317}
+    - {x: 755.10785, y: -1.8161032E-07, z: -33.43041}
+    - {x: 714.8186, y: -1.1645618E-07, z: -28.331623}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 106
+    points:
+    - {x: 714.8186, y: -1.1645618E-07, z: -28.331623}
+    - {x: 680.7176, y: -6.753849E-08, z: -23.962214}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 107
+    points:
+    - {x: 669.2547, y: -1.0561814E-07, z: -36.231625}
+    - {x: 664.54034, y: 2.8853648E-09, z: -71.65815}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 108
+    points:
+    - {x: 664.54034, y: 2.8853648E-09, z: -71.65815}
+    - {x: 658.1016, y: 9.936885E-08, z: -118.070755}
+    - {x: 650.7024, y: 6.462636E-08, z: -165.4688}
+    - {x: 644.307, y: 3.2086231E-09, z: -205.95943}
+    - {x: 641.1848, y: -5.206334E-09, z: -232.5394}
+    - {x: 644.89954, y: -3.5231809E-09, z: -242.76688}
+    - {x: 655.10315, y: -3.1332916E-09, z: -253.72888}
+    - {x: 672.0805, y: -4.5620734E-09, z: -259.6145}
+    - {x: 691.6367, y: -3.892924E-09, z: -262.47177}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 109
+    points:
+    - {x: 691.44244, y: 4.944585E-09, z: -276.91522}
+    - {x: 673.5587, y: 4.588109E-09, z: -273.091}
+    - {x: 643.697, y: 3.2474927E-09, z: -263.16223}
+    - {x: 630.438, y: 3.1311644E-09, z: -245.66676}
+    - {x: 628.4794, y: 4.1208423E-09, z: -224.43272}
+    - {x: 632.8684, y: -4.784261E-08, z: -190.33044}
+    - {x: 639.5731, y: -8.6698755E-08, z: -145.03023}
+    - {x: 651.1037, y: -3.945086E-08, z: -68.634155}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 110
+    points:
+    - {x: 651.1037, y: -3.945086E-08, z: -68.634155}
+    - {x: 656.14, y: 1.91495E-08, z: -34.212715}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 111
+    points:
+    - {x: 677.74445, y: -2.3523387E-07, z: 28.390738}
+    - {x: 675.9048, y: -1.1303641E-07, z: 16.686987}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 112
+    points:
+    - {x: 675.9048, y: -1.1303641E-07, z: 16.686987}
+    - {x: 674.1637, y: 9.1610675E-09, z: 0.7724229}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 113
+    points:
+    - {x: 661.976, y: 7.743844E-08, z: 2.8649087}
+    - {x: 664.78314, y: 1.8446207E-07, z: 18.698687}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 114
+    points:
+    - {x: 664.78314, y: 1.8446207E-07, z: 18.698687}
+    - {x: 668.3471, y: 2.0983981E-07, z: 39.269478}
+    - {x: 671.80927, y: -1.3939005E-07, z: 63.23611}
+    - {x: 676.9786, y: -4.4332694E-07, z: 99.60464}
+    - {x: 680.0239, y: 5.141828E-08, z: 139.21097}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 115
+    points:
+    - {x: -203.80328, y: -3.6984083E-08, z: 829.1118}
+    - {x: -253.02933, y: 0, z: 807.8303}
+    - {x: -326.5876, y: -4.2040597E-08, z: 759.50525}
+    - {x: -425.04846, y: 3.688758E-07, z: 685.3041}
+    - {x: -498.076, y: -9.622248E-09, z: 616.68774}
+    - {x: -546.5289, y: -2.3891928E-09, z: 575.688}
+    - {x: -586.34467, y: -4.2943007E-08, z: 552.9015}
+    - {x: -603.9211, y: -5.063449E-07, z: 534.5669}
+    - {x: -612.1627, y: -7.7384136E-08, z: 526.6834}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 116
+    points:
+    - {x: -207.43367, y: 4.2413394E-08, z: 840.2916}
+    - {x: -197.43793, y: -9.6922946E-08, z: 843.5391}
+    - {x: -192.11888, y: -7.566204E-08, z: 835.212}
+    - {x: -203.80328, y: -3.6984083E-08, z: 829.1118}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 117
+    points:
+    - {x: -593.02045, y: 2.102083E-08, z: 584.6977}
+    - {x: -577.5778, y: 1.855073E-08, z: 591.1529}
+    - {x: -553.6427, y: -2.2594289E-08, z: 606.99097}
+    - {x: -490.22412, y: -3.7032446E-09, z: 662.0094}
+    - {x: -369.08636, y: 4.5716625E-08, z: 761.0081}
+    - {x: -293.6843, y: 1.4463504E-07, z: 811.1704}
+    - {x: -252.34447, y: -4.804784E-09, z: 822.97327}
+    - {x: -207.43367, y: 4.2413394E-08, z: 840.2916}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 118
+    points:
+    - {x: -965.73596, y: 1.1369422E-08, z: 794.2115}
+    - {x: -926.5047, y: 1.4097066E-08, z: 758.1104}
+    - {x: -893.46204, y: 1.8626451E-08, z: 733.6134}
+    - {x: -853.88873, y: 1.8626451E-08, z: 708.75433}
+    - {x: -821.8132, y: 1.4901161E-08, z: 685.6897}
+    - {x: -797.34326, y: 1.4901161E-08, z: 664.3612}
+    - {x: -762.5559, y: 1.15484006E-07, z: 653.84033}
+    - {x: -735.57385, y: 1.3603177E-07, z: 634.61163}
+    - {x: -717.3463, y: 8.293942E-08, z: 621.06104}
+    - {x: -697.5303, y: 1.9018449E-08, z: 607.8364}
+    - {x: -674.8079, y: -2.133546E-08, z: 595.60364}
+    - {x: -654.84155, y: -4.7062702E-08, z: 588.71716}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 119
+    points:
+    - {x: 914.217, y: -6.2534036E-07, z: -99.588554}
+    - {x: 910.9416, y: -6.220172E-07, z: -111.2737}
+    - {x: 901.20416, y: -5.9279836E-07, z: -109.421814}
+    - {x: 901.7344, y: -5.950562E-07, z: -97.440125}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 120
+    points:
+    - {x: 914.0235, y: 5.921939E-07, z: 5.153237}
+    - {x: 916.61017, y: 5.9417783E-07, z: 20.581678}
+    - {x: 929.14154, y: 6.2349375E-07, z: 18.350063}
+    - {x: 927.8685, y: 6.227233E-07, z: 5.3661733}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 121
+    points:
+    - {x: 927.8685, y: 6.227233E-07, z: 5.3661733}
+    - {x: 923.3254, y: 6.256923E-07, z: -30.797695}
+    - {x: 917.75146, y: -6.252362E-07, z: -70.306625}
+    - {x: 914.217, y: -6.2534036E-07, z: -99.588554}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 122
+    points:
+    - {x: 691.6367, y: -3.892924E-09, z: -262.47177}
+    - {x: 705.1208, y: -3.8222994E-09, z: -265.85852}
+    - {x: 702.90424, y: 3.8094345E-09, z: -277.4727}
+    - {x: 691.44244, y: 4.944585E-09, z: -276.91522}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 123
+    points:
+    - {x: -338.37448, y: 2.697119E-09, z: 103.852905}
+    - {x: -337.07733, y: -6.585821E-09, z: 75.856735}
+    - {x: -336.32132, y: -1.6648731E-09, z: 56.678078}
+    - {x: -332.80075, y: 2.5307926E-08, z: 21.255337}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 124
+    points:
+    - {x: -332.80075, y: 2.5307926E-08, z: 21.255337}
+    - {x: -327.65494, y: 1.3576009E-07, z: -1.6867806}
+    - {x: -313.4213, y: 1.5334085E-07, z: -35.348587}
+    - {x: -289.85208, y: 3.509397E-07, z: -56.937958}
+    - {x: -243.75082, y: -2.6105118E-10, z: -72.8707}
+    - {x: -205.0713, y: 3.2258677E-07, z: -78.72784}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 125
+    points:
+    - {x: -342.65536, y: -2.0178147E-08, z: 19.892582}
+    - {x: -332.80075, y: 2.5307926E-08, z: 21.255337}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 126
+    points:
+    - {x: -332.80075, y: 2.5307926E-08, z: 21.255337}
+    - {x: -342.65536, y: -2.0178147E-08, z: 19.892582}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 127
+    points:
+    - {x: -654.84155, y: -4.7062702E-08, z: 588.71716}
+    - {x: -623.4888, y: -1.5552773E-08, z: 584.22}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 128
+    points:
+    - {x: -623.4888, y: -1.5552773E-08, z: 584.22}
+    - {x: -593.02045, y: 2.102083E-08, z: 584.6977}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 129
+    points:
+    - {x: -623.4888, y: -1.5552773E-08, z: 584.22}
+    - {x: -611.4281, y: 1.198271E-07, z: 577.22394}
+    - {x: -611.6863, y: 2.3286006E-08, z: 548.1113}
+    - {x: -612.1627, y: -7.7384136E-08, z: 526.6834}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0

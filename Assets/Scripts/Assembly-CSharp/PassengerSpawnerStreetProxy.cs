@@ -1,0 +1,3 @@
+public class PassengerSpawnerStreetProxy : PassengerSpawnerStreet
+{
+}

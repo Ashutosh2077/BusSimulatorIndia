@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb42eeb3c2094ba72c0e8e86d9ada8d6, type: 3}
+  m_Name: Electric
+  m_EditorClassIdentifier:
+  spawnCars: {fileID: 11400000, guid: 89630b3959edb1548bb0e526ce6190df, type: 2}
+  spawnSettings: {fileID: 11400000, guid: 6470f74649a7fc8409cf7b52dca7f234, type: 2}
+  splines:
+  - id: 1
+    points:
+    - {x: 107.38622, y: 7.375546E-05, z: 31.407227}
+    - {x: 88.96179, y: 7.0745875E-05, z: 44.454914}
+    - {x: 57.156784, y: 5.314E-05, z: 54.251507}
+    - {x: 17.46963, y: 5.1433995E-05, z: 62.821304}
+    - {x: -17.634293, y: 4.985374E-05, z: 71.808754}
+    - {x: -68.63879, y: 4.1348452E-05, z: 75.103485}
+    - {x: -112.026054, y: 3.3253946E-05, z: 75.87699}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0
+  - id: 2
+    points:
+    - {x: 105.75454, y: 3.1823627E-05, z: 270.14407}
+    - {x: 83.76936, y: 3.181302E-05, z: 270.03513}
+    - {x: 57.98775, y: 3.1839583E-05, z: 269.8338}
+    - {x: 25.742994, y: 3.179924E-05, z: 269.33313}
+    - {x: -2.3082757, y: 3.183953E-05, z: 269.75375}
+    - {x: -35.91146, y: 3.1747997E-05, z: 269.03928}
+    - {x: -62.376556, y: 3.1777847E-05, z: 268.36658}
+    overtakeSplines:
+    halfWidth: 2
+    allowedCarsGroup: -1
+    lowerMovePriority: 0
+    predefinedPathIndex: -1
+    skipInRoadLines: 0

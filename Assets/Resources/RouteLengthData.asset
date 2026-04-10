@@ -1,0 +1,1776 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -341081831, guid: 5f9c1b5fb2826cf6c793cc36b17f3832, type: 3}
+  m_Name: RouteLengthData
+  m_EditorClassIdentifier:
+  id:
+  - AHB G-01 G-02 1
+  - AHB G-01 G-02 0
+  - AHB G-01 S-01 1
+  - AHB G-01 S-01 0
+  - AHB G-01 CareerDrop 1
+  - AHB G-01 CareerDrop 0
+  - AHB G-01 TourDrop_Dinas 1
+  - AHB G-01 TourDrop_Dinas 0
+  - AHB G-01 TourDrop_Swasta 1
+  - AHB G-01 TourDrop_Swasta 0
+  - AHB G-02 G-01 1
+  - AHB G-02 G-01 0
+  - AHB G-02 S-01 1
+  - AHB G-02 S-01 0
+  - AHB G-02 CareerDrop 1
+  - AHB G-02 CareerDrop 0
+  - AHB G-02 TourDrop_Dinas 1
+  - AHB G-02 TourDrop_Dinas 0
+  - AHB G-02 TourDrop_Swasta 1
+  - AHB G-02 TourDrop_Swasta 0
+  - AHB S-01 G-01 1
+  - AHB S-01 G-01 0
+  - AHB S-01 G-02 1
+  - AHB S-01 G-02 0
+  - AHB S-01 CareerSpawn 1
+  - AHB S-01 CareerSpawn 0
+  - AHB S-01 TourSpawn_Dinas 1
+  - AHB S-01 TourSpawn_Dinas 0
+  - AHB S-01 TourSpawn_Swasta 1
+  - AHB S-01 TourSpawn_Swasta 0
+  - AHB S-01 CareerDrop 1
+  - AHB S-01 CareerDrop 0
+  - AHB CareerSpawn G-01 1
+  - AHB CareerSpawn G-01 0
+  - AHB CareerSpawn G-02 1
+  - AHB CareerSpawn G-02 0
+  - AHB CareerSpawn S-01 1
+  - AHB CareerSpawn S-01 0
+  - AHB TourSpawn_Dinas G-01 1
+  - AHB TourSpawn_Dinas G-01 0
+  - AHB TourSpawn_Dinas G-02 1
+  - AHB TourSpawn_Dinas G-02 0
+  - AHB TourSpawn_Swasta G-01 1
+  - AHB TourSpawn_Swasta G-01 0
+  - AHB TourSpawn_Swasta G-02 1
+  - AHB TourSpawn_Swasta G-02 0
+  - BGL G-01 G-02 1
+  - BGL G-01 G-02 0
+  - BGL G-01 G-03 1
+  - BGL G-01 G-03 0
+  - BGL G-01 S-01 1
+  - BGL G-01 S-01 0
+  - BGL G-01 CareerDrop 1
+  - BGL G-01 CareerDrop 0
+  - BGL G-01 TourDrop_Sekolah 1
+  - BGL G-01 TourDrop_Sekolah 0
+  - BGL G-01 TourDrop_Dinas 1
+  - BGL G-01 TourDrop_Dinas 0
+  - BGL G-02 G-01 1
+  - BGL G-02 G-01 0
+  - BGL G-02 G-03 1
+  - BGL G-02 G-03 0
+  - BGL G-02 S-01 1
+  - BGL G-02 S-01 0
+  - BGL G-02 CareerDrop 1
+  - BGL G-02 CareerDrop 0
+  - BGL G-02 TourDrop_Sekolah 1
+  - BGL G-02 TourDrop_Sekolah 0
+  - BGL G-02 TourDrop_Dinas 1
+  - BGL G-02 TourDrop_Dinas 0
+  - BGL G-03 G-01 1
+  - BGL G-03 G-01 0
+  - BGL G-03 G-02 1
+  - BGL G-03 G-02 0
+  - BGL G-03 S-01 1
+  - BGL G-03 S-01 0
+  - BGL G-03 CareerDrop 1
+  - BGL G-03 CareerDrop 0
+  - BGL G-03 TourDrop_Sekolah 1
+  - BGL G-03 TourDrop_Sekolah 0
+  - BGL G-03 TourDrop_Dinas 1
+  - BGL G-03 TourDrop_Dinas 0
+  - BGL S-01 G-01 1
+  - BGL S-01 G-01 0
+  - BGL S-01 G-02 1
+  - BGL S-01 G-02 0
+  - BGL S-01 G-03 1
+  - BGL S-01 G-03 0
+  - BGL S-01 CareerSpawn 1
+  - BGL S-01 CareerSpawn 0
+  - BGL S-01 TourSpawn_Sekolah 1
+  - BGL S-01 TourSpawn_Sekolah 0
+  - BGL S-01 TourSpawn_Dinas 1
+  - BGL S-01 TourSpawn_Dinas 0
+  - BGL S-01 CareerDrop 1
+  - BGL S-01 CareerDrop 0
+  - BGL CareerSpawn G-01 1
+  - BGL CareerSpawn G-01 0
+  - BGL CareerSpawn G-02 1
+  - BGL CareerSpawn G-02 0
+  - BGL CareerSpawn G-03 1
+  - BGL CareerSpawn G-03 0
+  - BGL CareerSpawn S-01 1
+  - BGL CareerSpawn S-01 0
+  - BGL TourSpawn_Sekolah G-01 1
+  - BGL TourSpawn_Sekolah G-01 0
+  - BGL TourSpawn_Sekolah G-02 1
+  - BGL TourSpawn_Sekolah G-02 0
+  - BGL TourSpawn_Sekolah G-03 1
+  - BGL TourSpawn_Sekolah G-03 0
+  - BGL TourSpawn_Dinas G-01 1
+  - BGL TourSpawn_Dinas G-01 0
+  - BGL TourSpawn_Dinas G-02 1
+  - BGL TourSpawn_Dinas G-02 0
+  - BGL TourSpawn_Dinas G-03 1
+  - BGL TourSpawn_Dinas G-03 0
+  - Chennai G-01 G-02 1
+  - Chennai G-01 G-02 0
+  - Chennai G-01 TourDrop_Sekolah 1
+  - Chennai G-01 TourDrop_Sekolah 0
+  - Chennai G-01 TourDrop_Swasta 1
+  - Chennai G-01 TourDrop_Swasta 0
+  - Chennai G-01 TourDrop_Sekolah (1) 1
+  - Chennai G-01 TourDrop_Sekolah (1) 0
+  - Chennai G-02 G-01 1
+  - Chennai G-02 G-01 0
+  - Chennai G-02 TourDrop_Sekolah 1
+  - Chennai G-02 TourDrop_Sekolah 0
+  - Chennai G-02 TourDrop_Swasta 1
+  - Chennai G-02 TourDrop_Swasta 0
+  - Chennai G-02 TourDrop_Sekolah (1) 1
+  - Chennai G-02 TourDrop_Sekolah (1) 0
+  - Chennai TourSpawn_Sekolah G-01 1
+  - Chennai TourSpawn_Sekolah G-01 0
+  - Chennai TourSpawn_Sekolah G-02 1
+  - Chennai TourSpawn_Sekolah G-02 0
+  - Chennai TourSpawn_Swasta G-01 1
+  - Chennai TourSpawn_Swasta G-01 0
+  - Chennai TourSpawn_Swasta G-02 1
+  - Chennai TourSpawn_Swasta G-02 0
+  - Chennai TourSpawn_Sekolah (1) G-01 1
+  - Chennai TourSpawn_Sekolah (1) G-01 0
+  - Chennai TourSpawn_Sekolah (1) G-02 1
+  - Chennai TourSpawn_Sekolah (1) G-02 0
+  - Chittoor G-01 G-02 1
+  - Chittoor G-01 G-02 0
+  - Chittoor G-01 TourDrop_Sekolah 1
+  - Chittoor G-01 TourDrop_Sekolah 0
+  - Chittoor G-01 TourDrop_Office 1
+  - Chittoor G-01 TourDrop_Office 0
+  - Chittoor G-02 G-01 1
+  - Chittoor G-02 G-01 0
+  - Chittoor G-02 TourDrop_Sekolah 1
+  - Chittoor G-02 TourDrop_Sekolah 0
+  - Chittoor G-02 TourDrop_Office 1
+  - Chittoor G-02 TourDrop_Office 0
+  - Chittoor TourSpawn_Sekolah G-01 1
+  - Chittoor TourSpawn_Sekolah G-01 0
+  - Chittoor TourSpawn_Sekolah G-02 1
+  - Chittoor TourSpawn_Sekolah G-02 0
+  - Chittoor TourSpawn_Office G-01 1
+  - Chittoor TourSpawn_Office G-01 0
+  - Chittoor TourSpawn_Office G-02 1
+  - Chittoor TourSpawn_Office G-02 0
+  - CMB G-01 G-02 1
+  - CMB G-01 G-02 0
+  - CMB G-01 G-03 1
+  - CMB G-01 G-03 0
+  - CMB G-01 S-01 1
+  - CMB G-01 S-01 0
+  - CMB G-01 CareerDrop 1
+  - CMB G-01 CareerDrop 0
+  - CMB G-01 TourDrop_Sekolah 1
+  - CMB G-01 TourDrop_Sekolah 0
+  - CMB G-01 TourDrop_Dinas 1
+  - CMB G-01 TourDrop_Dinas 0
+  - CMB G-01 TourDrop_Sekolah_2 1
+  - CMB G-01 TourDrop_Sekolah_2 0
+  - CMB G-02 G-01 1
+  - CMB G-02 G-01 0
+  - CMB G-02 G-03 1
+  - CMB G-02 G-03 0
+  - CMB G-02 S-01 1
+  - CMB G-02 S-01 0
+  - CMB G-02 CareerDrop 1
+  - CMB G-02 CareerDrop 0
+  - CMB G-02 TourDrop_Sekolah 1
+  - CMB G-02 TourDrop_Sekolah 0
+  - CMB G-02 TourDrop_Dinas 1
+  - CMB G-02 TourDrop_Dinas 0
+  - CMB G-02 TourDrop_Sekolah_2 1
+  - CMB G-02 TourDrop_Sekolah_2 0
+  - CMB G-03 G-01 1
+  - CMB G-03 G-01 0
+  - CMB G-03 G-02 1
+  - CMB G-03 G-02 0
+  - CMB G-03 S-01 1
+  - CMB G-03 S-01 0
+  - CMB G-03 CareerDrop 1
+  - CMB G-03 CareerDrop 0
+  - CMB G-03 TourDrop_Sekolah 1
+  - CMB G-03 TourDrop_Sekolah 0
+  - CMB G-03 TourDrop_Dinas 1
+  - CMB G-03 TourDrop_Dinas 0
+  - CMB G-03 TourDrop_Sekolah_2 1
+  - CMB G-03 TourDrop_Sekolah_2 0
+  - CMB S-01 G-01 1
+  - CMB S-01 G-01 0
+  - CMB S-01 G-02 1
+  - CMB S-01 G-02 0
+  - CMB S-01 G-03 1
+  - CMB S-01 G-03 0
+  - CMB S-01 CareerSpawn 1
+  - CMB S-01 CareerSpawn 0
+  - CMB S-01 TourSpawn_Sekolah 1
+  - CMB S-01 TourSpawn_Sekolah 0
+  - CMB S-01 TourSpawn_Dinas 1
+  - CMB S-01 TourSpawn_Dinas 0
+  - CMB S-01 TourSpawn_Sekolah_2 1
+  - CMB S-01 TourSpawn_Sekolah_2 0
+  - CMB S-01 CareerDrop 1
+  - CMB S-01 CareerDrop 0
+  - CMB CareerSpawn G-01 1
+  - CMB CareerSpawn G-01 0
+  - CMB CareerSpawn G-02 1
+  - CMB CareerSpawn G-02 0
+  - CMB CareerSpawn G-03 1
+  - CMB CareerSpawn G-03 0
+  - CMB CareerSpawn S-01 1
+  - CMB CareerSpawn S-01 0
+  - CMB TourSpawn_Sekolah G-01 1
+  - CMB TourSpawn_Sekolah G-01 0
+  - CMB TourSpawn_Sekolah G-02 1
+  - CMB TourSpawn_Sekolah G-02 0
+  - CMB TourSpawn_Sekolah G-03 1
+  - CMB TourSpawn_Sekolah G-03 0
+  - CMB TourSpawn_Dinas G-01 1
+  - CMB TourSpawn_Dinas G-01 0
+  - CMB TourSpawn_Dinas G-02 1
+  - CMB TourSpawn_Dinas G-02 0
+  - CMB TourSpawn_Dinas G-03 1
+  - CMB TourSpawn_Dinas G-03 0
+  - CMB TourSpawn_Sekolah_2 G-01 1
+  - CMB TourSpawn_Sekolah_2 G-01 0
+  - CMB TourSpawn_Sekolah_2 G-02 1
+  - CMB TourSpawn_Sekolah_2 G-02 0
+  - CMB TourSpawn_Sekolah_2 G-03 1
+  - CMB TourSpawn_Sekolah_2 G-03 0
+  - Dahod G-01 G-02 1
+  - Dahod G-01 G-02 0
+  - Dahod G-01 TourDrop_Sekolah 1
+  - Dahod G-01 TourDrop_Sekolah 0
+  - Dahod G-01 TourDrop_Office 1
+  - Dahod G-01 TourDrop_Office 0
+  - Dahod G-02 G-01 1
+  - Dahod G-02 G-01 0
+  - Dahod G-02 TourDrop_Sekolah 1
+  - Dahod G-02 TourDrop_Sekolah 0
+  - Dahod G-02 TourDrop_Office 1
+  - Dahod G-02 TourDrop_Office 0
+  - Dahod TourSpawn_Sekolah G-01 1
+  - Dahod TourSpawn_Sekolah G-01 0
+  - Dahod TourSpawn_Sekolah G-02 1
+  - Dahod TourSpawn_Sekolah G-02 0
+  - Dahod TourSpawn_Office G-01 1
+  - Dahod TourSpawn_Office G-01 0
+  - Dahod TourSpawn_Office G-02 1
+  - Dahod TourSpawn_Office G-02 0
+  - Dhimbam G-01 G-02 1
+  - Dhimbam G-01 G-02 0
+  - Dhimbam G-01 TourDrop_Sekolah_01 1
+  - Dhimbam G-01 TourDrop_Sekolah_01 0
+  - Dhimbam G-01 TourDrop_Dinas 1
+  - Dhimbam G-01 TourDrop_Dinas 0
+  - Dhimbam G-02 G-01 1
+  - Dhimbam G-02 G-01 0
+  - Dhimbam G-02 TourDrop_Sekolah_01 1
+  - Dhimbam G-02 TourDrop_Sekolah_01 0
+  - Dhimbam G-02 TourDrop_Dinas 1
+  - Dhimbam G-02 TourDrop_Dinas 0
+  - Dhimbam TourSpawn_Sekolah_01 G-01 1
+  - Dhimbam TourSpawn_Sekolah_01 G-01 0
+  - Dhimbam TourSpawn_Sekolah_01 G-02 1
+  - Dhimbam TourSpawn_Sekolah_01 G-02 0
+  - Dhimbam TourSpawn_Dinas G-01 1
+  - Dhimbam TourSpawn_Dinas G-01 0
+  - Dhimbam TourSpawn_Dinas G-02 1
+  - Dhimbam TourSpawn_Dinas G-02 0
+  - Dhone G-01 G-02 1
+  - Dhone G-01 G-02 0
+  - Dhone G-01 TourDrop_Sekolah_01 1
+  - Dhone G-01 TourDrop_Sekolah_01 0
+  - Dhone G-01 TourDrop_Swasta 1
+  - Dhone G-01 TourDrop_Swasta 0
+  - Dhone G-02 G-01 1
+  - Dhone G-02 G-01 0
+  - Dhone G-02 TourDrop_Sekolah_01 1
+  - Dhone G-02 TourDrop_Sekolah_01 0
+  - Dhone G-02 TourDrop_Swasta 1
+  - Dhone G-02 TourDrop_Swasta 0
+  - Dhone TourSpawn_Sekolah_01 G-01 1
+  - Dhone TourSpawn_Sekolah_01 G-01 0
+  - Dhone TourSpawn_Sekolah_01 G-02 1
+  - Dhone TourSpawn_Sekolah_01 G-02 0
+  - Dhone TourSpawn_Swasta G-01 1
+  - Dhone TourSpawn_Swasta G-01 0
+  - Dhone TourSpawn_Swasta G-02 1
+  - Dhone TourSpawn_Swasta G-02 0
+  - HDR G-01 G-02 1
+  - HDR G-01 G-02 0
+  - HDR G-01 S-01 1
+  - HDR G-01 S-01 0
+  - HDR G-01 CareerDrop 1
+  - HDR G-01 CareerDrop 0
+  - HDR G-01 TourDrop_Sekolah 1
+  - HDR G-01 TourDrop_Sekolah 0
+  - HDR G-01 TourDrop_Dinas 1
+  - HDR G-01 TourDrop_Dinas 0
+  - HDR G-01 TourDrop_Swasta 1
+  - HDR G-01 TourDrop_Swasta 0
+  - HDR G-02 G-01 1
+  - HDR G-02 G-01 0
+  - HDR G-02 S-01 1
+  - HDR G-02 S-01 0
+  - HDR G-02 CareerDrop 1
+  - HDR G-02 CareerDrop 0
+  - HDR G-02 TourDrop_Sekolah 1
+  - HDR G-02 TourDrop_Sekolah 0
+  - HDR G-02 TourDrop_Dinas 1
+  - HDR G-02 TourDrop_Dinas 0
+  - HDR G-02 TourDrop_Swasta 1
+  - HDR G-02 TourDrop_Swasta 0
+  - HDR S-01 G-01 1
+  - HDR S-01 G-01 0
+  - HDR S-01 G-02 1
+  - HDR S-01 G-02 0
+  - HDR S-01 CareerSpawn 1
+  - HDR S-01 CareerSpawn 0
+  - HDR S-01 TourSpawn_Sekolah 1
+  - HDR S-01 TourSpawn_Sekolah 0
+  - HDR S-01 TourSpawn_Dinas 1
+  - HDR S-01 TourSpawn_Dinas 0
+  - HDR S-01 TourSpawn_Swasta 1
+  - HDR S-01 TourSpawn_Swasta 0
+  - HDR S-01 CareerDrop 1
+  - HDR S-01 CareerDrop 0
+  - HDR CareerSpawn G-01 1
+  - HDR CareerSpawn G-01 0
+  - HDR CareerSpawn G-02 1
+  - HDR CareerSpawn G-02 0
+  - HDR CareerSpawn S-01 1
+  - HDR CareerSpawn S-01 0
+  - HDR TourSpawn_Sekolah G-01 1
+  - HDR TourSpawn_Sekolah G-01 0
+  - HDR TourSpawn_Sekolah G-02 1
+  - HDR TourSpawn_Sekolah G-02 0
+  - HDR TourSpawn_Dinas G-01 1
+  - HDR TourSpawn_Dinas G-01 0
+  - HDR TourSpawn_Dinas G-02 1
+  - HDR TourSpawn_Dinas G-02 0
+  - HDR TourSpawn_Swasta G-01 1
+  - HDR TourSpawn_Swasta G-01 0
+  - HDR TourSpawn_Swasta G-02 1
+  - HDR TourSpawn_Swasta G-02 0
+  - Indore G-01 G-02 1
+  - Indore G-01 G-02 0
+  - Indore G-01 TourDrop_Swasta 1
+  - Indore G-01 TourDrop_Swasta 0
+  - Indore G-01 TourDrop_Dinas 1
+  - Indore G-01 TourDrop_Dinas 0
+  - Indore G-02 G-01 1
+  - Indore G-02 G-01 0
+  - Indore G-02 TourDrop_Swasta 1
+  - Indore G-02 TourDrop_Swasta 0
+  - Indore G-02 TourDrop_Dinas 1
+  - Indore G-02 TourDrop_Dinas 0
+  - Indore TourSpawn_Swasta G-01 1
+  - Indore TourSpawn_Swasta G-01 0
+  - Indore TourSpawn_Swasta G-02 1
+  - Indore TourSpawn_Swasta G-02 0
+  - Indore TourSpawn_Dinas G-01 1
+  - Indore TourSpawn_Dinas G-01 0
+  - Indore TourSpawn_Dinas G-02 1
+  - Indore TourSpawn_Dinas G-02 0
+  - KCI G-01 G-02 1
+  - KCI G-01 G-02 0
+  - KCI G-01 G-03 1
+  - KCI G-01 G-03 0
+  - KCI G-01 S-01 1
+  - KCI G-01 S-01 0
+  - KCI G-01 CareerDrop 1
+  - KCI G-01 CareerDrop 0
+  - KCI G-01 TourDrop_Sekolah 1
+  - KCI G-01 TourDrop_Sekolah 0
+  - KCI G-01 TourDrop_Dinas 1
+  - KCI G-01 TourDrop_Dinas 0
+  - KCI G-01 TourDrop_Swasta 1
+  - KCI G-01 TourDrop_Swasta 0
+  - KCI G-02 G-01 1
+  - KCI G-02 G-01 0
+  - KCI G-02 G-03 1
+  - KCI G-02 G-03 0
+  - KCI G-02 S-01 1
+  - KCI G-02 S-01 0
+  - KCI G-02 CareerDrop 1
+  - KCI G-02 CareerDrop 0
+  - KCI G-02 TourDrop_Sekolah 1
+  - KCI G-02 TourDrop_Sekolah 0
+  - KCI G-02 TourDrop_Dinas 1
+  - KCI G-02 TourDrop_Dinas 0
+  - KCI G-02 TourDrop_Swasta 1
+  - KCI G-02 TourDrop_Swasta 0
+  - KCI G-03 G-01 1
+  - KCI G-03 G-01 0
+  - KCI G-03 G-02 1
+  - KCI G-03 G-02 0
+  - KCI G-03 S-01 1
+  - KCI G-03 S-01 0
+  - KCI G-03 CareerDrop 1
+  - KCI G-03 CareerDrop 0
+  - KCI G-03 TourDrop_Sekolah 1
+  - KCI G-03 TourDrop_Sekolah 0
+  - KCI G-03 TourDrop_Dinas 1
+  - KCI G-03 TourDrop_Dinas 0
+  - KCI G-03 TourDrop_Swasta 1
+  - KCI G-03 TourDrop_Swasta 0
+  - KCI S-01 G-01 1
+  - KCI S-01 G-01 0
+  - KCI S-01 G-02 1
+  - KCI S-01 G-02 0
+  - KCI S-01 G-03 1
+  - KCI S-01 G-03 0
+  - KCI S-01 CareerSpawn 1
+  - KCI S-01 CareerSpawn 0
+  - KCI S-01 TourSpawn_Sekolah 1
+  - KCI S-01 TourSpawn_Sekolah 0
+  - KCI S-01 TourSpawn_Dinas 1
+  - KCI S-01 TourSpawn_Dinas 0
+  - KCI S-01 TourSpawn_Swasta 1
+  - KCI S-01 TourSpawn_Swasta 0
+  - KCI S-01 CareerDrop 1
+  - KCI S-01 CareerDrop 0
+  - KCI CareerSpawn G-01 1
+  - KCI CareerSpawn G-01 0
+  - KCI CareerSpawn G-02 1
+  - KCI CareerSpawn G-02 0
+  - KCI CareerSpawn G-03 1
+  - KCI CareerSpawn G-03 0
+  - KCI CareerSpawn S-01 1
+  - KCI CareerSpawn S-01 0
+  - KCI TourSpawn_Sekolah G-01 1
+  - KCI TourSpawn_Sekolah G-01 0
+  - KCI TourSpawn_Sekolah G-02 1
+  - KCI TourSpawn_Sekolah G-02 0
+  - KCI TourSpawn_Sekolah G-03 1
+  - KCI TourSpawn_Sekolah G-03 0
+  - KCI TourSpawn_Dinas G-01 1
+  - KCI TourSpawn_Dinas G-01 0
+  - KCI TourSpawn_Dinas G-02 1
+  - KCI TourSpawn_Dinas G-02 0
+  - KCI TourSpawn_Dinas G-03 1
+  - KCI TourSpawn_Dinas G-03 0
+  - KCI TourSpawn_Swasta G-01 1
+  - KCI TourSpawn_Swasta G-01 0
+  - KCI TourSpawn_Swasta G-02 1
+  - KCI TourSpawn_Swasta G-02 0
+  - KCI TourSpawn_Swasta G-03 1
+  - KCI TourSpawn_Swasta G-03 0
+  - Khammam G-01 G-02 1
+  - Khammam G-01 G-02 0
+  - Khammam G-01 TourDrop_Sekolah 1
+  - Khammam G-01 TourDrop_Sekolah 0
+  - Khammam G-01 TourDrop_Dinas 1
+  - Khammam G-01 TourDrop_Dinas 0
+  - Khammam G-02 G-01 1
+  - Khammam G-02 G-01 0
+  - Khammam G-02 TourDrop_Sekolah 1
+  - Khammam G-02 TourDrop_Sekolah 0
+  - Khammam G-02 TourDrop_Dinas 1
+  - Khammam G-02 TourDrop_Dinas 0
+  - Khammam TourSpawn_Sekolah G-01 1
+  - Khammam TourSpawn_Sekolah G-01 0
+  - Khammam TourSpawn_Sekolah G-02 1
+  - Khammam TourSpawn_Sekolah G-02 0
+  - Khammam TourSpawn_Dinas G-01 1
+  - Khammam TourSpawn_Dinas G-01 0
+  - Khammam TourSpawn_Dinas G-02 1
+  - Khammam TourSpawn_Dinas G-02 0
+  - Kozhikode G-01 G-02 1
+  - Kozhikode G-01 G-02 0
+  - Kozhikode G-01 TourDrop_Sekolah 1
+  - Kozhikode G-01 TourDrop_Sekolah 0
+  - Kozhikode G-01 TourDrop_Dinas 1
+  - Kozhikode G-01 TourDrop_Dinas 0
+  - Kozhikode G-02 G-01 1
+  - Kozhikode G-02 G-01 0
+  - Kozhikode G-02 TourDrop_Sekolah 1
+  - Kozhikode G-02 TourDrop_Sekolah 0
+  - Kozhikode G-02 TourDrop_Dinas 1
+  - Kozhikode G-02 TourDrop_Dinas 0
+  - Kozhikode TourSpawn_Sekolah G-01 1
+  - Kozhikode TourSpawn_Sekolah G-01 0
+  - Kozhikode TourSpawn_Sekolah G-02 1
+  - Kozhikode TourSpawn_Sekolah G-02 0
+  - Kozhikode TourSpawn_Dinas G-01 1
+  - Kozhikode TourSpawn_Dinas G-01 0
+  - Kozhikode TourSpawn_Dinas G-02 1
+  - Kozhikode TourSpawn_Dinas G-02 0
+  - Lakkidi G-01 G-02 1
+  - Lakkidi G-01 G-02 0
+  - Lakkidi G-01 TourDrop_Sekolah 1
+  - Lakkidi G-01 TourDrop_Sekolah 0
+  - Lakkidi G-01 TourDrop_Dinas 1
+  - Lakkidi G-01 TourDrop_Dinas 0
+  - Lakkidi G-02 G-01 1
+  - Lakkidi G-02 G-01 0
+  - Lakkidi G-02 TourDrop_Sekolah 1
+  - Lakkidi G-02 TourDrop_Sekolah 0
+  - Lakkidi G-02 TourDrop_Dinas 1
+  - Lakkidi G-02 TourDrop_Dinas 0
+  - Lakkidi TourSpawn_Sekolah G-01 1
+  - Lakkidi TourSpawn_Sekolah G-01 0
+  - Lakkidi TourSpawn_Sekolah G-02 1
+  - Lakkidi TourSpawn_Sekolah G-02 0
+  - Lakkidi TourSpawn_Dinas G-01 1
+  - Lakkidi TourSpawn_Dinas G-01 0
+  - Lakkidi TourSpawn_Dinas G-02 1
+  - Lakkidi TourSpawn_Dinas G-02 0
+  - Madurai G-01 G-02 1
+  - Madurai G-01 G-02 0
+  - Madurai G-01 TourDrop_Sekolah 1
+  - Madurai G-01 TourDrop_Sekolah 0
+  - Madurai G-01 TourDrop_Dinas 1
+  - Madurai G-01 TourDrop_Dinas 0
+  - Madurai G-01 TourDrop_Sekolah (1) 1
+  - Madurai G-01 TourDrop_Sekolah (1) 0
+  - Madurai G-02 G-01 1
+  - Madurai G-02 G-01 0
+  - Madurai G-02 TourDrop_Sekolah 1
+  - Madurai G-02 TourDrop_Sekolah 0
+  - Madurai G-02 TourDrop_Dinas 1
+  - Madurai G-02 TourDrop_Dinas 0
+  - Madurai G-02 TourDrop_Sekolah (1) 1
+  - Madurai G-02 TourDrop_Sekolah (1) 0
+  - Madurai TourSpawn_Sekolah G-01 1
+  - Madurai TourSpawn_Sekolah G-01 0
+  - Madurai TourSpawn_Sekolah G-02 1
+  - Madurai TourSpawn_Sekolah G-02 0
+  - Madurai TourSpawn_Dinas G-01 1
+  - Madurai TourSpawn_Dinas G-01 0
+  - Madurai TourSpawn_Dinas G-02 1
+  - Madurai TourSpawn_Dinas G-02 0
+  - Madurai TourSpawn_Sekolah (1) G-01 1
+  - Madurai TourSpawn_Sekolah (1) G-01 0
+  - Madurai TourSpawn_Sekolah (1) G-02 1
+  - Madurai TourSpawn_Sekolah (1) G-02 0
+  - MBI G-01 G-02 1
+  - MBI G-01 G-02 0
+  - MBI G-01 S-01 1
+  - MBI G-01 S-01 0
+  - MBI G-01 CareerDrop 1
+  - MBI G-01 CareerDrop 0
+  - MBI G-01 TourDrop_Sekolah 1
+  - MBI G-01 TourDrop_Sekolah 0
+  - MBI G-01 TourDrop_Dinas 1
+  - MBI G-01 TourDrop_Dinas 0
+  - MBI G-01 TourDrop_Office 1
+  - MBI G-01 TourDrop_Office 0
+  - MBI G-02 G-01 1
+  - MBI G-02 G-01 0
+  - MBI G-02 S-01 1
+  - MBI G-02 S-01 0
+  - MBI G-02 CareerDrop 1
+  - MBI G-02 CareerDrop 0
+  - MBI G-02 TourDrop_Sekolah 1
+  - MBI G-02 TourDrop_Sekolah 0
+  - MBI G-02 TourDrop_Dinas 1
+  - MBI G-02 TourDrop_Dinas 0
+  - MBI G-02 TourDrop_Office 1
+  - MBI G-02 TourDrop_Office 0
+  - MBI S-01 G-01 1
+  - MBI S-01 G-01 0
+  - MBI S-01 G-02 1
+  - MBI S-01 G-02 0
+  - MBI S-01 CareerSpawn 1
+  - MBI S-01 CareerSpawn 0
+  - MBI S-01 TourSpawn_Sekolah 1
+  - MBI S-01 TourSpawn_Sekolah 0
+  - MBI S-01 TourSpawn_Dinas 1
+  - MBI S-01 TourSpawn_Dinas 0
+  - MBI S-01 TourSpawn_Office 1
+  - MBI S-01 TourSpawn_Office 0
+  - MBI S-01 CareerDrop 1
+  - MBI S-01 CareerDrop 0
+  - MBI CareerSpawn G-01 1
+  - MBI CareerSpawn G-01 0
+  - MBI CareerSpawn G-02 1
+  - MBI CareerSpawn G-02 0
+  - MBI CareerSpawn S-01 1
+  - MBI CareerSpawn S-01 0
+  - MBI TourSpawn_Sekolah G-01 1
+  - MBI TourSpawn_Sekolah G-01 0
+  - MBI TourSpawn_Sekolah G-02 1
+  - MBI TourSpawn_Sekolah G-02 0
+  - MBI TourSpawn_Dinas G-01 1
+  - MBI TourSpawn_Dinas G-01 0
+  - MBI TourSpawn_Dinas G-02 1
+  - MBI TourSpawn_Dinas G-02 0
+  - MBI TourSpawn_Office G-01 1
+  - MBI TourSpawn_Office G-01 0
+  - MBI TourSpawn_Office G-02 1
+  - MBI TourSpawn_Office G-02 0
+  - Mysuru G-01 G-02 1
+  - Mysuru G-01 G-02 0
+  - Mysuru G-01 G-03 1
+  - Mysuru G-01 G-03 0
+  - Mysuru G-01 TourDrop_Sekolah 1
+  - Mysuru G-01 TourDrop_Sekolah 0
+  - Mysuru G-01 TourDrop_Swasta 1
+  - Mysuru G-01 TourDrop_Swasta 0
+  - Mysuru G-02 G-01 1
+  - Mysuru G-02 G-01 0
+  - Mysuru G-02 G-03 1
+  - Mysuru G-02 G-03 0
+  - Mysuru G-02 TourDrop_Sekolah 1
+  - Mysuru G-02 TourDrop_Sekolah 0
+  - Mysuru G-02 TourDrop_Swasta 1
+  - Mysuru G-02 TourDrop_Swasta 0
+  - Mysuru G-03 G-01 1
+  - Mysuru G-03 G-01 0
+  - Mysuru G-03 G-02 1
+  - Mysuru G-03 G-02 0
+  - Mysuru G-03 TourDrop_Sekolah 1
+  - Mysuru G-03 TourDrop_Sekolah 0
+  - Mysuru G-03 TourDrop_Swasta 1
+  - Mysuru G-03 TourDrop_Swasta 0
+  - Mysuru TourSpawn_Sekolah G-01 1
+  - Mysuru TourSpawn_Sekolah G-01 0
+  - Mysuru TourSpawn_Sekolah G-02 1
+  - Mysuru TourSpawn_Sekolah G-02 0
+  - Mysuru TourSpawn_Sekolah G-03 1
+  - Mysuru TourSpawn_Sekolah G-03 0
+  - Mysuru TourSpawn_Swasta G-01 1
+  - Mysuru TourSpawn_Swasta G-01 0
+  - Mysuru TourSpawn_Swasta G-02 1
+  - Mysuru TourSpawn_Swasta G-02 0
+  - Mysuru TourSpawn_Swasta G-03 1
+  - Mysuru TourSpawn_Swasta G-03 0
+  - Palakkad G-01 G-02 1
+  - Palakkad G-01 G-02 0
+  - Palakkad G-01 TourDrop_Sekolah_01 1
+  - Palakkad G-01 TourDrop_Sekolah_01 0
+  - Palakkad G-01 TourDrop_Swasta 1
+  - Palakkad G-01 TourDrop_Swasta 0
+  - Palakkad G-01 TourDrop_Sekolah_02 1
+  - Palakkad G-01 TourDrop_Sekolah_02 0
+  - Palakkad G-02 G-01 1
+  - Palakkad G-02 G-01 0
+  - Palakkad G-02 TourDrop_Sekolah_01 1
+  - Palakkad G-02 TourDrop_Sekolah_01 0
+  - Palakkad G-02 TourDrop_Swasta 1
+  - Palakkad G-02 TourDrop_Swasta 0
+  - Palakkad G-02 TourDrop_Sekolah_02 1
+  - Palakkad G-02 TourDrop_Sekolah_02 0
+  - Palakkad TourSpawn_Sekolah_01 G-01 1
+  - Palakkad TourSpawn_Sekolah_01 G-01 0
+  - Palakkad TourSpawn_Sekolah_01 G-02 1
+  - Palakkad TourSpawn_Sekolah_01 G-02 0
+  - Palakkad TourSpawn_Swasta G-01 1
+  - Palakkad TourSpawn_Swasta G-01 0
+  - Palakkad TourSpawn_Swasta G-02 1
+  - Palakkad TourSpawn_Swasta G-02 0
+  - Palakkad TourSpawn_Sekolah_02 G-01 1
+  - Palakkad TourSpawn_Sekolah_02 G-01 0
+  - Palakkad TourSpawn_Sekolah_02 G-02 1
+  - Palakkad TourSpawn_Sekolah_02 G-02 0
+  - Pune G-01 G-02 1
+  - Pune G-01 G-02 0
+  - Pune G-01 TourDrop_Sekolah 1
+  - Pune G-01 TourDrop_Sekolah 0
+  - Pune G-01 TourDrop_Dinas 1
+  - Pune G-01 TourDrop_Dinas 0
+  - Pune G-02 G-01 1
+  - Pune G-02 G-01 0
+  - Pune G-02 TourDrop_Sekolah 1
+  - Pune G-02 TourDrop_Sekolah 0
+  - Pune G-02 TourDrop_Dinas 1
+  - Pune G-02 TourDrop_Dinas 0
+  - Pune TourSpawn_Sekolah G-01 1
+  - Pune TourSpawn_Sekolah G-01 0
+  - Pune TourSpawn_Sekolah G-02 1
+  - Pune TourSpawn_Sekolah G-02 0
+  - Pune TourSpawn_Dinas G-01 1
+  - Pune TourSpawn_Dinas G-01 0
+  - Pune TourSpawn_Dinas G-02 1
+  - Pune TourSpawn_Dinas G-02 0
+  - Salem G-01 G-02 1
+  - Salem G-01 G-02 0
+  - Salem G-01 G-03 1
+  - Salem G-01 G-03 0
+  - Salem G-01 S-01 1
+  - Salem G-01 S-01 0
+  - Salem G-01 CareerDrop 1
+  - Salem G-01 CareerDrop 0
+  - Salem G-01 TourDrop_Sekolah 1
+  - Salem G-01 TourDrop_Sekolah 0
+  - Salem G-01 TourDrop_Sekolah (2) 1
+  - Salem G-01 TourDrop_Sekolah (2) 0
+  - Salem G-01 TourDrop_Swasta 1
+  - Salem G-01 TourDrop_Swasta 0
+  - Salem G-02 G-01 1
+  - Salem G-02 G-01 0
+  - Salem G-02 G-03 1
+  - Salem G-02 G-03 0
+  - Salem G-02 S-01 1
+  - Salem G-02 S-01 0
+  - Salem G-02 CareerDrop 1
+  - Salem G-02 CareerDrop 0
+  - Salem G-02 TourDrop_Sekolah 1
+  - Salem G-02 TourDrop_Sekolah 0
+  - Salem G-02 TourDrop_Sekolah (2) 1
+  - Salem G-02 TourDrop_Sekolah (2) 0
+  - Salem G-02 TourDrop_Swasta 1
+  - Salem G-02 TourDrop_Swasta 0
+  - Salem G-03 G-01 1
+  - Salem G-03 G-01 0
+  - Salem G-03 G-02 1
+  - Salem G-03 G-02 0
+  - Salem G-03 S-01 1
+  - Salem G-03 S-01 0
+  - Salem G-03 CareerDrop 1
+  - Salem G-03 CareerDrop 0
+  - Salem G-03 TourDrop_Sekolah 1
+  - Salem G-03 TourDrop_Sekolah 0
+  - Salem G-03 TourDrop_Sekolah (2) 1
+  - Salem G-03 TourDrop_Sekolah (2) 0
+  - Salem G-03 TourDrop_Swasta 1
+  - Salem G-03 TourDrop_Swasta 0
+  - Salem S-01 G-01 1
+  - Salem S-01 G-01 0
+  - Salem S-01 G-02 1
+  - Salem S-01 G-02 0
+  - Salem S-01 G-03 1
+  - Salem S-01 G-03 0
+  - Salem S-01 CareerSpawn 1
+  - Salem S-01 CareerSpawn 0
+  - Salem S-01 TourSpawn_Sekolah 1
+  - Salem S-01 TourSpawn_Sekolah 0
+  - Salem S-01 TourSpawn_Sekolah (2) 1
+  - Salem S-01 TourSpawn_Sekolah (2) 0
+  - Salem S-01 TourSpawn_Swasta 1
+  - Salem S-01 TourSpawn_Swasta 0
+  - Salem S-01 CareerDrop 1
+  - Salem S-01 CareerDrop 0
+  - Salem CareerSpawn G-01 1
+  - Salem CareerSpawn G-01 0
+  - Salem CareerSpawn G-02 1
+  - Salem CareerSpawn G-02 0
+  - Salem CareerSpawn G-03 1
+  - Salem CareerSpawn G-03 0
+  - Salem CareerSpawn S-01 1
+  - Salem CareerSpawn S-01 0
+  - Salem TourSpawn_Sekolah G-01 1
+  - Salem TourSpawn_Sekolah G-01 0
+  - Salem TourSpawn_Sekolah G-02 1
+  - Salem TourSpawn_Sekolah G-02 0
+  - Salem TourSpawn_Sekolah G-03 1
+  - Salem TourSpawn_Sekolah G-03 0
+  - Salem TourSpawn_Sekolah (2) G-01 1
+  - Salem TourSpawn_Sekolah (2) G-01 0
+  - Salem TourSpawn_Sekolah (2) G-02 1
+  - Salem TourSpawn_Sekolah (2) G-02 0
+  - Salem TourSpawn_Sekolah (2) G-03 1
+  - Salem TourSpawn_Sekolah (2) G-03 0
+  - Salem TourSpawn_Swasta G-01 1
+  - Salem TourSpawn_Swasta G-01 0
+  - Salem TourSpawn_Swasta G-02 1
+  - Salem TourSpawn_Swasta G-02 0
+  - Salem TourSpawn_Swasta G-03 1
+  - Salem TourSpawn_Swasta G-03 0
+  - Solapur G-01 G-02 1
+  - Solapur G-01 G-02 0
+  - Solapur G-01 TourDrop_Sekolah_01 1
+  - Solapur G-01 TourDrop_Sekolah_01 0
+  - Solapur G-01 TourDrop_KantorDinas 1
+  - Solapur G-01 TourDrop_KantorDinas 0
+  - Solapur G-02 G-01 1
+  - Solapur G-02 G-01 0
+  - Solapur G-02 TourDrop_Sekolah_01 1
+  - Solapur G-02 TourDrop_Sekolah_01 0
+  - Solapur G-02 TourDrop_KantorDinas 1
+  - Solapur G-02 TourDrop_KantorDinas 0
+  - Solapur TourSpawn_Sekolah_01 G-01 1
+  - Solapur TourSpawn_Sekolah_01 G-01 0
+  - Solapur TourSpawn_Sekolah_01 G-02 1
+  - Solapur TourSpawn_Sekolah_01 G-02 0
+  - Solapur TourSpawn_KantorDinas G-01 1
+  - Solapur TourSpawn_KantorDinas G-01 0
+  - Solapur TourSpawn_KantorDinas G-02 1
+  - Solapur TourSpawn_KantorDinas G-02 0
+  - Surat G-01 G-02 1
+  - Surat G-01 G-02 0
+  - Surat G-01 S-01 1
+  - Surat G-01 S-01 0
+  - Surat G-01 TourDrop_Sekolah_01 1
+  - Surat G-01 TourDrop_Sekolah_01 0
+  - Surat G-01 TourDrop_Swasta 1
+  - Surat G-01 TourDrop_Swasta 0
+  - Surat G-02 G-01 1
+  - Surat G-02 G-01 0
+  - Surat G-02 S-01 1
+  - Surat G-02 S-01 0
+  - Surat G-02 TourDrop_Sekolah_01 1
+  - Surat G-02 TourDrop_Sekolah_01 0
+  - Surat G-02 TourDrop_Swasta 1
+  - Surat G-02 TourDrop_Swasta 0
+  - Surat S-01 G-01 1
+  - Surat S-01 G-01 0
+  - Surat S-01 G-02 1
+  - Surat S-01 G-02 0
+  - Surat S-01 TourSpawn_Sekolah_01 1
+  - Surat S-01 TourSpawn_Sekolah_01 0
+  - Surat S-01 TourSpawn_Swasta 1
+  - Surat S-01 TourSpawn_Swasta 0
+  - Surat TourSpawn_Sekolah_01 G-01 1
+  - Surat TourSpawn_Sekolah_01 G-01 0
+  - Surat TourSpawn_Sekolah_01 G-02 1
+  - Surat TourSpawn_Sekolah_01 G-02 0
+  - Surat TourSpawn_Swasta G-01 1
+  - Surat TourSpawn_Swasta G-01 0
+  - Surat TourSpawn_Swasta G-02 1
+  - Surat TourSpawn_Swasta G-02 0
+  - Thiruvananthapuram G-01 G-02 1
+  - Thiruvananthapuram G-01 G-02 0
+  - Thiruvananthapuram G-01 TourDrop_Sekolah_01 1
+  - Thiruvananthapuram G-01 TourDrop_Sekolah_01 0
+  - Thiruvananthapuram G-01 TourDrop_Swasta 1
+  - Thiruvananthapuram G-01 TourDrop_Swasta 0
+  - Thiruvananthapuram G-01 TourDrop_Sekolah_02 1
+  - Thiruvananthapuram G-01 TourDrop_Sekolah_02 0
+  - Thiruvananthapuram G-02 G-01 1
+  - Thiruvananthapuram G-02 G-01 0
+  - Thiruvananthapuram G-02 TourDrop_Sekolah_01 1
+  - Thiruvananthapuram G-02 TourDrop_Sekolah_01 0
+  - Thiruvananthapuram G-02 TourDrop_Swasta 1
+  - Thiruvananthapuram G-02 TourDrop_Swasta 0
+  - Thiruvananthapuram G-02 TourDrop_Sekolah_02 1
+  - Thiruvananthapuram G-02 TourDrop_Sekolah_02 0
+  - Thiruvananthapuram TourSpawn_Sekolah_01 G-01 1
+  - Thiruvananthapuram TourSpawn_Sekolah_01 G-01 0
+  - Thiruvananthapuram TourSpawn_Sekolah_01 G-02 1
+  - Thiruvananthapuram TourSpawn_Sekolah_01 G-02 0
+  - Thiruvananthapuram TourSpawn_Swasta G-01 1
+  - Thiruvananthapuram TourSpawn_Swasta G-01 0
+  - Thiruvananthapuram TourSpawn_Swasta G-02 1
+  - Thiruvananthapuram TourSpawn_Swasta G-02 0
+  - Thiruvananthapuram TourSpawn_Sekolah_02 G-01 1
+  - Thiruvananthapuram TourSpawn_Sekolah_02 G-01 0
+  - Thiruvananthapuram TourSpawn_Sekolah_02 G-02 1
+  - Thiruvananthapuram TourSpawn_Sekolah_02 G-02 0
+  - Visakhapatnam G-01 G-02 1
+  - Visakhapatnam G-01 G-02 0
+  - Visakhapatnam G-01 TourDrop_Sekolah 1
+  - Visakhapatnam G-01 TourDrop_Sekolah 0
+  - Visakhapatnam G-01 TourDrop_Dinas 1
+  - Visakhapatnam G-01 TourDrop_Dinas 0
+  - Visakhapatnam G-02 G-01 1
+  - Visakhapatnam G-02 G-01 0
+  - Visakhapatnam G-02 TourDrop_Sekolah 1
+  - Visakhapatnam G-02 TourDrop_Sekolah 0
+  - Visakhapatnam G-02 TourDrop_Dinas 1
+  - Visakhapatnam G-02 TourDrop_Dinas 0
+  - Visakhapatnam TourSpawn_Sekolah G-01 1
+  - Visakhapatnam TourSpawn_Sekolah G-01 0
+  - Visakhapatnam TourSpawn_Sekolah G-02 1
+  - Visakhapatnam TourSpawn_Sekolah G-02 0
+  - Visakhapatnam TourSpawn_Dinas G-01 1
+  - Visakhapatnam TourSpawn_Dinas G-01 0
+  - Visakhapatnam TourSpawn_Dinas G-02 1
+  - Visakhapatnam TourSpawn_Dinas G-02 0
+  length:
+  - 3094.3577
+  - 3094.3577
+  - 1920.4657
+  - 1920.4657
+  - 2085.4019
+  - 2085.4019
+  - 2027.1874
+  - 2027.1874
+  - 3650.1987
+  - 3650.1987
+  - 2307.1213
+  - 2307.1213
+  - 2169.4563
+  - 2169.4563
+  - 2334.392
+  - 2334.392
+  - 2962.0608
+  - 2962.0608
+  - 1043.0989
+  - 1043.0989
+  - 760.96625
+  - 760.96625
+  - 2374.577
+  - 2374.577
+  - 47.620026
+  - 47.620026
+  - 1419.5088
+  - 1419.5088
+  - 2832.6445
+  - 2832.6445
+  - 164.93602
+  - 164.93602
+  - 713.34625
+  - 713.34625
+  - 2326.957
+  - 2326.957
+  - 464.01837
+  - 464.01837
+  - 4271.9775
+  - 4271.9775
+  - 2452.1145
+  - 2452.1145
+  - 1361.7963
+  - 1361.7963
+  - 1398.0128
+  - 1398.0128
+  - 3225.2297
+  - 3225.2297
+  - 3248.2485
+  - 3248.2485
+  - 2760.297
+  - 2760.297
+  - 2571.597
+  - 2571.597
+  - 2526.6003
+  - 2526.6003
+  - 2882.034
+  - 2882.034
+  - 3309.2253
+  - 3309.2253
+  - 3151.963
+  - 3151.963
+  - 2664.011
+  - 2664.011
+  - 2475.311
+  - 2475.311
+  - 954.2661
+  - 954.2661
+  - 1309.6995
+  - 1309.6995
+  - 2914.241
+  - 2914.241
+  - 3999.861
+  - 3999.861
+  - 1509.9144
+  - 1509.9144
+  - 1321.2142
+  - 1321.2142
+  - 3301.2317
+  - 3301.2317
+  - 3656.6653
+  - 3656.6653
+  - 1942.8564
+  - 1942.8564
+  - 3028.4746
+  - 3028.4746
+  - 1701.0974
+  - 1701.0974
+  - 128.66281
+  - 128.66281
+  - 2297.2375
+  - 2297.2375
+  - 1980.1174
+  - 1980.1174
+  - 349.8292
+  - 349.8292
+  - 1814.1934
+  - 1814.1934
+  - 2899.8118
+  - 2899.8118
+  - 1572.4343
+  - 1572.4343
+  - 409.86646
+  - 409.86646
+  - 2475.2708
+  - 2475.2708
+  - 1937.9148
+  - 1937.9148
+  - 2318.0063
+  - 2318.0063
+  - 1924.8672
+  - 1924.8672
+  - 2079.578
+  - 2079.578
+  - 2459.6694
+  - 2459.6694
+  - 3587.168
+  - 3587.168
+  - 319.76218
+  - 319.76218
+  - 1852.873
+  - 1852.873
+  - 2903.8977
+  - 2903.8977
+  - 3367.327
+  - 3367.327
+  - 3534.079
+  - 3534.079
+  - 1767.9353
+  - 1767.9353
+  - 3326.1582
+  - 3326.1582
+  - 1080.0616
+  - 1080.0616
+  - 3276.3242
+  - 3276.3242
+  - 1619.3168
+  - 1619.3168
+  - 1797.17
+  - 1797.17
+  - 2700.7244
+  - 2700.7244
+  - 1664.028
+  - 1664.028
+  - 4976.0825
+  - 4976.0825
+  - 84.873375
+  - 84.873375
+  - 1360.9354
+  - 1360.9354
+  - 4918.2256
+  - 4918.2256
+  - 4878.9194
+  - 4878.9194
+  - 4198.0483
+  - 4198.0483
+  - 966.3508
+  - 966.3508
+  - 4880.525
+  - 4880.525
+  - 3698.5952
+  - 3698.5952
+  - 4113.1035
+  - 4113.1035
+  - 2537.1177
+  - 2537.1177
+  - 1531.4596
+  - 1531.4596
+  - 1369.5751
+  - 1369.5751
+  - 1480.3677
+  - 1480.3677
+  - 1779.7867
+  - 1779.7867
+  - 888.301
+  - 888.301
+  - 2321.8293
+  - 2321.8293
+  - 2282.2957
+  - 2282.2957
+  - 2221.17
+  - 2221.17
+  - 1558.254
+  - 1558.254
+  - 1669.0466
+  - 1669.0466
+  - 883.23016
+  - 883.23016
+  - 2043.8916
+  - 2043.8916
+  - 1550.8094
+  - 1550.8094
+  - 1903.0162
+  - 1903.0162
+  - 3146.693
+  - 3146.693
+  - 1979.1504
+  - 1979.1504
+  - 2089.9434
+  - 2089.9434
+  - 2389.3618
+  - 2389.3618
+  - 1664.6125
+  - 1664.6125
+  - 2931.4033
+  - 2931.4033
+  - 2129.4915
+  - 2129.4915
+  - 1358.1594
+  - 1358.1594
+  - 1592.1993
+  - 1592.1993
+  - 211.31053
+  - 211.31053
+  - 590.09454
+  - 590.09454
+  - 1841.2277
+  - 1841.2277
+  - 1118.5923
+  - 1118.5923
+  - 110.79283
+  - 110.79283
+  - 1918.1808
+  - 1918.1808
+  - 1146.8486
+  - 1146.8486
+  - 1380.8888
+  - 1380.8888
+  - 1561.2212
+  - 1561.2212
+  - 1906.4781
+  - 1906.4781
+  - 776.9373
+  - 776.9373
+  - 1879.1599
+  - 1879.1599
+  - 502.54337
+  - 502.54337
+  - 2223.0835
+  - 2223.0835
+  - 1651.8793
+  - 1651.8793
+  - 2067.6868
+  - 2067.6868
+  - 1368.5452
+  - 1368.5452
+  - 1144.2537
+  - 1144.2537
+  - 4145.1997
+  - 4145.1997
+  - 1526.8701
+  - 1526.8701
+  - 3010.8188
+  - 3010.8188
+  - 4164.101
+  - 4164.101
+  - 2675.385
+  - 2675.385
+  - 1648.4247
+  - 1648.4247
+  - 1527.1128
+  - 1527.1128
+  - 2702.2844
+  - 2702.2844
+  - 2579.898
+  - 2579.898
+  - 2072.8572
+  - 2072.8572
+  - 4981.9126
+  - 4981.9126
+  - 4351.897
+  - 4351.897
+  - 0
+  - 0
+  - 4994.3555
+  - 4994.3555
+  - 661.15295
+  - 661.15295
+  - 0
+  - 0
+  - 4360.035
+  - 4360.035
+  - 647.42114
+  - 647.42114
+  - 3317.1223
+  - 3317.1223
+  - 1860.74
+  - 1860.74
+  - 6054.046
+  - 6054.046
+  - 3981.207
+  - 3981.207
+  - 3657.0503
+  - 3657.0503
+  - 6010.1475
+  - 6010.1475
+  - 2949.0554
+  - 2949.0554
+  - 2596.4204
+  - 2596.4204
+  - 3187.6033
+  - 3187.6033
+  - 4785.253
+  - 4785.253
+  - 3635.5261
+  - 3635.5261
+  - 5233.173
+  - 5233.173
+  - 1881.3723
+  - 1881.3723
+  - 1489.4319
+  - 1489.4319
+  - 1445.7463
+  - 1445.7463
+  - 1478.6771
+  - 1478.6771
+  - 1820.8807
+  - 1820.8807
+  - 1729.8615
+  - 1729.8615
+  - 2333.2732
+  - 2333.2732
+  - 1248.4954
+  - 1248.4954
+  - 1204.8098
+  - 1204.8098
+  - 559.64716
+  - 559.64716
+  - 198.32872
+  - 198.32872
+  - 329.7543
+  - 329.7543
+  - 1546.1658
+  - 1546.1658
+  - 1953.6709
+  - 1953.6709
+  - 37.094776
+  - 37.094776
+  - 1561.5446
+  - 1561.5446
+  - 1863.2528
+  - 1863.2528
+  - 1798.6578
+  - 1798.6578
+  - 1009.4058
+  - 1009.4058
+  - 1509.0709
+  - 1509.0709
+  - 1916.5764
+  - 1916.5764
+  - 1015.9965
+  - 1015.9965
+  - 1763.058
+  - 1763.058
+  - 823.9395
+  - 823.9395
+  - 2657.014
+  - 2657.014
+  - 126.31177
+  - 126.31177
+  - 2284.8884
+  - 2284.8884
+  - 214.1176
+  - 214.1176
+  - 5446.2324
+  - 5446.2324
+  - 5174.6855
+  - 5174.6855
+  - 3811.9163
+  - 3811.9163
+  - 5506.107
+  - 5506.107
+  - 667.4553
+  - 667.4553
+  - 2397.5059
+  - 2397.5059
+  - 4838.6523
+  - 4838.6523
+  - 1263.7029
+  - 1263.7029
+  - 3711.4194
+  - 3711.4194
+  - 2237.1316
+  - 2237.1316
+  - 2455.4126
+  - 2455.4126
+  - 2743.7524
+  - 2743.7524
+  - 830.96924
+  - 830.96924
+  - 847.72345
+  - 847.72345
+  - 1854.2012
+  - 1854.2012
+  - 1679.728
+  - 1679.728
+  - 1705.5455
+  - 1705.5455
+  - 1729.2573
+  - 1729.2573
+  - 2243.846
+  - 2243.846
+  - 1371.5796
+  - 1371.5796
+  - 1388.3339
+  - 1388.3339
+  - 1447.4813
+  - 1447.4813
+  - 1456.0503
+  - 1456.0503
+  - 619.70996
+  - 619.70996
+  - 2857.387
+  - 2857.387
+  - 2971.92
+  - 2971.92
+  - 2506.9985
+  - 2506.9985
+  - 2523.7527
+  - 2523.7527
+  - 1933.8428
+  - 1933.8428
+  - 1246.4568
+  - 1246.4568
+  - 1688.1201
+  - 1688.1201
+  - 888.4714
+  - 888.4714
+  - 2315.9644
+  - 2315.9644
+  - 2617.3142
+  - 2617.3142
+  - 34.11771
+  - 34.11771
+  - 1727.7625
+  - 1727.7625
+  - 1581.4095
+  - 1581.4095
+  - 1555.3215
+  - 1555.3215
+  - 16.754257
+  - 16.754257
+  - 854.3537
+  - 854.3537
+  - 2281.8464
+  - 2281.8464
+  - 2583.1965
+  - 2583.1965
+  - 460.03232
+  - 460.03232
+  - 1139.8801
+  - 1139.8801
+  - 2261.3545
+  - 2261.3545
+  - 1978.6742
+  - 1978.6742
+  - 1708.4117
+  - 1708.4117
+  - 2464.3362
+  - 2464.3362
+  - 1486.7633
+  - 1486.7633
+  - 1895.0557
+  - 1895.0557
+  - 1500.9905
+  - 1500.9905
+  - 1644.2716
+  - 1644.2716
+  - 5208.8364
+  - 5208.8364
+  - 3641.8452
+  - 3641.8452
+  - 1948.3154
+  - 1948.3154
+  - 5193.276
+  - 5193.276
+  - 2043.6638
+  - 2043.6638
+  - 3254.8892
+  - 3254.8892
+  - 4023.2346
+  - 4023.2346
+  - 1662.249
+  - 1662.249
+  - 2018.2189
+  - 2018.2189
+  - 3273.522
+  - 3273.522
+  - 8117.327
+  - 8117.327
+  - 5977.4067
+  - 5977.4067
+  - 4050.1333
+  - 4050.1333
+  - 8122.1206
+  - 8122.1206
+  - 2515.4268
+  - 2515.4268
+  - 4106.719
+  - 4106.719
+  - 5665.112
+  - 5665.112
+  - 2929.7349
+  - 2929.7349
+  - 4033.0503
+  - 4033.0503
+  - 4171.876
+  - 4171.876
+  - 5730.584
+  - 5730.584
+  - 4714.216
+  - 4714.216
+  - 4355.1416
+  - 4355.1416
+  - 5730.1753
+  - 5730.1753
+  - 3773.1924
+  - 3773.1924
+  - 3414.1155
+  - 3414.1155
+  - 5318.1553
+  - 5318.1553
+  - 1033.3423
+  - 1033.3423
+  - 5709.955
+  - 5709.955
+  - 1425.1412
+  - 1425.1412
+  - 7222.3696
+  - 7222.3696
+  - 11638.308
+  - 11638.308
+  - 3729.2834
+  - 3729.2834
+  - 728.6358
+  - 728.6358
+  - 7191.4478
+  - 7191.4478
+  - 4035.8787
+  - 4035.8787
+  - 7072.338
+  - 7072.338
+  - 6508.293
+  - 6508.293
+  - 3139.348
+  - 3139.348
+  - 6513.3247
+  - 6513.3247
+  - 11073.045
+  - 11073.045
+  - 3501.5278
+  - 3501.5278
+  - 786.5523
+  - 786.5523
+  - 6569.18
+  - 6569.18
+  - 2767.4678
+  - 2767.4678
+  - 2489.8206
+  - 2489.8206
+  - 2476.0947
+  - 2476.0947
+  - 2773.5305
+  - 2773.5305
+  - 1456.291
+  - 1456.291
+  - 1919.606
+  - 1919.606
+  - 2731.9504
+  - 2731.9504
+  - 508.59772
+  - 508.59772
+  - 371.00977
+  - 371.00977
+  - 518.7521
+  - 518.7521
+  - 1701.8755
+  - 1701.8755
+  - 1841.6414
+  - 1841.6414
+  - 2631.9653
+  - 2631.9653
+  - 536.0526
+  - 536.0526
+  - 37.948963
+  - 37.948963
+  - 460.34375
+  - 460.34375
+  - 1576.8389
+  - 1576.8389
+  - 1839.1466
+  - 1839.1466
+  - 271.0246
+  - 271.0246
+  - 2594.0164
+  - 2594.0164
+  - 498.1036
+  - 498.1036
+  - 370.6635
+  - 370.6635
+  - 2726.142
+  - 2726.142
+  - 472.42444
+  - 472.42444
+  - 1424.8474
+  - 1424.8474
+  - 1424.5929
+  - 1424.5929
+  - 3164.5464
+  - 3164.5464
+  - 1943.1215
+  - 1943.1215
+  - 4231.61
+  - 4231.61
+  - 4248.506
+  - 4248.506
+  - 2975.3105
+  - 2975.3105
+  - 1797.7527
+  - 1797.7527
+  - 3999.8088
+  - 3999.8088
+  - 4232.9443
+  - 4232.9443
+  - 1242.7947
+  - 1242.7947
+  - 2606.3838
+  - 2606.3838
+  - 3746.281
+  - 3746.281
+  - 4206.64
+  - 4206.64
+  - 2950.34
+  - 2950.34
+  - 3017.0132
+  - 3017.0132
+  - 2740.9858
+  - 2740.9858
+  - 1985.2062
+  - 1985.2062
+  - 2974.1218
+  - 2974.1218
+  - 2211.5828
+  - 2211.5828
+  - 2615.0466
+  - 2615.0466
+  - 2941.8533
+  - 2941.8533
+  - 7748.2793
+  - 7748.2793
+  - 2906.005
+  - 2906.005
+  - 0
+  - 0
+  - 1042.1793
+  - 1042.1793
+  - 7749.898
+  - 7749.898
+  - 6283.772
+  - 6283.772
+  - 0
+  - 0
+  - 7074.933
+  - 7074.933
+  - 1654.217
+  - 1654.217
+  - 7685.3516
+  - 7685.3516
+  - 7148.463
+  - 7148.463
+  - 1662.5881
+  - 1662.5881
+  - 3394.623
+  - 3394.623
+  - 6770.7773
+  - 6770.7773
+  - 4116.0547
+  - 4116.0547
+  - 2364.7888
+  - 2364.7888
+  - 3433.4316
+  - 3433.4316
+  - 4117.6255
+  - 4117.6255
+  - 3169.8333
+  - 3169.8333
+  - 1096.0988
+  - 1096.0988
+  - 3074.934
+  - 3074.934
+  - 1751.2661
+  - 1751.2661
+  - 4373.643
+  - 4373.643
+  - 732.14136
+  - 732.14136
+  - 6003.5103
+  - 6003.5103
+  - 3460.186
+  - 3460.186
+  - 2941.3433
+  - 2941.3433
+  - 2997.6887
+  - 2997.6887
+  - 3407.2405
+  - 3407.2405
+  - 1329.1182
+  - 1329.1182
+  - 2238.8125
+  - 2238.8125
+  - 6004.151
+  - 6004.151
+  - 3490.4062
+  - 3490.4062
+  - 4491.3677
+  - 4491.3677
+  - 4547.7134
+  - 4547.7134
+  - 3495.495
+  - 3495.495
+  - 5758.234
+  - 5758.234
+  - 3788.835
+  - 3788.835
+  - 3529.7644
+  - 3529.7644
+  - 3439.3606
+  - 3439.3606
+  - 2016.9808
+  - 2016.9808
+  - 2073.3264
+  - 2073.3264
+  - 843.0951
+  - 843.0951
+  - 3283.8464
+  - 3283.8464
+  - 1314.4501
+  - 1314.4501
+  - 3251.981
+  - 3251.981
+  - 3161.576
+  - 3161.576
+  - 560.22266
+  - 560.22266
+  - 56.345543
+  - 56.345543
+  - 591.3568
+  - 591.3568
+  - 3015.8928
+  - 3015.8928
+  - 1036.6659
+  - 1036.6659
+  - 56.345543
+  - 56.345543
+  - 3195.6357
+  - 3195.6357
+  - 3105.2312
+  - 3105.2312
+  - 503.87717
+  - 503.87717
+  - 1682.8511
+  - 1682.8511
+  - 4971.872
+  - 4971.872
+  - 2570.221
+  - 2570.221
+  - 2458.128
+  - 2458.128
+  - 236.08777
+  - 236.08777
+  - 5900.7334
+  - 5900.7334
+  - 3357.4097
+  - 3357.4097
+  - 3729.0588
+  - 3729.0588
+  - 3764.6946
+  - 3764.6946
+  - 1221.3741
+  - 1221.3741
+  - 3017.6538
+  - 3017.6538
+  - 0
+  - 0
+  - 1356.734
+  - 1356.734
+  - 3051.1255
+  - 3051.1255
+  - 0
+  - 0
+  - 1958.4471
+  - 1958.4471
+  - 2043.0332
+  - 2043.0332
+  - 1644.1472
+  - 1644.1472
+  - 1246.8794
+  - 1246.8794
+  - 2043.2732
+  - 2043.2732
+  - 5485.7354
+  - 5485.7354
+  - 2546.1162
+  - 2546.1162
+  - 3108.1733
+  - 3108.1733
+  - 4193.7925
+  - 4193.7925
+  - 5449.545
+  - 5449.545
+  - 3989.296
+  - 3989.296
+  - 2570.6743
+  - 2570.6743
+  - 1609.4059
+  - 1609.4059
+  - 1460.2457
+  - 1460.2457
+  - 4680.988
+  - 4680.988
+  - 2286.2815
+  - 2286.2815
+  - 3351.1497
+  - 3351.1497
+  - 3721.5664
+  - 3721.5664
+  - 2402.254
+  - 2402.254
+  - 0
+  - 0
+  - 0
+  - 0
+  - 6835.1807
+  - 6835.1807
+  - 3385.3787
+  - 3385.3787
+  - 7998.346
+  - 7998.346
+  - 2681.4053
+  - 2681.4053
+  - 6805.552
+  - 6805.552
+  - 3976.4236
+  - 3976.4236
+  - 2672.4077
+  - 2672.4077
+  - 5674.6675
+  - 5674.6675
+  - 4502.9243
+  - 4502.9243
+  - 3492.1123
+  - 3492.1123
+  - 7353.8345
+  - 7353.8345
+  - 2057.524
+  - 2057.524
+  - 2768.3704
+  - 2768.3704
+  - 4153.7744
+  - 4153.7744
+  - 5422.198
+  - 5422.198
+  - 850.9428
+  - 850.9428
+  - 1081.4897
+  - 1081.4897
+  - 5424.5444
+  - 5424.5444
+  - 4682.5723
+  - 4682.5723
+  - 4705.1885
+  - 4705.1885
+  - 972.06226
+  - 972.06226
+  - 4589.3213
+  - 4589.3213
+  - 1766.617
+  - 1766.617
+  - 4482.3047
+  - 4482.3047

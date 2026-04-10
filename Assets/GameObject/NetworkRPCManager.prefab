@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1143923692310902
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4463731554338513}
+  - component: {fileID: 114300177865837765}
+  - component: {fileID: 114037006262818037}
+  m_Layer: 0
+  m_Name: NetworkRPCManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1513384923280018
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4065294958941956}
+  - component: {fileID: 114341691083665206}
+  - component: {fileID: 114046872834934909}
+  m_Layer: 0
+  m_Name: NetworkDriverController
+  m_TagString: Driver
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1025425965983065
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4246075964914227}
+  - component: {fileID: 114456149213809676}
+  - component: {fileID: 114630459636345824}
+  - component: {fileID: 114634469409903981}
+  - component: {fileID: 114715640746471389}
+  m_Layer: 0
+  m_Name: NetworkVehicleController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1632403643863164
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4911166768440502}
+  - component: {fileID: 114266299626776518}
+  - component: {fileID: 114209450367648019}
+  m_Layer: 0
+  m_Name: NetworkPlayerProps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4463731554338513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143923692310902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4065294958941956}
+  - {fileID: 4246075964914227}
+  - {fileID: 4911166768440502}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114300177865837765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143923692310902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -599205307, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+--- !u!114 &114037006262818037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143923692310902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: 0a109c28acd7211b249a923eaaad5d93, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ObjectInterest: 1
+  DefaultInterestGroups: []
+  DestroyWhenStateAuthorityLeaves: 1
+  AllowStateAuthorityOverride: 1
+  AoiPositionSource: {fileID: 0}
+  Flags: 2305
+  NetworkGuid:
+    RawGuidValue: 6dbf474988c751/48a22e68114ea28+f
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 114300177865837765}
+  - {fileID: 114341691083665206}
+  - {fileID: 114046872834934909}
+  - {fileID: 114456149213809676}
+  - {fileID: 114634469409903981}
+  - {fileID: 114715640746471389}
+  - {fileID: 114266299626776518}
+  - {fileID: 114209450367648019}
+  SimulationBehaviours: []
+--- !u!4 &4065294958941956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513384923280018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4463731554338513}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114341691083665206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513384923280018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -812002146, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  movementInterpolationSpeed: 5
+  rotationInterpolationSpeed: 5
+--- !u!114 &114046872834934909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513384923280018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1372368997, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  targetAnimator: {fileID: 0}
+  _walkBlend: 0
+  _idleRandom: 0
+  _isMoving:
+    _value: 0
+  _isDancing:
+    _value: 0
+  _isGrounded:
+    _value: 0
+  _applyRootMotion:
+    _value: 0
+  _secondLayerWeight: 0
+  _state: 0
+--- !u!4 &4246075964914227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025425965983065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4463731554338513}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114456149213809676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025425965983065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 740319522, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  SerialNumber: 0
+  interpolationSpeed: 4
+  player: {fileID: 0}
+  carObject: {fileID: 0}
+  busAccessoryModel:
+    busID:
+    purchaseIDs: []
+  busAccessoryColor:
+    busID:
+    customColors: []
+  busAccessoryText:
+    busID:
+    customTexts: []
+  busStrobeColor:
+    busID:
+    customColors: []
+  networkWheels:
+  - {fileID: 114715640746471389}
+--- !u!114 &114630459636345824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025425965983065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -449373565, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  isReady: 0
+  m_machineController: {fileID: 0}
+  player: {fileID: 0}
+--- !u!114 &114634469409903981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025425965983065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 242401095, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+--- !u!114 &114715640746471389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025425965983065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2084480982, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  wheelArray: []
+--- !u!4 &4911166768440502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632403643863164}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4463731554338513}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114266299626776518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632403643863164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1589689055, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  userId:
+  nickname:
+  busId:
+  driverId:
+  isLocalPlayer: 0
+  taskIndex: 0
+  tollPaidLocationId:
+  damageDataJson:
+  hasLivery: 0
+  travelDur: 0
+  avgSpeed: 0
+  maxSpeed: 0
+  restorePosition: {x: 0, y: 0, z: 0}
+  restoreEulerAngles: {x: 0, y: 0, z: 0}
+  player: {}
+  playerAccessory:
+    busAccessoryModel:
+      busID:
+      purchaseIDs: []
+    busAccessoryColor:
+      busID:
+      customColors: []
+    busAccessoryText:
+      busID:
+      customTexts: []
+    busStrobeColor:
+      busID:
+      customColors: []
+  _velocity: {x: 0, y: 0, z: 0}
+  _driverPos: {x: 0, y: 0, z: 0}
+  _driverRot: {x: 0, y: 0, z: 0, w: 0}
+  _driverVelocity: {x: 0, y: 0, z: 0}
+  _isDriverMode:
+    _value: 0
+  _isLoading:
+    _value: 1
+  _dirtiness: 0
+  _currentRaceDistance: 0
+  _vehiclePartState:
+    _klaxonState:
+      Data: 00000000
+    _signalState:
+      Data: 00000000
+    _rearState:
+      Data: 00000000
+    _headLampState:
+      Data: 00000000
+    _doorState:
+      Data: 00000000
+    _wiperState:
+      Data: 00000000
+    _engineState:
+      Data: 00000000
+    _reverseState:
+      Data: 00000000
+    _strobeState:
+      Data: 00000000
+  primaryData: {fileID: 114209450367648019}
+  _isReady:
+    _value: 0
+  _isMasterClient:
+    _value: 0
+  _ping: 0
+--- !u!114 &114209450367648019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632403643863164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -54929196, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WordOffset: 0
+  WordCount: 0
+  _interpolationDataSource: 0
+  userId:
+  _position: {x: 0, y: 0, z: 0}
+  _rotation: {x: 0, y: 0, z: 0, w: 0}
+  _locationIndex: 0
+  _lastRaceLap: 0

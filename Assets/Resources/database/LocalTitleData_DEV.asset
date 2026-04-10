@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1828766505, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name: LocalTitleData_DEV
+  m_EditorClassIdentifier:
+  datas:
+  - key: maxSideJob
+    value: 2
+  - key: cooldownSideJob
+    value: 2
+  - key: gameConfig
+    value: '{"career":{"passengerObjectRatio":1,"earningPerSecLimit":500000000,"farePaymentTime":0},"tour":{"passengerObjectRatio":1,"earningPerSecLimit":500000000,"farePaymentTime":0,"totalJobListed":12,"resetListDay":["Saturday, 12:00, GMT+7","Wednesday, 17:00, GMT+7"],"incomeMultiplier":1.1},"offer":{"resetTimeOffset":7,"totalOfferListed":6,"incomeMultiplier":1.1},"multiplayer":{"isMaintenance":false,"isAllowSendReport":false,"minPlayer":2,"maxPlayer":10,"playerReadyWait":30,"playerTimeToLeave":25000,"emptyRoomTimeToLeave":3000,"photonSendRate":5,"photonSendRateOnSerialize":5,"fusionServerPacketInterval":1,"fusionClientPacketInterval":1,"apiURLConfig":{"liveryReportURL":"https://bussimulator.id/api/reporting/livery.php","liveryUploadURL":"https://api.bussimulator.id/livery/upload","liveryTouchURL":"https://api.bussimulator.id/livery/touch","liveryGetURL":"https://api.bussimulator.id/public/livery","liveryDeleteURL":"https://api.bussimulator.id/livery/delete"},"livery":{"targetHeights":[1024,512,360,256,128,64,32,16,8,1],"maxSentData":800000,"sendLiveryDelay":0,"maxSimultaneousDownload":2},"convoy":{"maxDuration":5400},"lodger":{"maxDuration":600},"race":{"maxDuration":1200,"leaveAllowedDuration":10,"defaultPlayerCount":8}},"modSystem":{"careerPassengerSize":0.5,"careerPassengerMaxCount":80},"expansion":{"autoDownload":true},"periodEvent":{"enable":true,"event_keys":[],"available_keys":["Ramadan","IndepDay"]},"minigame":{"maxReward":2500,"maxAppend":100,"rewardAddRpCap":500000},"misc":{"gpgs":true}}'
+  - key: rewardList
+    value: 10000,15000
+  - key: initialBus
+    value: HD_01
+  - key: initialDriver
+    value: DRI-001
+  - key: initialFuel
+    value: 66.7
+  - key: fuels
+    value: solar,15|pertamax,20
+  - key: repairCost
+    value: "{\n    \"data\": [\n        {\n            \"health\": 30,\n            \"cost\": 45000\n        },\n        {\n            \"health\": 40,\n            \"cost\": 37000\n        },\n        {\n            \"health\": 50,\n            \"cost\": 32000\n        },\n        {\n            \"health\": 60,\n            \"cost\": 25000\n        },\n        {\n            \"health\": 70,\n            \"cost\": 17000\n        },\n        {\n            \"health\": 80,\n            \"cost\": 12000\n        },\n        {\n            \"health\": 90,\n            \"cost\": 8000\n        }\n    ]\n}"
+  - key: transactionType
+    value: '{"transaction":[{"TransactionID":"CraneService","Currency":0,"Value":20000},{"TransactionID":"CustomLivery","Currency":0,"Value":15000},{"TransactionID":"InstallMod","Currency":0,"Value":30000},{"TransactionID":"CustomHorn","Currency":0,"Value":25000},{"TransactionID":"RepairBus","Currency":0,"Value":35000},{"TransactionID":"Wash","Currency":0,"Value":20000},{"TransactionID":"ManualWash","Currency":0,"Value":15000},{"TransactionID":"TollFee","Currency":0,"Value":5000},{"TransactionID":"PortPerPassengerFee","Currency":0,"Value":50},{"TransactionID":"PlayMultiplayerConvoy","Currency":0,"Value":40000},{"TransactionID":"PlayMultiplayerLodger","Currency":0,"Value":0},{"TransactionID":"PlayMultiplayerRace","Currency":0,"Value":0},{"TransactionID":"ExchangeEmptyFuel","Currency":0,"Value":20000}]}'

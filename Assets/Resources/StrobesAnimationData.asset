@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec52c16318c99cb352a8ee377366a7c7, type: 3}
+  m_Name: StrobesAnimationData
+  m_EditorClassIdentifier:
+  strobesShader: {fileID: 4800000, guid: 5ea60e6b4a65d014aa4818f2733e904d, type: 3}
+  beaconsShader: {fileID: 4800000, guid: cc60dee33208dd145b9bb1acf3349237, type: 3}
+  beaconsTransparentShader: {fileID: 4800000, guid: 67760b70f10e7e246b6ce940127a4198, type: 3}
+  flaresShader: {fileID: 4800000, guid: b6cbb3d1cf73fcb4390296d2c4504922, type: 3}
+  beaconsAnimationTexture: {fileID: 2800000, guid: c2691a83521348049beccd4d367e9044, type: 3}
+  strobesOffAnimationTexture: {fileID: 2800000, guid: 125d0653d032f4945bd114f669845e2a, type: 3}
+  defaultAnimations:
+  - groupId: 0
+    animationTexture: {fileID: 2800000, guid: f8cfcd74c1913744b91704dcc9fd4f7c, type: 3}
+  - groupId: 1
+    animationTexture: {fileID: 2800000, guid: 278e5342d504bdf40bdffedc23acab9d, type: 3}
+  - groupId: 2
+    animationTexture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+  - groupId: 3
+    animationTexture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+  - groupId: 4
+    animationTexture: {fileID: 2800000, guid: 9cd97fed5dfbf4541b50241976627997, type: 3}
+  - groupId: 5
+    animationTexture: {fileID: 2800000, guid: d2ba2d1ff7ce4e54aac3d26db5f39073, type: 3}
+  - groupId: 6
+    animationTexture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+  - groupId: 7
+    animationTexture: {fileID: 2800000, guid: 9cd97fed5dfbf4541b50241976627997, type: 3}
+  - groupId: 8
+    animationTexture: {fileID: 2800000, guid: 278e5342d504bdf40bdffedc23acab9d, type: 3}
+  - groupId: 9
+    animationTexture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+  - groupId: 10
+    animationTexture: {fileID: 2800000, guid: 1871b8696cc47af4c87b650a7e54315f, type: 3}
+  - groupId: 11
+    animationTexture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+  - groupId: 12
+    animationTexture: {fileID: 2800000, guid: 9cd97fed5dfbf4541b50241976627997, type: 3}
+  - groupId: 13
+    animationTexture: {fileID: 2800000, guid: c2691a83521348049beccd4d367e9044, type: 3}
+  colorPresets:
+  - name: White
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 1, g: 1, b: 1, a: 1}
+    color3: {r: 1, g: 1, b: 1, a: 1}
+  - name: White Red Yellow
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 1, g: 0.24264705, b: 0.24264705, a: 1}
+    color3: {r: 0.94482756, g: 1, b: 0, a: 1}
+  - name: White Green Blue
+    color1: {r: 1, g: 1, b: 1, a: 1}
+    color2: {r: 0.18382353, g: 1, b: 0.39208913, a: 1}
+    color3: {r: 0.41176468, g: 0.657647, b: 1, a: 1}
+  - name: Red Green Blue
+    color1: {r: 0.9568628, g: 0.2627451, b: 0.21176472, a: 1}
+    color2: {r: 0.54509807, g: 0.76470596, b: 0.2901961, a: 1}
+    color3: {r: 0.011764707, g: 0.6627451, b: 0.9568628, a: 1}
+  - name: Blue
+    color1: {r: 0.41176468, g: 0.657647, b: 1, a: 1}
+    color2: {r: 0.41176468, g: 0.657647, b: 1, a: 1}
+    color3: {r: 0.41176468, g: 0.657647, b: 1, a: 1}
+  - name: Green
+    color1: {r: 0.18382353, g: 1, b: 0.39208913, a: 1}
+    color2: {r: 0.18382353, g: 1, b: 0.39208913, a: 1}
+    color3: {r: 0.18382353, g: 1, b: 0.39208913, a: 1}
+  - name: Red
+    color1: {r: 1, g: 0.24264705, b: 0.24264705, a: 1}
+    color2: {r: 1, g: 0.24264705, b: 0.24264705, a: 1}
+    color3: {r: 1, g: 0.24264705, b: 0.24264705, a: 1}
+  busStateSetup:
+  - state: 1
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: d4b3ccd3d027c024f819114c25807687, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: d4b3ccd3d027c024f819114c25807687, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: 2c3da05431349c0468f6966140ec507f, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: 768e8cca47d34854e80831a2b5fbf409, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 20
+      texture: {fileID: 2800000, guid: 33cc456426ffb9d4c90cf60c8c40e30f, type: 3}
+  - state: 2
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: 768e8cca47d34854e80831a2b5fbf409, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: 2c3da05431349c0468f6966140ec507f, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: d4b3ccd3d027c024f819114c25807687, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: d4b3ccd3d027c024f819114c25807687, type: 3}
+    - partId: 20
+      texture: {fileID: 2800000, guid: 0f7da9fd15e33a147aa700a38dd4971e, type: 3}
+  - state: 3
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: f88b405bfa599934386a8e87539d6521, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: f88b405bfa599934386a8e87539d6521, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: 2f57cf07f7e20334eaf0c6925fa997db, type: 3}
+    - partId: 20
+      texture: {fileID: 2800000, guid: 7530365ce070d57409e6984b02b1863b, type: 3}
+  - state: 4
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: 95988fedfcdcbe0478cdc0713f2556f8, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: 95988fedfcdcbe0478cdc0713f2556f8, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: 52189037374280e45a3083b0203e80d9, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: 52189037374280e45a3083b0203e80d9, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: 95988fedfcdcbe0478cdc0713f2556f8, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: 95988fedfcdcbe0478cdc0713f2556f8, type: 3}
+  - state: 5
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: 365956840aa62c343a6852bd2e9de943, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: 365956840aa62c343a6852bd2e9de943, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: 64e99da383605084e860c153fee8c2ce, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: 64e99da383605084e860c153fee8c2ce, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: 365956840aa62c343a6852bd2e9de943, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: 365956840aa62c343a6852bd2e9de943, type: 3}
+    - partId: 20
+      texture: {fileID: 2800000, guid: ab56b9d370ab3fa4eb99a05e6828f6aa, type: 3}
+  - state: 6
+    replacePartAnimation:
+    - partId: 1
+      texture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+    - partId: 2
+      texture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+    - partId: 14
+      texture: {fileID: 2800000, guid: f5d8689d769d0d44c8a8410f0f74b5b7, type: 3}
+    - partId: 17
+      texture: {fileID: 2800000, guid: f5d8689d769d0d44c8a8410f0f74b5b7, type: 3}
+    - partId: 3
+      texture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}
+    - partId: 4
+      texture: {fileID: 2800000, guid: 9fd32d4f1fdb56b4f84a40b4ff1c002c, type: 3}

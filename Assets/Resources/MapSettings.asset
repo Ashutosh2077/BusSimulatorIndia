@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 313819436, guid: e83ba0bd33a3132ec95aa5cc939cd6e4, type: 3}
+  m_Name: MapSettings
+  m_EditorClassIdentifier:
+  mapPrefab: {fileID: 1847608048636461, guid: 627f555de6084f549be63caab8632fb9, type: 2}
+  mapBodyPhysicsMaterial: {fileID: 0}
+  treeIntVersion:
+  - version: 1.0
+    notes: '32bit x 2 data (1st & 2nd),  1st bit 0-16 = posX (0 - 131071 later to be 0.f - 13107.1f),  1st bit 17-26 = posY (0 - 1023 later to be 0.f - 102.3f),  1st bit 27-31 = scaleRnd (0 - 31, convert from 1 - 20 later to be 0.1f - 2.0f),  2nd bit 0-16 = posZ (0 - 131071 later to be 0.f - 13107.1f),  2nd bit 17 = posX sign (1 for minus),  2nd bit 18 = posY sign,  2nd bit 19 = posZ sign,  2nd bit 20 = direction (1 for minus),  2nd bit 21-26 = treeIndex (0 - 63 just incase new tree introduce, now only using 16),  2nd bit 27-31 = darknessRnd (0 - 31, convert from 69 - 100 later to be 0.69f - 1.0f) '
+    intLength: 2
+    treeIntSetting:
+    - label: PosX
+      intIndex: 0
+      bitPos: 0
+      bitLength: 17
+    - label: PosXSign
+      intIndex: 1
+      bitPos: 17
+      bitLength: 1
+    - label: PosY
+      intIndex: 0
+      bitPos: 17
+      bitLength: 10
+    - label: PosYSign
+      intIndex: 1
+      bitPos: 18
+      bitLength: 1
+    - label: PosZ
+      intIndex: 1
+      bitPos: 0
+      bitLength: 17
+    - label: PosZSign
+      intIndex: 1
+      bitPos: 19
+      bitLength: 1
+    - label: ScaleRnd
+      intIndex: 0
+      bitPos: 27
+      bitLength: 5
+    - label: Dir
+      intIndex: 1
+      bitPos: 20
+      bitLength: 1
+    - label: TreeIndex
+      intIndex: 1
+      bitPos: 21
+      bitLength: 6
+    - label: DarknessRnd
+      intIndex: 1
+      bitPos: 27
+      bitLength: 5
+  - version: 1.1
+    notes: '32bit x 3 data (1st, 2nd & 3rd),  1st bit 0-16 = posX (0 - 131071 later to be 0.f - 13107.1f),  2nd bit 0-16 = posY (0 - 131071 later to be 0.f - 13107.1f),  3rd bit 0-16 = posZ (0 - 131071 later to be 0.f - 13107.1f),  2nd bit 17 = posX sign (1 for minus),  2nd bit 18 = posY sign,  2nd bit 19 = posZ sign,  2nd bit 20 = direction (1 for minus),  1st bit 27-31 = scaleRnd (0 - 31, convert from 1 - 20 later to be 0.1f - 2.0f),  2nd bit 21-26 = treeIndex (0 - 63 just incase new tree introduce, now only using 16),  2nd bit 27-31 = darknessRnd (0 - 31, convert from 69 - 100 later to be 0.69f - 1.0f) '
+    intLength: 3
+    treeIntSetting:
+    - label: PosX
+      intIndex: 0
+      bitPos: 0
+      bitLength: 17
+    - label: PosXSign
+      intIndex: 1
+      bitPos: 17
+      bitLength: 1
+    - label: PosY
+      intIndex: 1
+      bitPos: 0
+      bitLength: 17
+    - label: PosYSign
+      intIndex: 1
+      bitPos: 18
+      bitLength: 1
+    - label: PosZ
+      intIndex: 2
+      bitPos: 0
+      bitLength: 17
+    - label: PosZSign
+      intIndex: 1
+      bitPos: 19
+      bitLength: 1
+    - label: ScaleRnd
+      intIndex: 0
+      bitPos: 27
+      bitLength: 5
+    - label: Dir
+      intIndex: 1
+      bitPos: 20
+      bitLength: 1
+    - label: TreeIndex
+      intIndex: 1
+      bitPos: 21
+      bitLength: 6
+    - label: DarknessRnd
+      intIndex: 1
+      bitPos: 27
+      bitLength: 5
+  - version: 1.2
+    notes: 32bit x 3 data (1st, 2nd & 3rd),  1st bit 0-16 = posX (0 - 131071 later to be 0.f - 13107.1f),  2nd bit 0-16 = posY (0 - 131071 later to be 0.f - 13107.1f),  3rd bit 0-16 = posZ (0 - 131071 later to be 0.f - 13107.1f),  1nd bit 17 = use in reflection,  2nd bit 17 = posX sign (1 for minus),  2nd bit 18 = posY sign,  2nd bit 19 = posZ sign,  2nd bit 20 = direction (1 for minus),  1st bit 27-31 = scaleRnd (0 - 31, convert from 1 - 20 later to be 0.1f - 2.0f),  2nd bit 21-26 = treeIndex (0 - 63 just incase new tree introduce, now only using 16),  2nd bit 27-31 = darknessRnd (0 - 31, convert from 69 - 100 later to be 0.69f - 1.0f)
+    intLength: 3
+    treeIntSetting:
+    - label: PosX
+      intIndex: 0
+      bitPos: 0
+      bitLength: 17
+    - label: PosXSign
+      intIndex: 1
+      bitPos: 17
+      bitLength: 1
+    - label: PosY
+      intIndex: 1
+      bitPos: 0
+      bitLength: 17
+    - label: PosYSign
+      intIndex: 1
+      bitPos: 18
+      bitLength: 1
+    - label: PosZ
+      intIndex: 2
+      bitPos: 0
+      bitLength: 17
+    - label: PosZSign
+      intIndex: 1
+      bitPos: 19
+      bitLength: 1
+    - label: ScaleRnd
+      intIndex: 0
+      bitPos: 27
+      bitLength: 5
+    - label: Dir
+      intIndex: 1
+      bitPos: 20
+      bitLength: 1
+    - label: TreeIndex
+      intIndex: 1
+      bitPos: 21
+      bitLength: 6
+    - label: DarknessRnd
+      intIndex: 1
+      bitPos: 27
+      bitLength: 5
+    - label: UseInReflections
+      intIndex: 0
+      bitPos: 17
+      bitLength: 1
+  shaders:
+  - {fileID: 4800000, guid: 6288c0cf48569f44b8171bc5e6ed28c1, type: 3}
+  - {fileID: 4800000, guid: 1543189dcf0538e49beb933ea2325bdc, type: 3}
+  - {fileID: 4800000, guid: 29d010d7adfca384899df0e1b3a55c72, type: 3}
+  - {fileID: 4800000, guid: 775596c5c33342249be461eaa6766ffe, type: 3}
+  - {fileID: 4800000, guid: 3fbb63363692ff04cb25bea1dcfe59c6, type: 3}
+  - {fileID: 4800000, guid: 4d7fc9f6d6fa3364d92f90feb71406ac, type: 3}
+  FixedDistanceOption:
+  - 1
+  - 2
+  - 4
+  - 8
+  FixedRainState:
+  - Random
+  - No Rain
+  - Drizzle
+  - Rain
+  - Storm
+  ShaderOptions:
+  - Diffuse
+  - Terrain
+  - Terrain_Far
+  - Water
+  - Water_Far
+  - Asphalt

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9b844df8f700b71cfadfdc87647aae, type: 3}
+  m_Name: DayNightSettings
+  m_EditorClassIdentifier:
+  isUpdating: 1
+  updateSelf: 1
+  receiveUpdateFromEditor: 0
+  dayCycleLength: 5400
+  hoursPerDay: 24
+  initialDayHour: 10
+  initialNightHour: 20
+  timeSpeed: 1
+  debugTimeDelta: 20
+  deltaExtraShift: 0
+  randomTimes:
+  - name: Dawn
+    randomStartHours: 5
+    randomEndHours: 8
+    chance: 6
+  - name: DayTime
+    randomStartHours: 10
+    randomEndHours: 15
+    chance: 3
+  - name: Evening
+    randomStartHours: 16
+    randomEndHours: 18
+    chance: 6
